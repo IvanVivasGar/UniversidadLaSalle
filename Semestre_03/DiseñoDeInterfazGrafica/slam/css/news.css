@@ -1,0 +1,120 @@
+.news-section {
+  width: 100%;
+
+  margin: 0 auto;
+}
+.main-new-container {
+  height: 80vh;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  margin-bottom: 8rem;
+}
+
+.main-new-img-container img {
+  width: 100%;
+  height: 100%;
+  filter: brightness(0.6);
+}
+.main-new-info {
+  position: absolute;
+  bottom: 6rem;
+  left: 8rem;
+  font-size: 4rem;
+  color: #fff;
+  font-weight: 700;
+}
+.btn-main-new {
+  text-decoration: none;
+  background-color: #d1495b;
+  color: #fff;
+  font-size: 1.4rem;
+  padding: 1rem 7.4rem;
+  border-radius: 6px;
+}
+.other-news-container {
+  padding: 0 30rem;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 5.6rem;
+}
+.other-news-container h2 {
+  font-size: 3.2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #084c61;
+  margin-bottom: 8rem;
+}
+.other-news-cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3.6rem;
+}
+.news-card {
+  border-radius: 6px;
+  overflow: hidden;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  height: 42rem;
+}
+.news-card-img-container {
+  overflow: hidden;
+  height: 54%;
+  border-radius: 6px;
+}
+.news-card-img-container img {
+  width: 100%;
+  transition: 1s all;
+}
+.news-card-img-container img:hover {
+  transform: scale(1.2);
+}
+
+.news-card-info {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+  height: 45%;
+}
+.news-date {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.news-description {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+.news-btn {
+  text-decoration: none;
+  background-color: #d1495b;
+  color: #fff;
+  align-self: center;
+  padding: 1rem 2.4rem;
+  border-radius: 6px;
+  font-size: 1.4rem;
+}
+.next-previous-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 6.4rem;
+}
+.next-previous-btns {
+  display: flex;
+  gap: 2.4rem;
+  align-items: center;
+}
+.page-number {
+  display: inline-block;
+  font-size: 1.6rem;
+  color: #084c61;
+  text-decoration: none;
+}
+.page-active {
+  text-decoration: underline;
+}

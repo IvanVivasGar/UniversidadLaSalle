@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/general.css" />
+    <link rel="stylesheet" href="./css/events.css" />
+    <link rel="stylesheet" href="./css/queries-events.css" />
+    <script src="./js/header.js" defer></script>
+    <script src="./js/script-events.js" defer></script>
+    <title>SLAM</title>
+  </head>
+  <body>
+    <header class="header-container">
+      <nav class="nav-section">
+        <div class="nav-container">
+          <a href="./index.html"
+            ><img src="./imgs/SLAM.png" alt="SLAM LOGO"
+          /></a>
+
+          <ul>
+            <li class="deportes-disponibles-container">
+              <ion-icon
+                name="caret-down-outline"
+                class="deportes-disponibles-icon"
+              ></ion-icon>
+              <p class="deportes-disponibles-label">Deportes Disponibles</p>
+              <div class="menu-deportes-container hidden">
+                <a href="./events-futbol.html">Futbol</a>
+                <a href="./events-tenis.html">Tenis</a>
+                <a href="./events-padel.html">Padel</a>
+              </div>
+            </li>
+            <li>
+              <p>
+                <a href="./news.html" class="nav-pages-links">Noticias</a>
+              </p>
+            </li>
+            <li>
+              <p>
+                <a href="./leagues-points.html" class="nav-pages-links"
+                  >Ligas y Puntos</a
+                >
+              </p>
+            </li>
+            <li>
+              <p>
+                <a href="./about-us.html" class="nav-pages-links"
+                  >Sobre Nosotros</a
+                >
+              </p>
+            </li>
+          </ul>
+          <div class="nav-btns">
+            <a class="log-in-btn" href="./log-in.html">Iniciar Sesion</a>
+            <a class="sign-in-btn" href="./sign-in.html">Registrate</a>
+          </div>
+        </div>
+        <div class="nav-mobile-container">
+          <a href="./index.html">
+            <img src="./imgs/SLAM.png" alt="Slam Logo" />
+          </a>
+
+          <ion-icon
+            name="menu-outline"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight"
+          ></ion-icon>
+        </div>
+      </nav>
+    </header>
+    <div class="menu-mobil">
+      <div
+        class="offcanvas offcanvas-end"
+        tabindex="-1"
+        id="offcanvasRight"
+        aria-labelledby="offcanvasRightLabel"
+      >
+        <div class="offcanvas-header">
+          <button
+            type="button"
+            class="text-reset btn-menu-mobil"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          >
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+        </div>
+        <div class="offcanvas-body">
+          <ul>
+            <li>
+              <a href="./log-in.html" class="log-in-mobile">Iniciar Sesion</a>
+            </li>
+            <li>
+              <a href="./sign-in.html" class="sign-in-mobile">Registrarse</a>
+            </li>
+            <li>
+              <a href="./about-us.html">Sobre Nosotros</a>
+            </li>
+            <li>
+              <a href="./leagues-points.html">Ligas y Puntos</a>
+            </li>
+            <li>
+              <a href="./events-futbol.html">Futbol</a>
+            </li>
+            <li>
+              <a href="./events-tenis.html">Tenis</a>
+            </li>
+            <li>
+              <a href="./events-padel.html">Padel</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <section class="top-section">
+      <div class="top-img-container">
+        <img src="./imgs/soccer-header.jpg" alt="Image of soccer field" />
+      </div>
+      <h3>Futbol</h3>
+    </section>
+    <section class="events-section">
+      <div class="events-btns">
+        <div class="order-by-btn-container">
+          <div class="order-by-btn">
+            <ion-icon name="caret-down-outline"></ion-icon>
+            <p>Ordenar Por</p>
+          </div>
+          <div class="order-by-items hidden">
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                id="inlineCheckbox1"
+                value="option1"
+              />
+              <label class="form-check-label" for="inlineCheckbox1"
+                >Fecha</label
+              >
+            </div>
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                id="inlineCheckbox2"
+                value="option2"
+              />
+              <label class="form-check-label" for="inlineCheckbox2"
+                >Precio</label
+              >
+            </div>
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                id="inlineCheckbox3"
+                value="option3"
+              />
+              <label class="form-check-label" for="inlineCheckbox3"
+                >Premio</label
+              >
+            </div>
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                id="inlineCheckbox4"
+                value="option4"
+              />
+              <label class="form-check-label" for="inlineCheckbox4"
+                >Lugares Disponibles</label
+              >
+            </div>
+            <div class="done-order">Aceptar</div>
+          </div>
+        </div>
+        <div class="filter-by-btn-container">
+          <div class="filter-by-btn">
+            <ion-icon name="caret-down-outline"></ion-icon>
+            <p>Filtrar Por</p>
+          </div>
+          <div class="filter-by-items hidden">
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                id="inlineCheckbox5"
+                value="option5"
+              />
+              <label class="form-check-label" for="inlineCheckbox5"
+                >Casual</label
+              >
+            </div>
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                id="inlineCheckbox6"
+                value="option6"
+              />
+              <label class="form-check-label" for="inlineCheckbox6"
+                >Liga C</label
+              >
+            </div>
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                id="inlineCheckbox7"
+                value="option7"
+              />
+              <label class="form-check-label" for="inlineCheckbox7"
+                >Liga B</label
+              >
+            </div>
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                id="inlineCheckbox8"
+                value="option8"
+              />
+              <label class="form-check-label" for="inlineCheckbox8"
+                >Liga A</label
+              >
+            </div>
+            <div class="done-filter">Aceptar</div>
+          </div>
+        </div>
+      </div>
+      <div class="events-container">
+        <div class="event-box">
+          <div class="event-img">
+            <div>Destino popular</div>
+            <img src="./imgs/gothia.jpg" alt="Pyramid image" />
+          </div>
+          <div class="event-info-container">
+            <p class="event-name">Gothia Cup</p>
+            <div class="event-info">
+              <div class="event-places">
+                <p>Lugares disponibles:</p>
+                <span>2</span>
+              </div>
+              <div class="event-cost">
+                <p>Costo de inscripcion:</p>
+                <span>$8000.00 p/equipo</span>
+              </div>
+              <div class="event-location">
+                <p>Ubicacion del torneo:</p>
+                <span>Cancun, Quintana Roo</span>
+              </div>
+            </div>
+          </div>
+          <div class="events-dates-btns">
+            <div class="event-calendar-container">
+              <div class="month">January</div>
+              <div class="year"><p>2023</p></div>
+              <div class="sun"><p>Sun</p></div>
+              <div class="mon"><p>Mon</p></div>
+              <div class="tue"><p>Tue</p></div>
+              <div class="wed"><p>Wed</p></div>
+              <div class="thu"><p>Thu</p></div>
+              <div class="fri"><p>Fri</p></div>
+              <div class="sat"><p>Sat</p></div>
+              <div class="d-1"><p>1</p></div>
+              <div class="d-2"><p>2</p></div>
+              <div class="d-3"><p>3</p></div>
+              <div class="d-4"><p>4</p></div>
+              <div class="d-5"><p>5</p></div>
+              <div class="d-6"><p>6</p></div>
+              <div class="d-7"><p>7</p></div>
+              <div class="d-8"><p>8</p></div>
+              <div class="d-9"><p>9</p></div>
+              <div class="d-10"><p>10</p></div>
+              <div class="d-11"><p>11</p></div>
+              <div class="d-12"><p>12</p></div>
+              <div class="d-13"><p>13</p></div>
+              <div class="d-14"><p>14</p></div>
+              <div class="d-15"><p>15</p></div>
+              <div class="d-16"><p>16</p></div>
+              <div class="d-17"><p>17</p></div>
+              <div class="d-18"><p>18</p></div>
+              <div class="d-19"><p>19</p></div>
+              <div class="d-20"><p>20</p></div>
+              <div class="d-21 active"><p>21</p></div>
+              <div class="d-22 active"><p>22</p></div>
+              <div class="d-23 active"><p>23</p></div>
+              <div class="d-24"><p>24</p></div>
+              <div class="d-25"><p>25</p></div>
+              <div class="d-26"><p>26</p></div>
+              <div class="d-27"><p>27</p></div>
+              <div class="d-28"><p>28</p></div>
+              <div class="d-29"><p>29</p></div>
+              <div class="d-30"><p>30</p></div>
+              <div class="d-31"><p>31</p></div>
+            </div>
+            <!-- <div class="event-btns">
+              <div class="event-save">
+                <ion-icon name="heart"></ion-icon>
+              </div>
+              <div class="event-inscription"><p>Inscribirse</p></div>
+            </div> -->
+          </div>
+        </div>
+        <div class="event-box">
+          <div class="event-img">
+            <div>Destino popular</div>
+            <img src="./imgs/nta.jpg" alt="Pyramid image" />
+          </div>
+          <div class="event-info-container">
+            <p class="event-name">NTA Cup</p>
+            <div class="event-info">
+              <div class="event-places">
+                <p>Lugares disponibles:</p>
+                <span>5</span>
+              </div>
+              <div class="event-cost">
+                <p>Costo de inscripcion:</p>
+                <span>$3500.00 p/equipo</span>
+              </div>
+              <div class="event-location">
+                <p>Ubicacion del torneo:</p>
+                <span>Nuevo Vallarta, Jalisco</span>
+              </div>
+            </div>
+          </div>
+          <div class="events-dates-btns">
+            <div class="event-calendar-container">
+              <div class="month">January</div>
+              <div class="year"><p>2023</p></div>
+              <div class="sun"><p>Sun</p></div>
+              <div class="mon"><p>Mon</p></div>
+              <div class="tue"><p>Tue</p></div>
+              <div class="wed"><p>Wed</p></div>
+              <div class="thu"><p>Thu</p></div>
+              <div class="fri"><p>Fri</p></div>
+              <div class="sat"><p>Sat</p></div>
+              <div class="d-1"><p>1</p></div>
+              <div class="d-2"><p>2</p></div>
+              <div class="d-3"><p>3</p></div>
+              <div class="d-4"><p>4</p></div>
+              <div class="d-5"><p>5</p></div>
+              <div class="d-6"><p>6</p></div>
+              <div class="d-7"><p>7</p></div>
+              <div class="d-8"><p>8</p></div>
+              <div class="d-9"><p>9</p></div>
+              <div class="d-10"><p>10</p></div>
+              <div class="d-11"><p>11</p></div>
+              <div class="d-12"><p>12</p></div>
+              <div class="d-13"><p>13</p></div>
+              <div class="d-14"><p>14</p></div>
+              <div class="d-15"><p>15</p></div>
+              <div class="d-16"><p>16</p></div>
+              <div class="d-17"><p>17</p></div>
+              <div class="d-18"><p>18</p></div>
+              <div class="d-19"><p>19</p></div>
+              <div class="d-20"><p>20</p></div>
+              <div class="d-21 active"><p>21</p></div>
+              <div class="d-22 active"><p>22</p></div>
+              <div class="d-23 active"><p>23</p></div>
+              <div class="d-24"><p>24</p></div>
+              <div class="d-25"><p>25</p></div>
+              <div class="d-26"><p>26</p></div>
+              <div class="d-27"><p>27</p></div>
+              <div class="d-28"><p>28</p></div>
+              <div class="d-29"><p>29</p></div>
+              <div class="d-30"><p>30</p></div>
+              <div class="d-31"><p>31</p></div>
+            </div>
+            <!-- <div class="event-btns">
+              <div class="event-save">
+                <ion-icon name="heart"></ion-icon>
+              </div>
+              <div class="event-inscription"><p>Inscribirse</p></div>
+            </div> -->
+          </div>
+        </div>
+        <div class="event-box">
+          <div class="event-img">
+            <div>Destino popular</div>
+            <img src="./imgs/amv.jpg" alt="Pyramid image" />
+          </div>
+          <div class="event-info-container">
+            <p class="event-name">AMV Cup</p>
+            <div class="event-info">
+              <div class="event-places">
+                <p>Lugares disponibles:</p>
+                <span>10</span>
+              </div>
+              <div class="event-cost">
+                <p>Costo de inscripcion:</p>
+                <span>$10000.00 p/equipo</span>
+              </div>
+              <div class="event-location">
+                <p>Ubicacion del torneo:</p>
+                <span>Guadalajara, Jalisco</span>
+              </div>
+            </div>
+          </div>
+          <div class="events-dates-btns">
+            <div class="event-calendar-container">
+              <div class="month">January</div>
+              <div class="year"><p>2023</p></div>
+              <div class="sun"><p>Sun</p></div>
+              <div class="mon"><p>Mon</p></div>
+              <div class="tue"><p>Tue</p></div>
+              <div class="wed"><p>Wed</p></div>
+              <div class="thu"><p>Thu</p></div>
+              <div class="fri"><p>Fri</p></div>
+              <div class="sat"><p>Sat</p></div>
+              <div class="d-1"><p>1</p></div>
+              <div class="d-2"><p>2</p></div>
+              <div class="d-3"><p>3</p></div>
+              <div class="d-4"><p>4</p></div>
+              <div class="d-5"><p>5</p></div>
+              <div class="d-6"><p>6</p></div>
+              <div class="d-7"><p>7</p></div>
+              <div class="d-8"><p>8</p></div>
+              <div class="d-9"><p>9</p></div>
+              <div class="d-10"><p>10</p></div>
+              <div class="d-11"><p>11</p></div>
+              <div class="d-12"><p>12</p></div>
+              <div class="d-13"><p>13</p></div>
+              <div class="d-14"><p>14</p></div>
+              <div class="d-15"><p>15</p></div>
+              <div class="d-16"><p>16</p></div>
+              <div class="d-17"><p>17</p></div>
+              <div class="d-18"><p>18</p></div>
+              <div class="d-19"><p>19</p></div>
+              <div class="d-20"><p>20</p></div>
+              <div class="d-21 active"><p>21</p></div>
+              <div class="d-22 active"><p>22</p></div>
+              <div class="d-23 active"><p>23</p></div>
+              <div class="d-24"><p>24</p></div>
+              <div class="d-25"><p>25</p></div>
+              <div class="d-26"><p>26</p></div>
+              <div class="d-27"><p>27</p></div>
+              <div class="d-28"><p>28</p></div>
+              <div class="d-29"><p>29</p></div>
+              <div class="d-30"><p>30</p></div>
+              <div class="d-31"><p>31</p></div>
+            </div>
+            <!-- <div class="event-btns">
+              <div class="event-save">
+                <ion-icon name="heart"></ion-icon>
+              </div>
+              <div class="event-inscription"><p>Inscribirse</p></div>
+            </div> -->
+          </div>
+        </div>
+        <div class="event-box">
+          <div class="event-img">
+            <div>Destino popular</div>
+            <img src="./imgs/atf.jpg" alt="Pyramid image" />
+          </div>
+          <div class="event-info-container">
+            <p class="event-name">ATF Cup</p>
+            <div class="event-info">
+              <div class="event-places">
+                <p>Lugares disponibles:</p>
+                <span>8</span>
+              </div>
+              <div class="event-cost">
+                <p>Costo de inscripcion:</p>
+                <span>$2500.00 p/equipo</span>
+              </div>
+              <div class="event-location">
+                <p>Ubicacion del torneo:</p>
+                <span>Guanajuato, Guanajuato</span>
+              </div>
+            </div>
+          </div>
+          <div class="events-dates-btns">
+            <div class="event-calendar-container">
+              <div class="month">January</div>
+              <div class="year"><p>2023</p></div>
+              <div class="sun"><p>Sun</p></div>
+              <div class="mon"><p>Mon</p></div>
+              <div class="tue"><p>Tue</p></div>
+              <div class="wed"><p>Wed</p></div>
+              <div class="thu"><p>Thu</p></div>
+              <div class="fri"><p>Fri</p></div>
+              <div class="sat"><p>Sat</p></div>
+              <div class="d-1"><p>1</p></div>
+              <div class="d-2"><p>2</p></div>
+              <div class="d-3"><p>3</p></div>
+              <div class="d-4"><p>4</p></div>
+              <div class="d-5"><p>5</p></div>
+              <div class="d-6"><p>6</p></div>
+              <div class="d-7"><p>7</p></div>
+              <div class="d-8"><p>8</p></div>
+              <div class="d-9"><p>9</p></div>
+              <div class="d-10"><p>10</p></div>
+              <div class="d-11"><p>11</p></div>
+              <div class="d-12"><p>12</p></div>
+              <div class="d-13"><p>13</p></div>
+              <div class="d-14"><p>14</p></div>
+              <div class="d-15"><p>15</p></div>
+              <div class="d-16"><p>16</p></div>
+              <div class="d-17"><p>17</p></div>
+              <div class="d-18"><p>18</p></div>
+              <div class="d-19"><p>19</p></div>
+              <div class="d-20"><p>20</p></div>
+              <div class="d-21 active"><p>21</p></div>
+              <div class="d-22 active"><p>22</p></div>
+              <div class="d-23 active"><p>23</p></div>
+              <div class="d-24"><p>24</p></div>
+              <div class="d-25"><p>25</p></div>
+              <div class="d-26"><p>26</p></div>
+              <div class="d-27"><p>27</p></div>
+              <div class="d-28"><p>28</p></div>
+              <div class="d-29"><p>29</p></div>
+              <div class="d-30"><p>30</p></div>
+              <div class="d-31"><p>31</p></div>
+            </div>
+            <!-- <div class="event-btns">
+              <div class="event-save">
+                <ion-icon name="heart"></ion-icon>
+              </div>
+              <div class="event-inscription"><p>Inscribirse</p></div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+      <div class="events-container-mobile">
+        <div class="event-mobile event-mobile-1">
+          <div class="event-mobile-info-container">
+            <div class="event-info-container">
+              <p class="event-name">Gothia Cup</p>
+              <div class="event-info">
+                <div class="event-places">
+                  <p>Lugares disponibles:</p>
+                  <span>2</span>
+                </div>
+                <div class="event-cost">
+                  <p>Costo de inscripcion:</p>
+                  <span>$8000.00 p/equipo</span>
+                </div>
+                <div class="event-location">
+                  <p>Ubicacion del torneo:</p>
+                  <span>Cancun, Quintana Roo</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="event-calendar-container">
+              <div class="month">January</div>
+              <div class="year"><p>2023</p></div>
+              <div class="sun"><p>Sun</p></div>
+              <div class="mon"><p>Mon</p></div>
+              <div class="tue"><p>Tue</p></div>
+              <div class="wed"><p>Wed</p></div>
+              <div class="thu"><p>Thu</p></div>
+              <div class="fri"><p>Fri</p></div>
+              <div class="sat"><p>Sat</p></div>
+              <div class="d-1"><p>1</p></div>
+              <div class="d-2"><p>2</p></div>
+              <div class="d-3"><p>3</p></div>
+              <div class="d-4"><p>4</p></div>
+              <div class="d-5"><p>5</p></div>
+              <div class="d-6"><p>6</p></div>
+              <div class="d-7"><p>7</p></div>
+              <div class="d-8"><p>8</p></div>
+              <div class="d-9"><p>9</p></div>
+              <div class="d-10"><p>10</p></div>
+              <div class="d-11"><p>11</p></div>
+              <div class="d-12"><p>12</p></div>
+              <div class="d-13"><p>13</p></div>
+              <div class="d-14"><p>14</p></div>
+              <div class="d-15"><p>15</p></div>
+              <div class="d-16"><p>16</p></div>
+              <div class="d-17"><p>17</p></div>
+              <div class="d-18"><p>18</p></div>
+              <div class="d-19"><p>19</p></div>
+              <div class="d-20"><p>20</p></div>
+              <div class="d-21 active"><p>21</p></div>
+              <div class="d-22 active"><p>22</p></div>
+              <div class="d-23 active"><p>23</p></div>
+              <div class="d-24"><p>24</p></div>
+              <div class="d-25"><p>25</p></div>
+              <div class="d-26"><p>26</p></div>
+              <div class="d-27"><p>27</p></div>
+              <div class="d-28"><p>28</p></div>
+              <div class="d-29"><p>29</p></div>
+              <div class="d-30"><p>30</p></div>
+              <div class="d-31"><p>31</p></div>
+            </div>
+          </div>
+        </div>
+        <div class="event-mobile event-mobile-2">
+          <div class="event-mobile-info-container">
+            <div class="event-info-container">
+              <p class="event-name">NTA Cup</p>
+              <div class="event-info">
+                <div class="event-places">
+                  <p>Lugares disponibles:</p>
+                  <span>5</span>
+                </div>
+                <div class="event-cost">
+                  <p>Costo de inscripcion:</p>
+                  <span>$3500.00 p/equipo</span>
+                </div>
+                <div class="event-location">
+                  <p>Ubicacion del torneo:</p>
+                  <span>Nuevo Vallarta, Jalisco</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="event-calendar-container">
+              <div class="month">January</div>
+              <div class="year"><p>2023</p></div>
+              <div class="sun"><p>Sun</p></div>
+              <div class="mon"><p>Mon</p></div>
+              <div class="tue"><p>Tue</p></div>
+              <div class="wed"><p>Wed</p></div>
+              <div class="thu"><p>Thu</p></div>
+              <div class="fri"><p>Fri</p></div>
+              <div class="sat"><p>Sat</p></div>
+              <div class="d-1"><p>1</p></div>
+              <div class="d-2"><p>2</p></div>
+              <div class="d-3"><p>3</p></div>
+              <div class="d-4"><p>4</p></div>
+              <div class="d-5"><p>5</p></div>
+              <div class="d-6"><p>6</p></div>
+              <div class="d-7"><p>7</p></div>
+              <div class="d-8"><p>8</p></div>
+              <div class="d-9"><p>9</p></div>
+              <div class="d-10"><p>10</p></div>
+              <div class="d-11"><p>11</p></div>
+              <div class="d-12"><p>12</p></div>
+              <div class="d-13"><p>13</p></div>
+              <div class="d-14"><p>14</p></div>
+              <div class="d-15"><p>15</p></div>
+              <div class="d-16"><p>16</p></div>
+              <div class="d-17"><p>17</p></div>
+              <div class="d-18"><p>18</p></div>
+              <div class="d-19"><p>19</p></div>
+              <div class="d-20"><p>20</p></div>
+              <div class="d-21 active"><p>21</p></div>
+              <div class="d-22 active"><p>22</p></div>
+              <div class="d-23 active"><p>23</p></div>
+              <div class="d-24"><p>24</p></div>
+              <div class="d-25"><p>25</p></div>
+              <div class="d-26"><p>26</p></div>
+              <div class="d-27"><p>27</p></div>
+              <div class="d-28"><p>28</p></div>
+              <div class="d-29"><p>29</p></div>
+              <div class="d-30"><p>30</p></div>
+              <div class="d-31"><p>31</p></div>
+            </div>
+          </div>
+        </div>
+        <div class="event-mobile event-mobile-3">
+          <div class="event-mobile-info-container">
+            <div class="event-info-container">
+              <p class="event-name">AMV Cup</p>
+              <div class="event-info">
+                <div class="event-places">
+                  <p>Lugares disponibles:</p>
+                  <span>10</span>
+                </div>
+                <div class="event-cost">
+                  <p>Costo de inscripcion:</p>
+                  <span>$10000.00 p/equipo</span>
+                </div>
+                <div class="event-location">
+                  <p>Ubicacion del torneo:</p>
+                  <span>Guadalajara, Jalisco</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="event-calendar-container">
+              <div class="month">January</div>
+              <div class="year"><p>2023</p></div>
+              <div class="sun"><p>Sun</p></div>
+              <div class="mon"><p>Mon</p></div>
+              <div class="tue"><p>Tue</p></div>
+              <div class="wed"><p>Wed</p></div>
+              <div class="thu"><p>Thu</p></div>
+              <div class="fri"><p>Fri</p></div>
+              <div class="sat"><p>Sat</p></div>
+              <div class="d-1"><p>1</p></div>
+              <div class="d-2"><p>2</p></div>
+              <div class="d-3"><p>3</p></div>
+              <div class="d-4"><p>4</p></div>
+              <div class="d-5"><p>5</p></div>
+              <div class="d-6"><p>6</p></div>
+              <div class="d-7"><p>7</p></div>
+              <div class="d-8"><p>8</p></div>
+              <div class="d-9"><p>9</p></div>
+              <div class="d-10"><p>10</p></div>
+              <div class="d-11"><p>11</p></div>
+              <div class="d-12"><p>12</p></div>
+              <div class="d-13"><p>13</p></div>
+              <div class="d-14"><p>14</p></div>
+              <div class="d-15"><p>15</p></div>
+              <div class="d-16"><p>16</p></div>
+              <div class="d-17"><p>17</p></div>
+              <div class="d-18"><p>18</p></div>
+              <div class="d-19"><p>19</p></div>
+              <div class="d-20"><p>20</p></div>
+              <div class="d-21 active"><p>21</p></div>
+              <div class="d-22 active"><p>22</p></div>
+              <div class="d-23 active"><p>23</p></div>
+              <div class="d-24"><p>24</p></div>
+              <div class="d-25"><p>25</p></div>
+              <div class="d-26"><p>26</p></div>
+              <div class="d-27"><p>27</p></div>
+              <div class="d-28"><p>28</p></div>
+              <div class="d-29"><p>29</p></div>
+              <div class="d-30"><p>30</p></div>
+              <div class="d-31"><p>31</p></div>
+            </div>
+          </div>
+        </div>
+        <div class="event-mobile event-mobile-4">
+          <div class="event-mobile-info-container">
+            <div class="event-info-container">
+              <p class="event-name">ATF Cup</p>
+              <div class="event-info">
+                <div class="event-places">
+                  <p>Lugares disponibles:</p>
+                  <span>8</span>
+                </div>
+                <div class="event-cost">
+                  <p>Costo de inscripcion:</p>
+                  <span>$2500.00 p/equipo</span>
+                </div>
+                <div class="event-location">
+                  <p>Ubicacion del torneo:</p>
+                  <span>Guanajuato, Guanajuato</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="event-calendar-container">
+              <div class="month">January</div>
+              <div class="year"><p>2023</p></div>
+              <div class="sun"><p>Sun</p></div>
+              <div class="mon"><p>Mon</p></div>
+              <div class="tue"><p>Tue</p></div>
+              <div class="wed"><p>Wed</p></div>
+              <div class="thu"><p>Thu</p></div>
+              <div class="fri"><p>Fri</p></div>
+              <div class="sat"><p>Sat</p></div>
+              <div class="d-1"><p>1</p></div>
+              <div class="d-2"><p>2</p></div>
+              <div class="d-3"><p>3</p></div>
+              <div class="d-4"><p>4</p></div>
+              <div class="d-5"><p>5</p></div>
+              <div class="d-6"><p>6</p></div>
+              <div class="d-7"><p>7</p></div>
+              <div class="d-8"><p>8</p></div>
+              <div class="d-9"><p>9</p></div>
+              <div class="d-10"><p>10</p></div>
+              <div class="d-11"><p>11</p></div>
+              <div class="d-12"><p>12</p></div>
+              <div class="d-13"><p>13</p></div>
+              <div class="d-14"><p>14</p></div>
+              <div class="d-15"><p>15</p></div>
+              <div class="d-16"><p>16</p></div>
+              <div class="d-17"><p>17</p></div>
+              <div class="d-18"><p>18</p></div>
+              <div class="d-19"><p>19</p></div>
+              <div class="d-20"><p>20</p></div>
+              <div class="d-21 active"><p>21</p></div>
+              <div class="d-22 active"><p>22</p></div>
+              <div class="d-23 active"><p>23</p></div>
+              <div class="d-24"><p>24</p></div>
+              <div class="d-25"><p>25</p></div>
+              <div class="d-26"><p>26</p></div>
+              <div class="d-27"><p>27</p></div>
+              <div class="d-28"><p>28</p></div>
+              <div class="d-29"><p>29</p></div>
+              <div class="d-30"><p>30</p></div>
+              <div class="d-31"><p>31</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer-section">
+      <div class="footer-logo">
+        <img src="./imgs/SLAM.png" alt="Slam logo" />
+        <p>Juega. Diviertete. Gana.</p>
+      </div>
+      <div class="footer-main">
+        <p>Principal</p>
+        <ul>
+          <li><a href="./index.html">Inicio</a></li>
+          <li><a href="./about-us.html">Sobre Nosotros</a></li>
+          <li><a href="./news.html">Noticias</a></li>
+        </ul>
+      </div>
+      <div class="footer-service">
+        <p>Servicios</p>
+        <ul>
+          <li><a href="./leagues-points.html">Torneos</a></li>
+          <li><a href="./leagues-points.html">Ligas</a></li>
+          <li><a href="./leagues-points.html">Puntos</a></li>
+        </ul>
+      </div>
+      <div class="footer-extra">
+        <p>Extras</p>
+        <ul>
+          <li><a href="#">Contacto</a></li>
+          <li><a href="#">Ayuda</a></li>
+        </ul>
+      </div>
+      <div class="footer-social">
+        <p>Redes Sociales</p>
+        <div class="icons-social-container">
+          <a href="#" class="logo-facebook"
+            ><ion-icon name="logo-facebook"></ion-icon
+          ></a>
+          <a href="#" class="logo-instagram"
+            ><ion-icon name="logo-instagram"></ion-icon
+          ></a>
+          <a href="#" class="logo-youtube">
+            <ion-icon name="logo-youtube"></ion-icon
+          ></a>
+          <a href="#" class="logo-twitter"
+            ><ion-icon name="logo-twitter"></ion-icon
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

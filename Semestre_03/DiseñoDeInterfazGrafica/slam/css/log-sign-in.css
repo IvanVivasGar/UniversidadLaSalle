@@ -1,0 +1,133 @@
+img {
+  width: 20px;
+}
+body {
+  position: relative;
+  overflow-y: hidden;
+}
+.go-back-btn {
+  position: absolute;
+  top: 5%;
+  left: 6%;
+}
+
+.go-back-btn ion-icon {
+  color: #fff;
+  font-size: 4rem;
+}
+.go-back-btn ion-icon:hover {
+  color: #83f4e6;
+}
+
+.form-background {
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../imgs/sign-bckg-desktop.jpg);
+}
+.form-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #000000c2;
+  padding: 1.8rem 6.2rem;
+  text-align: center;
+  color: #fff;
+  border-radius: 6px;
+}
+.form-img {
+  margin-bottom: 7.4rem;
+}
+.form-img img {
+  width: 10rem;
+}
+.form-container h5 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 2.4rem;
+}
+/* ============ Log In ============ */
+.log-in-container {
+  margin-bottom: 6.4rem;
+}
+.log-in-form,
+.sign-in-form {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  margin-bottom: 1.6rem;
+}
+.log-in-form input,
+.sign-in-form input {
+  border-radius: 6px;
+  background-color: #ffffff73;
+  height: 4.8rem;
+  font-size: 1.8rem;
+  padding: 1.2rem 4.8rem;
+  outline: none;
+  cursor: text;
+  color: #fff;
+}
+.log-in-form input::placeholder,
+.sign-in-form input::placeholder {
+  color: #fff;
+}
+.log-in-form input:focus,
+.sign-in-form input:focus {
+  outline: none;
+}
+.remember-container {
+  margin-left: 4.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin-bottom: 2.4rem;
+}
+.remember-container .check-box {
+  width: 2.4rem;
+  height: 2.4rem;
+  background-color: #ffffff73;
+  border-radius: 6px;
+}
+.remember-container label {
+  font-size: 1.4rem;
+  align-self: center;
+  font-weight: 600;
+}
+.log-in-form button,
+.sign-in-form button {
+  align-self: center;
+  padding: 0.8rem 6.8rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-radius: 6px;
+  outline: none;
+  background-color: #177e89;
+  color: #fff;
+  border: none;
+}
+.log-in-container a {
+  color: #b4b4b4;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+
+.sign-in-link-container {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.sign-in-link-container a {
+  color: #b4b4b4;
+  text-decoration: none ;
+}
+.sign-in-link-container span {
+  color: #fff;
+}
+/* ========= Sign In ========= */
+.sign-in-mail {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <title>SLAM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/general.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/queries-index.css" />
+    <script src="./js/header.js" defer></script>
+    <script src="./js/script.js" defer></script>
+  </head>
+  <body>
+    <header class="header-container">
+      <nav class="nav-section">
+        <div class="nav-container">
+          <a href="./index.html"
+            ><img src="./imgs/SLAM.png" alt="SLAM LOGO"
+          /></a>
+
+          <ul>
+            <li class="deportes-disponibles-container">
+              <ion-icon
+                name="caret-down-outline"
+                class="deportes-disponibles-icon"
+              ></ion-icon>
+              <p class="deportes-disponibles-label">Deportes Disponibles</p>
+              <div class="menu-deportes-container hidden">
+                <a href="./events-futbol.html">Futbol</a>
+                <a href="./events-tenis.html">Tenis</a>
+                <a href="./events-padel.html">Padel</a>
+              </div>
+            </li>
+            <li>
+              <p>
+                <a href="./news.html" class="nav-pages-links">Noticias</a>
+              </p>
+            </li>
+            <li>
+              <p>
+                <a href="./leagues-points.html" class="nav-pages-links"
+                  >Ligas y Puntos</a
+                >
+              </p>
+            </li>
+            <li>
+              <p>
+                <a href="./about-us.html" class="nav-pages-links"
+                  >Sobre Nosotros</a
+                >
+              </p>
+            </li>
+          </ul>
+          <div class="nav-btns">
+            <a class="log-in-btn" href="./log-in.html">Iniciar Sesion</a>
+            <a class="sign-in-btn" href="./sign-in.html">Registrate</a>
+          </div>
+        </div>
+        <div class="nav-mobile-container">
+          <a href="./index.html">
+            <img src="./imgs/SLAM.png" alt="Slam Logo" />
+          </a>
+
+          <ion-icon
+            name="menu-outline"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight"
+          ></ion-icon>
+        </div>
+      </nav>
+    </header>
+    <div class="menu-mobil">
+      <div
+        class="offcanvas offcanvas-end"
+        tabindex="-1"
+        id="offcanvasRight"
+        aria-labelledby="offcanvasRightLabel"
+      >
+        <div class="offcanvas-header">
+          <button
+            type="button"
+            class="text-reset btn-menu-mobil"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          >
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+        </div>
+        <div class="offcanvas-body">
+          <ul>
+            <li>
+              <a href="./log-in.html" class="log-in-mobile">Iniciar Sesion</a>
+            </li>
+            <li>
+              <a href="./sign-in.html" class="sign-in-mobile">Registrarse</a>
+            </li>
+            <li>
+              <a href="./about-us.html">Sobre Nosotros</a>
+            </li>
+            <li>
+              <a href="./leagues-points.html">Ligas y Puntos</a>
+            </li>
+            <li>
+              <a href="./events-futbol.html">Futbol</a>
+            </li>
+            <li>
+              <a href="./events-tenis.html">Tenis</a>
+            </li>
+            <li>
+              <a href="./events-padel.html">Padel</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <main class="main-section">
+      <div class="main-info-container">
+        <h1>Una nueva forma de Jugar</h1>
+        <div class="main-info">
+          <p>
+            Descubre eventos cercanos a ti. <br />
+            Compite para ganar toreos. <br />
+            Gana recompensas y lucha por puntos.
+          </p>
+          <a href="#" class="main-btn">Encuentra un evento</a>
+        </div>
+      </div>
+    </main>
+    <section class="how-works-section">
+      <div class="how-works-top">
+        <h3>Como Funciona SLAM</h3>
+        <p>
+          Slam es una aplicacion sencilla diseñada para ti. Con solo poco clicks
+          empieza a competir y ganar
+        </p>
+      </div>
+      <div class="how-works-info">
+        <div class="step-card">
+          <div class="step-icon"><ion-icon name="person"></ion-icon></div>
+          <div class="step-title"><p>Crea tu Cuenta</p></div>
+          <div class="step-info">
+            <p>Ingresa tus datos personales y unete a SLAM</p>
+          </div>
+        </div>
+        <div class="step-arrow"><ion-icon name="arrow-forward"></ion-icon></div>
+        <div class="step-card">
+          <div class="step-icon"><ion-icon name="football"></ion-icon></div>
+          <div class="step-title"><p>Selecciona tu Deporte</p></div>
+          <div class="step-info">
+            <p>Escoje el deporte que mas prefieras. Futbol, Tennis o Padel!</p>
+          </div>
+        </div>
+        <div class="step-arrow"><ion-icon name="arrow-forward"></ion-icon></div>
+        <div class="step-card">
+          <div class="step-icon"><ion-icon name="calendar"></ion-icon></div>
+          <div class="step-title"><p>Inscribete a un evento</p></div>
+          <div class="step-info">
+            <p>
+              Encuentra un evento cercano tuyo. Inscribete y preparate para
+              jugar
+            </p>
+          </div>
+        </div>
+        <div class="step-arrow"><ion-icon name="arrow-forward"></ion-icon></div>
+        <div class="step-card">
+          <div class="step-icon"><ion-icon name="trophy"></ion-icon></div>
+          <div class="step-title"><p>Compite y Gana</p></div>
+          <div class="step-info">
+            <p>
+              El momento que estabas esperando. Asiste al evento y demuestra tu
+              nivel
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="how-works-info-mobile">
+        <div class="info-mobile-card">
+          <div class="info-top-card" data-card="1">
+            <p>Crea tu cuenta</p>
+            <ion-icon name="chevron-down-outline"></ion-icon>
+          </div>
+          <div class="info-bottom-card" data-box="1">
+            <p>Ingresa tus datos personales y unete a SLAM</p>
+          </div>
+        </div>
+        <div class="info-mobile-card">
+          <div class="info-top-card" data-card="2">
+            <p>Selecciona un Deporte</p>
+            <ion-icon name="chevron-down-outline"></ion-icon>
+          </div>
+          <div class="info-bottom-card" data-box="2">
+            <p>Escoje el deporte que mas prefieras. Furbol, Tennis o Padel !</p>
+          </div>
+        </div>
+        <div class="info-mobile-card">
+          <div class="info-top-card" data-card="3">
+            <p>Inscribete a un evento</p>
+            <ion-icon name="chevron-down-outline"></ion-icon>
+          </div>
+          <div class="info-bottom-card" data-box="3">
+            <p>
+              Encuentra un evento cercano tuyo. Inscribete y preparate para
+              jugar
+            </p>
+          </div>
+        </div>
+        <div class="info-mobile-card">
+          <div class="info-top-card" data-card="4">
+            <p>Compite y Gana</p>
+            <ion-icon name="chevron-down-outline"></ion-icon>
+          </div>
+          <div class="info-bottom-card" data-box="4">
+            <p>
+              El momento que estabas esperando. Asiste al evento y demuestra tu
+              nivel
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sports-selection-container">
+      <div class="slider">
+        <div class="slide">
+          <div class="slide-info">
+            <p>Tennis</p>
+            <div></div>
+            <a href="./events-tenis.html">Mas informacion</a>
+          </div>
+          <img src="./imgs/tennis.jpg" />
+        </div>
+        <div class="slide">
+          <div class="slide-info">
+            <p>Futbol</p>
+            <div></div>
+            <a href="./events-futbol.html">Mas informacion</a>
+          </div>
+          <img src="./imgs/soccer.jpg" />
+        </div>
+        <div class="slide">
+          <div class="slide-info">
+            <p>Padel</p>
+            <div></div>
+            <a href="./events-padel.html">Mas informacion</a>
+          </div>
+          <img src="./imgs/padel.jpg" />
+        </div>
+      </div>
+      <div class="slider-mobile">
+        <div class="slide-mobile">
+          <img src="./imgs/tennis.jpg" alt="Man playing tennis" />
+          <div class="slide-mobile-txt">
+            <p>Tenis</p>
+            <a href="./events-tenis.html">Ir</a>
+          </div>
+        </div>
+        <div class="slide-mobile">
+          <img src="./imgs/soccer.jpg" alt="Man playing tennis" />
+          <div class="slide-mobile-txt">
+            <p>Futbol</p>
+            <a href="./events-futbol.html">Ir</a>
+          </div>
+        </div>
+        <div class="slide-mobile">
+          <img src="./imgs/padel.jpg" alt="Man playing tennis" />
+          <div class="slide-mobile-txt">
+            <p>Padel</p>
+            <a href="./events-padel.html">Ir</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="leagues-section">
+      <div class="leagues-top">
+        <p>COMPITE EN LIGAS</p>
+        <a href="./leagues-points.html">Mas informacion</a>
+      </div>
+      <div class="leagues-cards row justify-content-between">
+        <div class="league-card col-lg-3 col-md-4">
+          <ion-icon name="people-outline"></ion-icon>
+          <p>Unete a una liga de tu nivel</p>
+        </div>
+        <div class="league-card col-lg-3 col-md-4">
+          <ion-icon name="trending-up-outline"></ion-icon>
+          <p>Gana puntos y sube de liga</p>
+        </div>
+        <div class="league-card col-lg-3 col-md-4">
+          <ion-icon name="trophy-outline"></ion-icon>
+          <p>Aspira a ganar torneos y premios</p>
+        </div>
+        <div class="league-card col-lg-3 col-md-4">
+          <ion-icon name="ribbon-outline"></ion-icon>
+          <p>Unete al top ranking</p>
+        </div>
+      </div>
+    </section>
+    <section class="carrousell-section">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="carousel-info-left">
+              <p>Rafa Nadal</p>
+              <h6>Tennis Center</h6>
+              <span>Nayarit Mx</span>
+            </div>
+            <div class="carousel-info-right">
+              <h5>Nayarit Open</h5>
+              <p class="info-tournament-date">16 - 18 Agosto</p>
+              <p class="info-tournament-type">Torneo de Tenis</p>
+              <p class="info-tournament-categories">Categorias A B C y D</p>
+              <a href="./events-tenis.html">Mas informacion</a>
+            </div>
+            <img
+              src="./imgs/carrousell-2.png"
+              class="d-block w-100"
+              alt="Tennis center"
+            />
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-info-left">
+              <p>Roger Federer</p>
+              <h6>Tennis Center</h6>
+              <span>Los Cabos Mx</span>
+            </div>
+            <div class="carousel-info-right">
+              <h5>Los Cabos Open</h5>
+              <p class="info-tournament-date">16 - 18 Septiembre</p>
+              <p class="info-tournament-type">Torneo de Tenis</p>
+              <p class="info-tournament-categories">Categorias A B C y D</p>
+              <a href="./events-tenis.html">Mas informacion</a>
+            </div>
+            <img
+              src="./imgs/carrousell-1.png"
+              class="d-block w-100"
+              alt="Tennis center"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="promo-container">
+        <img src="./imgs/carrousell-2.png" alt="" />
+        <div class="carousel-info-left">
+          <p>Rafa Nadal</p>
+          <h6>Tennis Center</h6>
+          <span>Nayarit Mx</span>
+        </div>
+        <div class="carousel-info-right">
+          <h5>Nayarit Open</h5>
+          <p class="info-tournament-date">16 - 18 Agosto</p>
+          <p class="info-tournament-type">Torneo de Tenis</p>
+          <p class="info-tournament-categories">Categorias A B C y D</p>
+          <a href="#">Mas informacion</a>
+        </div>
+      </div>
+    </section>
+    <section class="find-event-section">
+      <h5>Empieza a encontrar cientos de eventos cerca de ti</h5>
+      <p>
+        Permitenos acceder a tu ubicacion para recomendarte evntos, torneos y
+        noticias que te puedan interesar
+      </p>
+      <a href="#" class="geo">Activar la localizacion</a>
+      <div class="find-event-box-container">
+        <div class="find-event-img-container">
+          <img src="./imgs/tennis-player.jpg" alt="Tennis player" />
+        </div>
+      </div>
+    </section>
+    <footer class="footer-section">
+      <div class="footer-logo">
+        <img src="./imgs/SLAM.png" alt="Slam logo" />
+        <p>Juega. Diviertete. Gana.</p>
+      </div>
+      <div class="footer-main">
+        <p>Principal</p>
+        <ul>
+          <li><a href="./index.html">Inicio</a></li>
+          <li><a href="./about-us.html">Sobre Nosotros</a></li>
+          <li><a href="./news.html">Noticias</a></li>
+        </ul>
+      </div>
+      <div class="footer-service">
+        <p>Servicios</p>
+        <ul>
+          <li><a href="./events-futbol.html">Torneos</a></li>
+          <li><a href="./leagues-points.html">Ligas</a></li>
+          <li><a href="./leagues-points.html">Puntos</a></li>
+        </ul>
+      </div>
+      <div class="footer-extra">
+        <p>Extras</p>
+        <ul>
+          <li><a href="#">Contacto</a></li>
+          <li><a href="#">Ayuda</a></li>
+        </ul>
+      </div>
+      <div class="footer-social">
+        <p>Redes Sociales</p>
+        <div class="icons-social-container">
+          <a href="#" class="logo-facebook"
+            ><ion-icon name="logo-facebook"></ion-icon
+          ></a>
+          <a href="#" class="logo-instagram"
+            ><ion-icon name="logo-instagram"></ion-icon
+          ></a>
+          <a href="#" class="logo-youtube">
+            <ion-icon name="logo-youtube"></ion-icon
+          ></a>
+          <a href="#" class="logo-twitter"
+            ><ion-icon name="logo-twitter"></ion-icon
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

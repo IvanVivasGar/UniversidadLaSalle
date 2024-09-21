@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", "Sans-Serif";
+}
+html {
+  /* 1rem = 10px */
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+.hidden {
+  display: none !important;
+}
+p,
+ul {
+  margin-bottom: 0;
+}
+/*  */
+
+/* ======================= */
+.header-container {
+  position: fixed;
+  width: 80%;
+  border-radius: 6px;
+  background-color: #00000053;
+  top: 4%;
+  transform: translate(-50%, 0);
+  left: 50%;
+  height: 6.5rem;
+  padding: 0 4.8rem;
+  z-index: 100;
+  color: #084c61;
+}
+.nav-section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.nav-mobile-container {
+  display: none;
+  width: 100%;
+}
+.nav-mobile-container img {
+  width: 4.8rem;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-mobile-container ion-icon {
+  font-size: 4.2rem;
+  color: #83f4e6;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+}
+.nav-container img {
+  width: 6.4rem;
+  cursor: pointer;
+}
+.nav-container ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  font-size: 1.4rem;
+}
+.nav-container ul li {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  cursor: pointer;
+}
+.nav-pages-links {
+  text-decoration: none;
+  color: #fff;
+}
+.nav-btns {
+  display: flex;
+  gap: 1.4rem;
+}
+.nav-btns a {
+  font-style: normal;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 1rem 2.4rem;
+  border-radius: 6px;
+}
+.log-in-btn {
+  background-color: #084c61;
+}
+.sign-in-btn {
+  background-color: #83f4e76e;
+}
+#offcanvasRight {
+  background-color: #177e89;
+  padding: 2.4rem 4.8rem;
+}
+.offcanvas-header {
+  justify-content: flex-end;
+}
+.offcanvas-body {
+  text-align: center;
+}
+.offcanvas-body ul {
+  list-style: none;
+}
+.offcanvas-body ul li {
+  margin-bottom: 3.8rem;
+}
+.offcanvas-body ul li a,
+.offcanvas-body ul li p {
+  color: #fff;
+  font-size: 1.8rem;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.log-in-mobile,
+.sign-in-mobile {
+  text-decoration: underline !important;
+}
+
+.btn-menu-mobil {
+  all: unset;
+}
+.btn-menu-mobil:focus {
+  outline: revert;
+}
+.btn-menu-mobil ion-icon {
+  color: #fff;
+  font-size: 3.6rem;
+}
+
+.deportes-disponibles-container {
+  position: relative;
+}
+.menu-deportes-container {
+  position: absolute;
+  bottom: -14.4rem;
+  background-color: #00000053;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.menu-deportes-container a {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 1rem 0 1rem 2.4rem;
+}
+
+.menu-deportes-container a:hover {
+  background-color: #0000008c;
+}
+
+/*  */
+
+/* ================================================ */
+.footer-section {
+  padding: 4.8rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
+  color: #fff;
+  background-color: #177e89;
+  text-align: start;
+  justify-items: center;
+}
+.footer-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+.footer-section a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 1.2rem;
+  text-align: start;
+  font-size: 1.6rem;
+}
+.footer-logo img {
+  width: 8.6rem;
+  margin-bottom: 1.4rem;
+}
+.footer-logo p {
+  letter-spacing: 0.4px;
+  font-size: 1.6rem;
+}
+.footer-main p,
+.footer-service p,
+.footer-extra p,
+.footer-social p {
+  font-weight: 600;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+.icons-social-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 2.4rem;
+  align-items: center;
+}
+.icons-social-container a {
+  display: inline-block;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+}
+.icons-social-container ion-icon {
+  font-size: 2rem;
+}
+.logo-facebook,
+.logo-youtube {
+  justify-self: end;
+  align-self: end;
+}
+.logo-instagram,
+.logo-twitter {
+  justify-self: start;
+}
