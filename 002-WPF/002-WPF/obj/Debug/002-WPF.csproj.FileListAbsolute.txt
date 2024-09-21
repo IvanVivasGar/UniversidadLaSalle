@@ -1,0 +1,16 @@
+C:\Users\Ivan\Documents\Universidad\Semestre Dos\Programacion Orientada a Entornos Visuales\Visual Studio Code\002-WPF\002-WPF\bin\Debug\002-WPF.exe.config
+C:\Users\Ivan\Documents\Universidad\Semestre Dos\Programacion Orientada a Entornos Visuales\Visual Studio Code\002-WPF\002-WPF\bin\Debug\002-WPF.exe
+C:\Users\Ivan\Documents\Universidad\Semestre Dos\Programacion Orientada a Entornos Visuales\Visual Studio Code\002-WPF\002-WPF\bin\Debug\002-WPF.pdb
+C:\Users\Ivan\Documents\Universidad\Semestre Dos\Programacion Orientada a Entornos Visuales\Visual Studio Code\002-WPF\002-WPF\obj\Debug\002-WPF.csproj.AssemblyReference.cache
+C:\Users\Ivan\Documents\Universidad\Semestre Dos\Programacion Orientada a Entornos Visuales\Visual Studio Code\002-WPF\002-WPF\obj\Debug\002-WPF.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ivan\Documents\Universidad\Semestre Dos\Programacion Orientada a Entornos Visuales\Visual Studio Code\002-WPF\002-WPF\obj\Debug\MainWindow.g.cs
+C:\Users\Ivan\Documents\Universidad\Semestre Dos\Programacion Orientada a Entornos Visuales\Visual Studio Code\002-WPF\002-WPF\obj\Debug\App.g.cs
+C:\Users\Ivan\Documents\Universidad\Semestre Dos\Programacion Orientada a Entornos Visuales\Visual Studio Code\002-WPF\002-WPF\obj\Debug\002-WPF_MarkupCompile.cache
+C:\Users\Ivan\Documents\Universidad\Semestre Dos\Programacion Orientada a Entornos Visuales\Visual Studio Code\002-WPF\002-WPF\obj\Debug\002-WPF_MarkupCompile.lref
+C:\Users\Ivan\Documents\Universidad\Semestre Dos\Programacion Orientada a Entornos Visuales\Visual Studio Code\002-WPF\002-WPF\obj\Debug\MainWindow.baml
+C:\Users\Ivan\Documents\Universidad\Semestre Dos\Programacion Orientada a Entornos Visuales\Visual Studio Code\002-WPF\002-WPF\obj\Debug\002-WPF.g.resources
+C:\Users\Ivan\Documents\Universidad\Semestre Dos\Programacion Orientada a Entornos Visuales\Visual Studio Code\002-WPF\002-WPF\obj\Debug\_002_WPF.Properties.Resources.resources
+C:\Users\Ivan\Documents\Universidad\Semestre Dos\Programacion Orientada a Entornos Visuales\Visual Studio Code\002-WPF\002-WPF\obj\Debug\002-WPF.csproj.GenerateResource.cache
+C:\Users\Ivan\Documents\Universidad\Semestre Dos\Programacion Orientada a Entornos Visuales\Visual Studio Code\002-WPF\002-WPF\obj\Debug\002-WPF.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Documents\Universidad\Semestre Dos\Programacion Orientada a Entornos Visuales\Visual Studio Code\002-WPF\002-WPF\obj\Debug\002-WPF.exe
+C:\Users\Ivan\Documents\Universidad\Semestre Dos\Programacion Orientada a Entornos Visuales\Visual Studio Code\002-WPF\002-WPF\obj\Debug\002-WPF.pdb
