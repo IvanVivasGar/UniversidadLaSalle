@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FoodApp</string>
+    <string name="email">Correo electronico</string>
+    <string name="login">Inicio sesion</string>
+    <string name="password">Contrasena</string>
+    <string name="welcome_text">Hola, Yahir</string>
+    <string name="our_categories_text">nNuestras categorias</string>
+    <string name="best_restaurants">Busca los mejores restuarantes</string>
+</resources>
