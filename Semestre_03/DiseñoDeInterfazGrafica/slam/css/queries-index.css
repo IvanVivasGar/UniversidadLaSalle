@@ -1,0 +1,384 @@
+/* ============================== */
+/* ========= RESPONSIVE ========= */
+/* ============================== */
+/*  */
+
+.hidden-box {
+  display: none;
+}
+/* ================== 1792 px =============== */
+@media (max-width: 112em) {
+  .carousel-info-left {
+    bottom: 30%;
+  }
+  .carousel-info-left h6 {
+    font-size: 2rem;
+  }
+  .carousel-info-right p {
+    font-size: 1.4rem;
+  }
+  .carousel-info-right {
+    top: 40%;
+    right: 10%;
+  }
+  .carousel-info-right h5 {
+    font-size: 2.5rem;
+  }
+  .info-tournament-date {
+    font-size: 1.4rem;
+  }
+  .info-tournament-type {
+    font-size: 1.2rem;
+  }
+  .carousel-info-right a {
+    padding: 0.6rem 4rem;
+  }
+}
+/* ================== 1540 px =============== */
+@media (max-width: 96em) {
+  .leagues-section,
+  .how-works-section {
+    padding: 0 8rem;
+  }
+  .carousel {
+    display: none;
+  }
+  .promo-container {
+    display: block;
+  }
+  .main-info-container {
+    gap: 4.8rem;
+  }
+  .main-info-container h1 {
+    font-size: 2.4rem;
+  }
+  .find-event-img-container {
+    width: 18rem;
+    height: 18rem;
+  }
+  .find-event-box-container {
+    top: 6rem;
+  }
+}
+
+/* ================== 1275 px =============== */
+@media (max-width: 80em) {
+  .header-container {
+    width: 90%;
+  }
+  .nav-container ul {
+    font-size: 1.2rem;
+  }
+  .nav-btns a {
+    padding: 0.4rem 1.2rem;
+  }
+  .main-info p {
+    display: none;
+  }
+  .main-info a {
+    text-align: center;
+  }
+  .how-works-top h3 {
+    font-size: 2.4rem;
+  }
+  .how-works-top p {
+    font-size: 1.6rem;
+  }
+  .step-info p {
+    display: none;
+  }
+  .league-card {
+    padding: 1.4rem 2.8rem;
+  }
+  .find-event-section h5 {
+    margin-bottom: 1.8rem;
+  }
+  .find-event-section p {
+    display: none;
+  }
+  .footer-section p,
+  .footer-section a {
+    font-size: 1.4rem;
+  }
+}
+/* ================== 992 px =============== */
+@media (max-width: 62em) {
+  .main-section {
+    margin-bottom: 10rem;
+  }
+  .header-container {
+    padding: 2.4rem;
+  }
+  .nav-container img {
+    width: 4rem;
+  }
+  .nav-container ul {
+    font-size: 1rem;
+  }
+  .nav-btns a {
+    padding: 0.4rem 1rem;
+    font-size: 1rem;
+  }
+  .main-info-container {
+    padding: 1.2rem 3.4rem;
+  }
+  .main-info-container h1 {
+    font-size: 1.8rem;
+  }
+  .main-info a {
+    padding: 0.8rem 1.2rem;
+  }
+  .how-works-section {
+    margin-bottom: 10rem;
+  }
+  .how-works-top h3 {
+    font-size: 1.8rem;
+  }
+  .how-works-top p {
+    font-size: 1.4rem;
+  }
+  .step-icon {
+    font-size: 1.8rem;
+    padding: 1.8rem;
+  }
+  .step-title {
+    font-size: 1.4rem;
+  }
+  .slide-info p {
+    font-size: 2.8rem;
+  }
+  .slide-info a {
+    padding: 0.8rem 2rem;
+  }
+  .sports-selection-container {
+    margin-bottom: 10rem;
+  }
+  .leagues-cards {
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+  }
+  .leagues-top a {
+    display: none;
+  }
+  .leagues-section {
+    margin-bottom: 10rem;
+  }
+  .slide-info div {
+    width: 10rem;
+  }
+  .find-event-section {
+    margin-bottom: 10rem;
+  }
+  .find-event-section h5 {
+    font-size: 1.6rem;
+  }
+  .find-event-section a {
+    padding: 0.6rem 4rem;
+  }
+  .footer-section p,
+  .footer-section a {
+    font-size: 1rem;
+  }
+}
+/* ================ 816px ================ */
+@media (max-width: 51em) {
+  section,
+  main {
+    margin-bottom: 6rem !important;
+  }
+  .main-section {
+    background-position: center;
+  }
+  .nav-container {
+    display: none;
+  }
+  .nav-mobile-container {
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .main-info-container {
+    justify-content: space-between;
+    width: 60%;
+    gap: 2.4rem;
+  }
+  .main-info a {
+    font-size: 1rem;
+  }
+  .how-works-top h3 {
+    font-size: 2.4rem;
+  }
+  .how-works-info {
+    display: none;
+  }
+  .how-works-info-mobile {
+    display: block;
+  }
+  .info-mobile-card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2.4rem;
+  }
+  .info-top-card {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.4rem 2.8rem;
+    background-color: #177e89;
+    border-radius: 6px 6px 0 0;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 600;
+    align-items: center;
+  }
+  .info-bottom-card {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.212);
+    padding: 2.4rem 4.8rem;
+    text-align: start;
+    font-size: 1.6rem;
+    border-radius: 0px 0px 6px 6px;
+  }
+  .slider {
+    display: none;
+  }
+  .slider-mobile {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  .carousel-info-left {
+    bottom: 25%;
+  }
+  .carousel-info-left p {
+    font-size: 1.4rem;
+  }
+  .carousel-info-left h6 {
+    font-size: 1.6rem;
+  }
+  .carousel-info-right {
+    top: 45%;
+  }
+  .carousel-info-right a,
+  .info-tournament-type,
+  .info-tournament-categories {
+    display: none;
+  }
+  .carousel-info-right h5 {
+    font-size: 1.8rem;
+  }
+  .find-event-box-container {
+    display: none;
+  }
+  .footer-section {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .footer-logo {
+    display: none;
+  }
+}
+/* ============ 608 px ============== */
+@media (max-width: 38em) {
+  .main-info-container h1 {
+    font-size: 1.4rem;
+  }
+  .info-bottom-card {
+    font-size: 1.2rem;
+  }
+  .how-works-section {
+    padding: 0 2.4rem;
+  }
+  .carrousell-section {
+    padding: 0;
+  }
+  .carousel-info-left {
+    bottom: 10%;
+  }
+  .carousel-info-left p {
+    font-size: 0.8rem;
+  }
+  .carousel-info-left h6 {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+  }
+  .carousel-info-left span {
+    font-size: 0.8rem;
+  }
+  .carousel-info-right h5 {
+    font-size: 1.2rem;
+    margin-bottom: 0.4rem;
+  }
+  .carousel-info-right p {
+    font-size: 1rem;
+  }
+  .leagues-section {
+    gap: 3rem;
+  }
+  .league-card {
+    padding: 1rem 2rem;
+  }
+  .find-event-section h5 {
+    font-size: 1.2rem;
+  }
+  .footer-section {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .footer-social {
+    display: none;
+  }
+}
+/* ============== 432 px ============== */
+@media (max-width: 27em) {
+  .slider-mobile {
+    height: 75vh;
+  }
+  .main-info-container h1 {
+    font-size: 1.2rem;
+  }
+  .league-card {
+    gap: 1rem;
+  }
+  .leagues-section {
+    padding: 0 2rem;
+  }
+
+  .league-card p {
+    font-size: 1rem;
+  }
+  .league-card ion-icon {
+    font-size: 1.6rem;
+  }
+}
+/* ================= 304 px ============== */
+@media (max-width: 20em) {
+  .main-info-container {
+    text-align: center;
+  }
+  .main-info {
+    display: none;
+  }
+  .how-works-top h3 {
+    font-size: 1.4rem;
+  }
+  .how-works-top p {
+    font-size: 1rem;
+  }
+  .how-works-section {
+    gap: 3rem;
+  }
+  section,
+  main {
+    margin-bottom: 3rem;
+  }
+  .info-top-card p {
+    font-size: 1.2rem;
+  }
+  .info-bottom-card {
+    padding: 1rem 2.2rem;
+  }
+  .info-bottom-card p {
+    font-size: 1rem;
+  }
+  .find-event-section h5 {
+    font-size: 1rem;
+  }
+}
