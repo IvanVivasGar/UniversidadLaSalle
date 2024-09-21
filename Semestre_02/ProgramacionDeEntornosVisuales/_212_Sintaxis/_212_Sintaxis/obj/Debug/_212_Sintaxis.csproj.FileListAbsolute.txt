@@ -1,0 +1,8 @@
+C:\Users\Ivan\Documents\Universidad\Semestre 2\Programacion Orientada a Entornos Visuales\Visual Studio Code\_212_Sintaxis\_212_Sintaxis\bin\Debug\_212_Sintaxis.exe.config
+C:\Users\Ivan\Documents\Universidad\Semestre 2\Programacion Orientada a Entornos Visuales\Visual Studio Code\_212_Sintaxis\_212_Sintaxis\bin\Debug\_212_Sintaxis.exe
+C:\Users\Ivan\Documents\Universidad\Semestre 2\Programacion Orientada a Entornos Visuales\Visual Studio Code\_212_Sintaxis\_212_Sintaxis\bin\Debug\_212_Sintaxis.pdb
+C:\Users\Ivan\Documents\Universidad\Semestre 2\Programacion Orientada a Entornos Visuales\Visual Studio Code\_212_Sintaxis\_212_Sintaxis\obj\Debug\_212_Sintaxis.csproj.AssemblyReference.cache
+C:\Users\Ivan\Documents\Universidad\Semestre 2\Programacion Orientada a Entornos Visuales\Visual Studio Code\_212_Sintaxis\_212_Sintaxis\obj\Debug\_212_Sintaxis.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ivan\Documents\Universidad\Semestre 2\Programacion Orientada a Entornos Visuales\Visual Studio Code\_212_Sintaxis\_212_Sintaxis\obj\Debug\_212_Sintaxis.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Documents\Universidad\Semestre 2\Programacion Orientada a Entornos Visuales\Visual Studio Code\_212_Sintaxis\_212_Sintaxis\obj\Debug\_212_Sintaxis.exe
+C:\Users\Ivan\Documents\Universidad\Semestre 2\Programacion Orientada a Entornos Visuales\Visual Studio Code\_212_Sintaxis\_212_Sintaxis\obj\Debug\_212_Sintaxis.pdb

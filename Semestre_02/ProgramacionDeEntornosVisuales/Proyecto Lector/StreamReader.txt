@@ -1,0 +1,4 @@
+hola mundo
+soy ivan de software
+esta es una prueba del streamreader
+no se para que es pero aqui esta

@@ -1,0 +1,8 @@
+C:\Users\Ivan\Documents\Universidad\Semestre Dos\Programacion Orientada a Entornos Visuales\Visual Studio Code\Proyecto Objetos\Proyecto Objetos\bin\Debug\Proyecto Objetos.exe.config
+C:\Users\Ivan\Documents\Universidad\Semestre Dos\Programacion Orientada a Entornos Visuales\Visual Studio Code\Proyecto Objetos\Proyecto Objetos\bin\Debug\Proyecto Objetos.exe
+C:\Users\Ivan\Documents\Universidad\Semestre Dos\Programacion Orientada a Entornos Visuales\Visual Studio Code\Proyecto Objetos\Proyecto Objetos\bin\Debug\Proyecto Objetos.pdb
+C:\Users\Ivan\Documents\Universidad\Semestre Dos\Programacion Orientada a Entornos Visuales\Visual Studio Code\Proyecto Objetos\Proyecto Objetos\obj\Debug\Proyecto Objetos.csproj.AssemblyReference.cache
+C:\Users\Ivan\Documents\Universidad\Semestre Dos\Programacion Orientada a Entornos Visuales\Visual Studio Code\Proyecto Objetos\Proyecto Objetos\obj\Debug\Proyecto Objetos.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ivan\Documents\Universidad\Semestre Dos\Programacion Orientada a Entornos Visuales\Visual Studio Code\Proyecto Objetos\Proyecto Objetos\obj\Debug\Proyecto Objetos.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Documents\Universidad\Semestre Dos\Programacion Orientada a Entornos Visuales\Visual Studio Code\Proyecto Objetos\Proyecto Objetos\obj\Debug\Proyecto Objetos.exe
+C:\Users\Ivan\Documents\Universidad\Semestre Dos\Programacion Orientada a Entornos Visuales\Visual Studio Code\Proyecto Objetos\Proyecto Objetos\obj\Debug\Proyecto Objetos.pdb

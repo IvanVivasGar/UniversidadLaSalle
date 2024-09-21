@@ -1,0 +1,16 @@
+C:\Users\Ivan\Documents\OneDrive - Universidad La Salle Bajío\Semestre Dos\Programacion Orientada a Entornos Visuales\EntornosVisuales\DataBaseProyecto\DataBaseProyecto\bin\Debug\DataBaseProyecto.exe.config
+C:\Users\Ivan\Documents\OneDrive - Universidad La Salle Bajío\Semestre Dos\Programacion Orientada a Entornos Visuales\EntornosVisuales\DataBaseProyecto\DataBaseProyecto\bin\Debug\DataBaseProyecto.exe
+C:\Users\Ivan\Documents\OneDrive - Universidad La Salle Bajío\Semestre Dos\Programacion Orientada a Entornos Visuales\EntornosVisuales\DataBaseProyecto\DataBaseProyecto\bin\Debug\DataBaseProyecto.pdb
+C:\Users\Ivan\Documents\OneDrive - Universidad La Salle Bajío\Semestre Dos\Programacion Orientada a Entornos Visuales\EntornosVisuales\DataBaseProyecto\DataBaseProyecto\obj\Debug\DataBaseProyecto.csproj.AssemblyReference.cache
+C:\Users\Ivan\Documents\OneDrive - Universidad La Salle Bajío\Semestre Dos\Programacion Orientada a Entornos Visuales\EntornosVisuales\DataBaseProyecto\DataBaseProyecto\obj\Debug\DataBaseProyecto.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ivan\Documents\OneDrive - Universidad La Salle Bajío\Semestre Dos\Programacion Orientada a Entornos Visuales\EntornosVisuales\DataBaseProyecto\DataBaseProyecto\obj\Debug\MainWindow.g.cs
+C:\Users\Ivan\Documents\OneDrive - Universidad La Salle Bajío\Semestre Dos\Programacion Orientada a Entornos Visuales\EntornosVisuales\DataBaseProyecto\DataBaseProyecto\obj\Debug\App.g.cs
+C:\Users\Ivan\Documents\OneDrive - Universidad La Salle Bajío\Semestre Dos\Programacion Orientada a Entornos Visuales\EntornosVisuales\DataBaseProyecto\DataBaseProyecto\obj\Debug\DataBaseProyecto_MarkupCompile.cache
+C:\Users\Ivan\Documents\OneDrive - Universidad La Salle Bajío\Semestre Dos\Programacion Orientada a Entornos Visuales\EntornosVisuales\DataBaseProyecto\DataBaseProyecto\obj\Debug\DataBaseProyecto_MarkupCompile.lref
+C:\Users\Ivan\Documents\OneDrive - Universidad La Salle Bajío\Semestre Dos\Programacion Orientada a Entornos Visuales\EntornosVisuales\DataBaseProyecto\DataBaseProyecto\obj\Debug\MainWindow.baml
+C:\Users\Ivan\Documents\OneDrive - Universidad La Salle Bajío\Semestre Dos\Programacion Orientada a Entornos Visuales\EntornosVisuales\DataBaseProyecto\DataBaseProyecto\obj\Debug\DataBaseProyecto.g.resources
+C:\Users\Ivan\Documents\OneDrive - Universidad La Salle Bajío\Semestre Dos\Programacion Orientada a Entornos Visuales\EntornosVisuales\DataBaseProyecto\DataBaseProyecto\obj\Debug\DataBaseProyecto.Properties.Resources.resources
+C:\Users\Ivan\Documents\OneDrive - Universidad La Salle Bajío\Semestre Dos\Programacion Orientada a Entornos Visuales\EntornosVisuales\DataBaseProyecto\DataBaseProyecto\obj\Debug\DataBaseProyecto.csproj.GenerateResource.cache
+C:\Users\Ivan\Documents\OneDrive - Universidad La Salle Bajío\Semestre Dos\Programacion Orientada a Entornos Visuales\EntornosVisuales\DataBaseProyecto\DataBaseProyecto\obj\Debug\DataBaseProyecto.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Documents\OneDrive - Universidad La Salle Bajío\Semestre Dos\Programacion Orientada a Entornos Visuales\EntornosVisuales\DataBaseProyecto\DataBaseProyecto\obj\Debug\DataBaseProyecto.exe
+C:\Users\Ivan\Documents\OneDrive - Universidad La Salle Bajío\Semestre Dos\Programacion Orientada a Entornos Visuales\EntornosVisuales\DataBaseProyecto\DataBaseProyecto\obj\Debug\DataBaseProyecto.pdb

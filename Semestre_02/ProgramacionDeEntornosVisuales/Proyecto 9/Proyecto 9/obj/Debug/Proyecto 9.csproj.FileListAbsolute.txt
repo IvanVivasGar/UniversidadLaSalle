@@ -1,0 +1,8 @@
+C:\Users\Ivan\Documents\Universidad\Semestre 2\Programacion Orientada a Entornos Visuales\Visual Studio Code\Proyecto 9\Proyecto 9\bin\Debug\Proyecto 9.exe.config
+C:\Users\Ivan\Documents\Universidad\Semestre 2\Programacion Orientada a Entornos Visuales\Visual Studio Code\Proyecto 9\Proyecto 9\bin\Debug\Proyecto 9.exe
+C:\Users\Ivan\Documents\Universidad\Semestre 2\Programacion Orientada a Entornos Visuales\Visual Studio Code\Proyecto 9\Proyecto 9\bin\Debug\Proyecto 9.pdb
+C:\Users\Ivan\Documents\Universidad\Semestre 2\Programacion Orientada a Entornos Visuales\Visual Studio Code\Proyecto 9\Proyecto 9\obj\Debug\Proyecto 9.csproj.AssemblyReference.cache
+C:\Users\Ivan\Documents\Universidad\Semestre 2\Programacion Orientada a Entornos Visuales\Visual Studio Code\Proyecto 9\Proyecto 9\obj\Debug\Proyecto 9.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ivan\Documents\Universidad\Semestre 2\Programacion Orientada a Entornos Visuales\Visual Studio Code\Proyecto 9\Proyecto 9\obj\Debug\Proyecto 9.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Documents\Universidad\Semestre 2\Programacion Orientada a Entornos Visuales\Visual Studio Code\Proyecto 9\Proyecto 9\obj\Debug\Proyecto 9.exe
+C:\Users\Ivan\Documents\Universidad\Semestre 2\Programacion Orientada a Entornos Visuales\Visual Studio Code\Proyecto 9\Proyecto 9\obj\Debug\Proyecto 9.pdb

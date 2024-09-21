@@ -1,0 +1,8 @@
+C:\Users\Ivan\Documents\Universidad\Semestre Dos\Programacion Orientada a Entornos Visuales\Visual Studio Code\Proyecto Lector\Proyecto Lector\bin\Debug\Proyecto Lector.exe.config
+C:\Users\Ivan\Documents\Universidad\Semestre Dos\Programacion Orientada a Entornos Visuales\Visual Studio Code\Proyecto Lector\Proyecto Lector\bin\Debug\Proyecto Lector.exe
+C:\Users\Ivan\Documents\Universidad\Semestre Dos\Programacion Orientada a Entornos Visuales\Visual Studio Code\Proyecto Lector\Proyecto Lector\bin\Debug\Proyecto Lector.pdb
+C:\Users\Ivan\Documents\Universidad\Semestre Dos\Programacion Orientada a Entornos Visuales\Visual Studio Code\Proyecto Lector\Proyecto Lector\obj\Debug\Proyecto Lector.csproj.AssemblyReference.cache
+C:\Users\Ivan\Documents\Universidad\Semestre Dos\Programacion Orientada a Entornos Visuales\Visual Studio Code\Proyecto Lector\Proyecto Lector\obj\Debug\Proyecto Lector.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ivan\Documents\Universidad\Semestre Dos\Programacion Orientada a Entornos Visuales\Visual Studio Code\Proyecto Lector\Proyecto Lector\obj\Debug\Proyecto Lector.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Documents\Universidad\Semestre Dos\Programacion Orientada a Entornos Visuales\Visual Studio Code\Proyecto Lector\Proyecto Lector\obj\Debug\Proyecto Lector.exe
+C:\Users\Ivan\Documents\Universidad\Semestre Dos\Programacion Orientada a Entornos Visuales\Visual Studio Code\Proyecto Lector\Proyecto Lector\obj\Debug\Proyecto Lector.pdb
