@@ -1,0 +1,8 @@
+C:\Users\Ivan\Documents\Universidad\Semestre Dos\Programacion Orientada a Entornos Visuales\Visual Studio Code\Examen Parcial 1\Examen Parcial 1\bin\Debug\Examen Parcial 1.exe.config
+C:\Users\Ivan\Documents\Universidad\Semestre Dos\Programacion Orientada a Entornos Visuales\Visual Studio Code\Examen Parcial 1\Examen Parcial 1\bin\Debug\Examen Parcial 1.exe
+C:\Users\Ivan\Documents\Universidad\Semestre Dos\Programacion Orientada a Entornos Visuales\Visual Studio Code\Examen Parcial 1\Examen Parcial 1\bin\Debug\Examen Parcial 1.pdb
+C:\Users\Ivan\Documents\Universidad\Semestre Dos\Programacion Orientada a Entornos Visuales\Visual Studio Code\Examen Parcial 1\Examen Parcial 1\obj\Debug\Examen Parcial 1.csproj.AssemblyReference.cache
+C:\Users\Ivan\Documents\Universidad\Semestre Dos\Programacion Orientada a Entornos Visuales\Visual Studio Code\Examen Parcial 1\Examen Parcial 1\obj\Debug\Examen Parcial 1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ivan\Documents\Universidad\Semestre Dos\Programacion Orientada a Entornos Visuales\Visual Studio Code\Examen Parcial 1\Examen Parcial 1\obj\Debug\Examen Parcial 1.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Documents\Universidad\Semestre Dos\Programacion Orientada a Entornos Visuales\Visual Studio Code\Examen Parcial 1\Examen Parcial 1\obj\Debug\Examen Parcial 1.exe
+C:\Users\Ivan\Documents\Universidad\Semestre Dos\Programacion Orientada a Entornos Visuales\Visual Studio Code\Examen Parcial 1\Examen Parcial 1\obj\Debug\Examen Parcial 1.pdb

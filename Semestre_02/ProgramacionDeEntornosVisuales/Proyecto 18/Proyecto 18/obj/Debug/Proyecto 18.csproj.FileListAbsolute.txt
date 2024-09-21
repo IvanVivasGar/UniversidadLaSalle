@@ -1,0 +1,8 @@
+C:\Users\Ivan\Documents\Universidad\OneDrive - Universidad La Salle Bajío\Semestre Dos\Programacion Orientada a Entornos Visuales\Visual Studio Code\Proyecto 18\Proyecto 18\bin\Debug\Proyecto 18.exe.config
+C:\Users\Ivan\Documents\Universidad\OneDrive - Universidad La Salle Bajío\Semestre Dos\Programacion Orientada a Entornos Visuales\Visual Studio Code\Proyecto 18\Proyecto 18\bin\Debug\Proyecto 18.exe
+C:\Users\Ivan\Documents\Universidad\OneDrive - Universidad La Salle Bajío\Semestre Dos\Programacion Orientada a Entornos Visuales\Visual Studio Code\Proyecto 18\Proyecto 18\bin\Debug\Proyecto 18.pdb
+C:\Users\Ivan\Documents\Universidad\OneDrive - Universidad La Salle Bajío\Semestre Dos\Programacion Orientada a Entornos Visuales\Visual Studio Code\Proyecto 18\Proyecto 18\obj\Debug\Proyecto 18.csproj.AssemblyReference.cache
+C:\Users\Ivan\Documents\Universidad\OneDrive - Universidad La Salle Bajío\Semestre Dos\Programacion Orientada a Entornos Visuales\Visual Studio Code\Proyecto 18\Proyecto 18\obj\Debug\Proyecto 18.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ivan\Documents\Universidad\OneDrive - Universidad La Salle Bajío\Semestre Dos\Programacion Orientada a Entornos Visuales\Visual Studio Code\Proyecto 18\Proyecto 18\obj\Debug\Proyecto 18.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Documents\Universidad\OneDrive - Universidad La Salle Bajío\Semestre Dos\Programacion Orientada a Entornos Visuales\Visual Studio Code\Proyecto 18\Proyecto 18\obj\Debug\Proyecto 18.exe
+C:\Users\Ivan\Documents\Universidad\OneDrive - Universidad La Salle Bajío\Semestre Dos\Programacion Orientada a Entornos Visuales\Visual Studio Code\Proyecto 18\Proyecto 18\obj\Debug\Proyecto 18.pdb

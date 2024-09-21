@@ -1,0 +1,8 @@
+C:\Users\Ivan\Documents\Universidad\Semestre 2\Programacion Orientada a Entornos Visuales\Visual Studio Code\Ejercicio 1\Ejercicio 1\bin\Debug\Ejercicio 1.exe.config
+C:\Users\Ivan\Documents\Universidad\Semestre 2\Programacion Orientada a Entornos Visuales\Visual Studio Code\Ejercicio 1\Ejercicio 1\bin\Debug\Ejercicio 1.exe
+C:\Users\Ivan\Documents\Universidad\Semestre 2\Programacion Orientada a Entornos Visuales\Visual Studio Code\Ejercicio 1\Ejercicio 1\bin\Debug\Ejercicio 1.pdb
+C:\Users\Ivan\Documents\Universidad\Semestre 2\Programacion Orientada a Entornos Visuales\Visual Studio Code\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.csproj.AssemblyReference.cache
+C:\Users\Ivan\Documents\Universidad\Semestre 2\Programacion Orientada a Entornos Visuales\Visual Studio Code\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ivan\Documents\Universidad\Semestre 2\Programacion Orientada a Entornos Visuales\Visual Studio Code\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Documents\Universidad\Semestre 2\Programacion Orientada a Entornos Visuales\Visual Studio Code\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.exe
+C:\Users\Ivan\Documents\Universidad\Semestre 2\Programacion Orientada a Entornos Visuales\Visual Studio Code\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.pdb
