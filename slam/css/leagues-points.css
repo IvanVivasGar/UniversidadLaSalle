@@ -1,0 +1,120 @@
+body {
+  overflow-x: hidden;
+}
+.top-leagues-points {
+  height: 40vh;
+  background-image: url("/imgs/soccer-field.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.rankings-section {
+  margin-bottom: 9.6rem !important;
+  margin: 0 36rem;
+}
+.multiple-sports-container {
+  margin-top: 2rem;
+
+  display: flex;
+  gap: 2.4rem;
+  font-size: 2.6rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #177e89;
+  margin-bottom: 2.8rem;
+}
+.sport-slider {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+.active-slider {
+  height: 2rem;
+  background-color: #db3a34;
+  /* border-radius: 6px; */
+}
+.inactive-slider {
+  height: 2rem;
+  /* background-color: violet; */
+}
+.name-player-txt {
+  text-align: center;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+.search-bar-container {
+  width: 40%;
+  background-color: #177e89;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 6px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+.search-bar-container input {
+  width: 90%;
+  outline: none;
+  background-color: #177e89;
+  border: none;
+  padding: 1.6rem;
+  color: #fff;
+  font-size: 1.6rem;
+}
+.search-bar-container input::placeholder {
+  color: #fff;
+}
+.search-bar-container ion-icon {
+  color: #fff;
+  font-size: 2.4rem;
+}
+.rankings-container {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 5rem;
+}
+.rankings-filter {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.label-filter {
+  font-size: 1.4rem;
+  margin-bottom: 0.4rem;
+  font-weight: 600;
+}
+.filter-txt {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.form-select {
+  font-size: 1.4rem;
+}
+.table {
+  font-size: 1.8rem;
+  margin-bottom: 4rem;
+  cursor: pointer;
+}
+.table th,
+.table td {
+  padding: 1.4rem !important;
+}
+.next-previous-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 6.4rem;
+}
+.next-previous-btns {
+  display: flex;
+  gap: 2.4rem;
+  align-items: center;
+}
+.page-number {
+  display: inline-block;
+  font-size: 1.6rem;
+  color: #084c61;
+  text-decoration: none;
+}
+.page-active {
+  text-decoration: underline;
+}

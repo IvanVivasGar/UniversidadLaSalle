@@ -1,0 +1,373 @@
+/* ================================= */
+.main-section {
+  position: relative;
+  background-image: url("../imgs/slam-main.jpg");
+  height: 100vh;
+  background-size: cover;
+  margin-bottom: 16rem;
+}
+.main-info-container {
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+  transform: translate(-50%, 0);
+  padding: 2.4rem 6.8rem;
+  background-color: #000000b6;
+  color: #fff;
+  display: flex;
+  gap: 9.2rem;
+  align-items: center;
+  border-radius: 6px;
+}
+.main-info-container h1 {
+  font-size: 3.6rem;
+}
+.main-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.main-info p {
+  line-height: 2;
+  font-size: 1.4rem;
+}
+.main-info a {
+  text-decoration: none;
+  color: #fff;
+  padding: 1.2rem 2.4rem;
+  background-color: #db3a34;
+  display: inline-block;
+  border-radius: 6px;
+  font-size: 1.2rem;
+  align-self: flex-start;
+}
+.how-works-section {
+  padding: 0 16rem;
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  text-align: center;
+  margin-bottom: 16rem;
+}
+.how-works-top h3 {
+  font-size: 3.8rem;
+  color: #084c61;
+  margin-bottom: 1.4rem;
+}
+.how-works-top p {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.how-works-info {
+  display: flex;
+  justify-content: space-around;
+  gap: 4rem;
+}
+.how-works-info-mobile {
+  display: none;
+}
+.step-card {
+  display: flex;
+  flex-direction: column;
+}
+.step-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #084c61;
+  align-self: center;
+  border-radius: 100px;
+  color: #fff;
+  font-size: 2.4rem;
+  padding: 2.4rem;
+  margin-bottom: 1.4rem;
+}
+.step-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.step-info {
+  font-size: 1.6rem;
+}
+.step-arrow {
+  font-size: 3.6rem;
+  align-self: center;
+}
+/* =========================== */
+.sports-selection-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 16rem;
+}
+.slider-mobile {
+  display: none;
+}
+.slide-mobile img {
+  filter: brightness(0.5);
+}
+.slide-mobile {
+  height: 40rem;
+  overflow: hidden;
+  position: relative;
+}
+.slide-mobile img {
+  width: 100%;
+  transform: translateY(-20%);
+}
+.slide-mobile-txt {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.slide-mobile-txt p {
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+.slide-mobile-txt a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0.6rem 4.8rem;
+  background-color: #d1495b;
+  align-self: center;
+  border-radius: 6px;
+  font-size: 1.6rem;
+}
+.slider {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+}
+.slide {
+  position: relative;
+  flex: 1 0 auto;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+
+.slide:hover {
+  flex: 2;
+}
+.slide img {
+  position: absolute;
+  max-height: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.slide-info {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 50;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  color: #fff;
+  text-align: center;
+}
+.slider .slide img {
+  filter: brightness(65%);
+}
+.slide-info p {
+  font-size: 4rem;
+  font-weight: 800;
+}
+.slide-info div {
+  height: 0.5rem;
+  width: 20rem;
+  background-color: #084c61;
+}
+.slide-info a {
+  text-decoration: none;
+  background-color: #d1495b;
+  color: #fff;
+  align-self: center;
+  padding: 1.2rem 2.4rem;
+  border-radius: 6px;
+}
+/* =========================================== */
+.leagues-section {
+  padding: 0 16rem;
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  margin-bottom: 16rem;
+}
+.leagues-top {
+  position: relative;
+  text-align: center;
+}
+.leagues-top p {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #177e89;
+}
+.leagues-top a {
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-decoration: none;
+  background-color: #d1495b;
+  color: #fff;
+  align-self: center;
+  padding: 1rem 7.4rem;
+  border-radius: 6px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+}
+.leagues-cards {
+  gap: 1.4rem;
+  flex-wrap: nowrap !important;
+  justify-items: center;
+  width: 95%;
+  align-self: center;
+}
+.league-card {
+  display: flex;
+  gap: 4.8rem;
+  border: 1px solid #177e89;
+  align-items: center;
+  justify-content: center;
+  padding: 2.4rem 4.8rem;
+  border-radius: 6px;
+}
+.league-card ion-icon {
+  font-size: 7.2rem;
+}
+.league-card p {
+  font-size: 1.6rem;
+  color: #177e89;
+}
+/* ==================================== */
+.carrousell-section {
+  width: 100vw;
+  padding: 4rem;
+  margin-bottom: 12rem;
+}
+.carousel-item {
+  height: 68rem;
+}
+.carousel-info-left {
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  z-index: 20;
+  text-align: center;
+  color: #fff;
+}
+.carousel-info-left p {
+  font-size: 1.8rem;
+}
+.carousel-info-left h6 {
+  font-size: 2.8rem;
+  margin-bottom: 0.8rem;
+}
+.carousel-info-left span {
+  font-size: 1.2rem;
+}
+.carousel-info-right {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 15%;
+  z-index: 20;
+  color: #fff;
+  text-align: center;
+}
+.carousel-info-right h5 {
+  font-size: 4rem;
+  margin-bottom: 1.8rem;
+}
+.info-tournament-date {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+.info-tournament-type {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+.info-tournament-categories {
+  font-size: 1.6rem;
+  margin-bottom: 1.8rem;
+}
+.carousel-info-right a {
+  display: inline-block;
+  background-color: #d1495b;
+  color: #fff;
+  text-decoration: none;
+  padding: 1rem 7.4rem;
+  border-radius: 6px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+}
+
+.promo-container {
+  width: 100%;
+  position: relative;
+  display: none;
+}
+.promo-container img {
+  width: 100%;
+}
+
+/* ============================== */
+.find-event-section {
+  margin-bottom: 16rem;
+  position: relative;
+  text-align: center;
+  background-color: #323031;
+  color: #fff;
+  padding: 6.4rem 0;
+}
+.find-event-section h5 {
+  font-size: 2.4rem;
+  margin-bottom: 1.2rem;
+}
+.find-event-section p {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+.find-event-section a {
+  display: inline-block;
+  background-color: #d1495b;
+  color: #fff;
+  text-decoration: none;
+  padding: 1rem 7.4rem;
+  border-radius: 6px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+}
+.find-event-box-container {
+  position: absolute;
+  top: 2rem;
+  padding: 0.8rem;
+  border-radius: 100%;
+  background-color: white;
+  right: 3rem;
+}
+.find-event-img-container {
+  width: 30rem;
+  height: 30rem;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.find-event-img-container img {
+  width: 100%;
+  height: 100%;
+}

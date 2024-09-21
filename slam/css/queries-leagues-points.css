@@ -1,0 +1,96 @@
+/* ================= 1808 px ============== */
+@media (max-width: 113em) {
+  .rankings-section {
+    margin: 0 20rem;
+  }
+}
+/* ================= 1472 px ============== */
+@media (max-width: 92em) {
+  .rankings-section {
+    margin: 0 10rem;
+  }
+  .search-bar-container {
+    width: 60%;
+    background-color: #177e89;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 6px;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+  }
+  .search-bar-container input {
+    width: 90%;
+    outline: none;
+    background-color: #177e89;
+    border: none;
+    padding: 1rem;
+    color: #fff;
+    font-size: 1.2rem;
+  }
+  .filter-txt {
+    font-size: 1.2rem;
+  }
+  .form-select {
+    font-size: 1.2rem;
+  }
+  .table th,
+  .table td {
+    padding: 1.2rem 0.6rem !important;
+  }
+  .active-slider,
+  .inactive-slider {
+    height: 1rem;
+  }
+  .table {
+    font-size: 1.2rem;
+  }
+  .multiple-sports-container {
+    font-size: 1.9rem;
+  }
+}
+/* ================= 992 px ============== */
+@media (max-width: 62em) {
+  .rankings-section {
+    margin: 0 4rem;
+  }
+  .search-bar-container {
+    width: 80%;
+  }
+  .rankings-container {
+    display: flex;
+    flex-direction: column;
+
+    gap: 5rem;
+  }
+  .rankings-filter {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+  }
+}
+/* ================= 656 px ============== */
+@media (max-width: 41em) {
+  .rankings-filter {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .search-bar-container input {
+    outline: none;
+    background-color: #177e89;
+    border: none;
+    padding: 1rem;
+    color: #fff;
+    font-size: 1rem;
+  }
+  .search-bar-container {
+    width: 100%;
+  }
+  .genero-filter,
+  .season-filter,
+  .division-filter {
+    width: 100%;
+  }
+}
