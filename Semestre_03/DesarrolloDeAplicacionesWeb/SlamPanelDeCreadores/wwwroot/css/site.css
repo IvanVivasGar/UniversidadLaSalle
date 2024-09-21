@@ -1,0 +1,59 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+
+.imagen-fondo {
+  background-image: url(https://images.unsplash.com/photo-1522778119026-d647f0596c20?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  filter: grayscale(50%);
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  position: fixed; /* Fijar la imagen para cubrir la pantalla completa */
+  left: 0;
+}
+
+.c-blanco {
+  color: white;
+  font-weight: 600;
+}
+
+.box {
+  background-color: #000B;
+  padding: 50px;
+  width: 700px;
+  
+}
+
+.flex-f {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centrar {
+  font-size: 2em;
+  text-align: center;
+}
