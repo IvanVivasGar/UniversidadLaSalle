@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!-- Primary Color (Main Theme) -->
+    <color name="tomatoRed">#FFE74C3C</color> <!-- Vibrant and Appetite-Stimulating -->
+
+    <!-- Secondary Color (Accent Theme) -->
+    <color name="carrotOrange">#F39C12</color> <!-- Warm and Energetic -->
+
+    <!-- Accent Color (For Buttons, Highlights, etc.) -->
+    <color name="avocadoGreen">#27AE60</color>
+
+    <!-- Text Color (Primary Usage) -->
+    <color name="breadBrown">#8B572A</color>
+
+    <!-- Secondary Text Color (Subtitles, Info Texts) -->
+    <color name="lemonYellow">#F1C40F</color>
+
+    <!-- Background Color (Main Background) -->
+    <color name="background">#F4F4F4</color>
+</resources>
