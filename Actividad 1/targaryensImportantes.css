@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap');
+
+@font-face {
+    font-family: Game Of Thrones;
+    src: url(Font/GameOfThrones/Game\ of\ Thrones.ttf);
+}
+
+html{
+    background-color: black;
+}
+
+/* ETIQUETAS QUE APLICAN A TODOS LOS OBJETOS DE LA PAGINA */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ETIQUETA QUE APLICA A TODO EL CUERPO,  */
+body{
+    min-height: 100vh;
+}
+
+/* ETIQUETAS QUE APLICAN AL TITULO DEL LOGO */
+.logo{
+    font-family: Game Of Thrones;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+/* ETIQUETA QUE APLICA A LA IMAGEN, DA UN POCO DE ESPECIO ENTRE EL TITULO Y LA IMAGEN */
+.logo img{
+    padding-right: 15px;
+}
+
+/* ETIQUETAS PARA EL MENU */
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color: black;
+}
+
+/* ETIQUETAS PARA LOS HYPERVINCULOS DEL MENU QUE NO SEAN GAME OF THRONES */
+.navbar a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    position: relative
+}
+
+/* ETIQUETAS QUE APLICAN SOLO AL HYPERVINCULO GAME OF THRONES */
+#GoT{
+    font-family: Game Of Thrones;
+    font-weight: 50;
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    position: relative
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    padding-left: 5%;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    color: white;
+}
+
+.targaryens{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.targaryens h2{
+    padding: 15px;
+    padding-left: 10%;
+}
+
+.targaryens p{
+    padding-left: 3%;
+    justify-content: flex-end;
+}
+
+.character{
+    display: flex;
+}
+
+.imagen{
+    flex: 0 0 30%;
+    overflow: hidden;
+}
+
+.imagen img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.info{
+    flex: 1;
+}
+
+.footer{
+    background-color: white;
+    padding: 30px;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer h3{
+    font-family: 'Poppins', sans-serif;
+    padding-left: 10%;
+}
+
+.footer a{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    text-decoration: none;
+    padding-left: 13%;
+}
