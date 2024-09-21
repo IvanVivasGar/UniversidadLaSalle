@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TDMPW_3P_PR02.MainPage">
+    <VerticalStackLayout>
+        <Frame
+            CornerRadius = "30"
+            Margin = "25"
+            BackgroundColor = "Orange"
+            BorderColor = "Gray">
+            <VerticalStackLayout>
+                <Label
+                    Text = "$ 0.00"
+                    FontSize = "30"
+                    HorizontalOptions = "Center"
+                    Margin = "15"
+                    x:Name = "quantityMain"/>
+                <BoxView
+                    HeightRequest="2"
+                    BackgroundColor="White"
+                    HorizontalOptions="FillAndExpand"
+                    WidthRequest = "400"/>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <Label
+                        Text = "IVA"
+                        HorizontalOptions = "Start"
+                        Margin = "15, 15, 15, 0"
+                        FontSize = "20"/>
+                    <Label
+                        Text = "0.00"
+                        HorizontalOptions = "Start"
+                        Margin = "15, 15, 15, 0"
+                        Grid.Row = "1"
+                        x:Name = "taxesLbl"
+                        FontSize = "20"/>
+
+                    <Label
+                        Text = "Envio"
+                        HorizontalOptions = "Start"
+                        Margin = "15, 15, 15, 0"
+                        Grid.Column = "1"
+                        FontSize = "20"/>
+                    <Label
+                        Text = "0.00"
+                        HorizontalOptions = "Start"
+                        Margin = "15, 15, 15, 0"
+                        Grid.Column = "1"
+                        Grid.Row = "1"
+                        x:Name = "shippingLbl"
+                        FontSize = "20"/>
+                </Grid>
+            </VerticalStackLayout>
+        </Frame>
+        <HorizontalStackLayout
+            HorizontalOptions = "Center">
+            <Label
+                Text = "Ingresa el monto"
+                HorizontalOptions = "Start"
+                Margin = "25"
+                VerticalOptions = "Center"
+                FontSize = "20"/>
+            <Entry
+                Text = "0.00"
+                WidthRequest = "250"
+                Margin = "25"
+                VerticalOptions = "Center"
+                TextChanged = "OnQuantityChanged"
+                x:Name = "quantityEntry"
+                FontSize = "20"/>
+        </HorizontalStackLayout>
+        <Label
+            Text = "Selecciona el IVA"
+            HorizontalOptions = "Center"
+            Margin = "25"
+            FontSize = "20"/>
+        <Slider
+            Minimum = "0"
+            Maximum = "16"
+            BackgroundColor = "Gray"
+            Value = "0"
+            MinimumTrackColor = "Orange"
+            ThumbColor = "Gray"
+            MaximumTrackColor = "White"
+            WidthRequest = "500"
+            HorizontalOptions = "Center"
+            Margin = "25"
+            IsEnabled = "False"
+            x:Name = "sldr"/>
+        <HorizontalStackLayout
+            HorizontalOptions = "Center">
+            <Button
+                Text = "0%"
+                CornerRadius = "10"
+                Margin = "15"
+                x:Name = "btn0"
+                Clicked = "OnCounterClicked0"
+                BackgroundColor = "Orange"
+                TextColor = "White"
+                FontSize = "20"/>
+            <Button
+                Text = "11%"
+                CornerRadius = "10"
+                Margin = "15"
+                x:Name = "btn11"
+                Clicked = "OnCounterClicked11"
+                BackgroundColor = "Orange"
+                TextColor = "White"
+                FontSize = "20"/>
+            <Button
+                Text = "16%"
+                CornerRadius = "10"
+                Margin = "15"
+                x:Name = "btn16"
+                Clicked = "OnCounterClicked16"
+                BackgroundColor = "Orange"
+                TextColor = "White"
+                FontSize = "20"/>
+        </HorizontalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>

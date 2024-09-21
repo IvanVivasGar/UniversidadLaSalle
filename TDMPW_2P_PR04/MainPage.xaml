@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TDMPW_2P_PR04.MainPage">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Label
+            Grid.ColumnSpan = "3"
+            Text = "CONVERSION DE MONEDA"
+            FontSize = "30"
+            VerticalOptions = "Center"
+            HorizontalOptions = "Center"/>
+
+        <Label
+            Grid.Row = "1"
+            Grid.ColumnSpan = "3"
+            Text = "BIENVENIDO"
+            FontSize = "25"
+            HorizontalOptions = "Center"
+            VerticalOptions = "Center"/>
+
+        <Image
+            Source = "exchange.webp"
+            Grid.Row = "2"
+            Grid.ColumnSpan = "3"
+            Grid.RowSpan = "2"
+            WidthRequest = "200"
+            HeightRequest = "200"
+            VerticalOptions = "Center"
+            HorizontalOptions = "Center"/>
+    </Grid>
+</ContentPage>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TDMPW_2P_EJ01.MainPage">
+    <Grid>
+        <Grid.RowDefinition>
+            <Row.Definition
+                Heigth = "2*"/>
+            <Row.Definition
+                Heigth = ".5*"/>
+            <Row.Definition
+                Heigth = "100"/>
+            <Row.Definition/>
+        </Grid.RowDefinition>
+
+        <Grid.ColumnDefinition>
+            <Column.Definition />
+            <Column.Definition />
+        </Grid.ColumnDefinition>
+
+        <BoxView Color = "Green"/>
+        <Label
+            Text = "Renglon: 0 - Columna: 0"
+            HorizontalOptions = "Center"
+            VerticalOptions = "Center"/>
+
+        <BoxView
+            Color = "Blue"
+            Grid.Column = "1"/>
+        <Label
+            Text = "Renglon: 0 - Columna: 1"
+            HorizontalOptions = "Center"
+            VerticalOptions = "Center"
+            Grid.Column = "1"/>
+
+        <BoxView
+            Color = "Teal"
+            Grid.Row = "1"/>
+        <Label
+            Text = "Renglon: 1 - Columna: 0"
+            HorizontalOptions = "Center"
+            VerticalOptions = "Center"
+            Grid.Row = "1"/>
+
+        <BoxView
+            Color = "Purple"
+            Grid.Row = "1"
+            Grid.Column = "1"/>
+        <Label
+            Text = "Renglon: 1 - Columna: 1"
+            HorizontalOptions = "Center"
+            VerticalOptions = "Center"
+            Grid.Row = "1"
+            Grid.Column = "1"/>
+
+        <BoxView
+            Color = "Red"
+            Grid.Row = "2"
+            Grid.ColumnSpan = "2"/>
+        <Label
+            Text = "Renglon: 2 - Columna: 0 - Span: 2"
+            HorizontalOptions = "Center"
+            VerticalOptions = "Center"
+            Grid.Row = "2"
+            Grid.ColumnSpan = "2"/>
+    </Grid>
+
+</ContentPage>

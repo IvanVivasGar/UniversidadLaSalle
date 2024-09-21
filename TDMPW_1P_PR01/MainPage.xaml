@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TDMPW_1P_PR01.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Image
+                Source="celsius.png"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                SemanticProperties.Description="Celsius Image"/>
+
+            <Label
+                Text="Conversion de grados Celsius a Farenheit"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1"/>
+
+            <HorizontalStackLayout>
+                <VerticalStackLayout>
+                    <Label
+                        Text="Ingresa los grados Farenheit"/>
+                    <Entry
+                        x:Name="entradaDatosCelsius"
+                        Keyboard="Numeric"/>
+                    <Button
+                        x:Name="btnCelsius"
+                        Text="Convertir"
+                        Clicked="ClickedACelsius"/>
+                    <Label
+                        x:Name="lblResultadoCelsius"/>
+                    <Label
+                        x:Name="lblResultadoKelvin"/>
+                </VerticalStackLayout>
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

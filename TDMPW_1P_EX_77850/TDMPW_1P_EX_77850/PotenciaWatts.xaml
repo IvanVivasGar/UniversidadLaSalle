@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TDMPW_1P_EX_77850.PotenciaWatts"
+             Title="PotenciaWatts">
+    <VerticalStackLayout>
+        <HorizontalStackLayout>
+            <!-- Seccion de amperios con una imagen de amperios y un textbox que solo ingrese valores numericos -->
+            <VerticalStackLayout>
+                <Image
+                    Source="amperios.png"
+                    HeightRequest="185"
+                    Aspect="AspectFit"/>
+                <TextBox
+                    x:Name="cantidadAmperios"
+                    PlaceholderText="Ingresa la cantidad de amperios"
+                    Keyboard="Numeric"/>
+            </VerticalStackLayout>
+
+            <!-- Seccion de voltios con una imagen de voltios y un textbox que ingresa solo valores numericos -->
+            <VerticalStackLayout>
+                <Image
+                    Source="voltios.png"
+                    HeightRequest="185"
+                    Aspect="AspectFit"/>
+                <TextBox
+                    x:Name="cantidadVoltios"
+                    PlaceholderText="Ingresa la cantidad de voltios"
+                    Keyboard="Numeric"/>
+            </VerticalStackLayout>
+        </HorizontalStackLayout>
+
+        <!-- Button para realizar la conversion -->
+        <Button
+            x:Name="conversionWatts"
+            Text="Conversion"
+            OnCounterClicked="ConversionWatts"/>
+
+        <!-- Label para el resultado de la operacion -->
+        <Label
+            x:Name="resultadoConversionWatts"
+            Text="Resultado"/>
+    </VerticalStackLayout>
+</ContentPage>

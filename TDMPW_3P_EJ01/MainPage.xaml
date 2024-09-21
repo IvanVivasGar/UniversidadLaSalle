@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TDMPW_3P_EJ01.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Image
+                Source="dotnet_bot.png"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                SemanticProperties.Description="dot net bot in a race car number eight" />
+
+            <Label
+                Text="EJERCICIO 1 PARCIAL 3"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1" />
+
+            <Label
+                Text="CONTROLES MAUI"
+                Style="{StaticResource SubHeadline}"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
+
+            <HorizontalStackLayout>
+                <Label 
+                    Text = "0"
+                    x:Name = "txtSld"
+                    WidthRequest = "50" 
+                    /> 
+                <Slider
+                    Minimum="0"
+                    Maximum="100"
+                    Value="0"
+                    WidthRequest="200"
+                    x:Name="sldPrincipal"
+                    ValueChanged="OnSldChange"
+                    MinimumTrackColor="Red"
+                    MaximumTrackColor="Orange"
+                    ThumbColor="Blue"
+                    />
+            </HorizontalStackLayout>
+
+            <Frame
+                CornerRadius="10"
+                Padding="1"
+                IsClippedToBounds="True"
+                WidthRequest="200"
+                >
+                <Slider
+                    Minimum="1"
+                    Maximum="360"
+                    BackgroundColor="Orange"
+                    Value="10"
+                    MinimumTrackColor="Red"
+                    ThumbColor="Blue"
+                    MaximumTrackColor="White"
+                    x:Name="sldR"
+                    ValueChanged="OnSldR"/>
+            </Frame>
+
+            <Label
+                Text="Hola Mundo!"
+                x:Name="txtR"
+                FontFamily="Bison"
+                FontSize="20"/>
+
+            <Stepper
+                Minimum="1"
+                Maximum="10"
+                Increment="1"/>
+            <Button
+                x:Name="CounterBtn"
+                Text="Click me"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClicked"
+                HorizontalOptions="Fill" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

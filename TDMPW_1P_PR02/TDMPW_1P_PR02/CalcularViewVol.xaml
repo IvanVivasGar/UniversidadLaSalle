@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.CalcularViewVol"
+             Title="CalcularViewVol">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Image
+            Grid.Row="0"
+            Grid.Column="0"
+            Source="imgvol.png"
+            SemanticProperties.Description="Cute dot net bot waving hi to you!"
+            HeightRequest="200"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"/>
+
+        <Label
+            Grid.Row="0"
+            Grid.Column="1"
+            Grid.ColumnSpan="2"
+            Text="Bienvenido a Calcular Volumen"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"/>
+
+        <Label
+            Grid.Row="1"
+            Grid.Column="0"
+            Text="Ingrese los litros"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            FontSize="18"/>
+
+        <Entry
+            Grid.Row="1"
+            Grid.Column="1"
+            Grid.ColumnSpan="2"
+            x:Name="entradaVolumen"
+            Placeholder="Litros a Galones"
+            VerticalOptions="Center"/>
+
+        <Button
+            Grid.Row="2"
+            Grid.Column="0"
+            Grid.ColumnSpan="3"
+            x:Name="btnLongitud"
+            Text="Transformar a Galones"
+            SemanticProperties.Hint="Transformar a Galones"
+            Clicked="ClickedGalones"
+            HorizontalOptions="Center"/>
+
+        <Label
+            Grid.Row="3"
+            Grid.Column="1"
+            x:Name="lblResultadosGalones"
+            Text=""
+            VerticalOptions="Center"
+            HorizontalOptions="Center"/>
+    </Grid>
+</ContentPage>
