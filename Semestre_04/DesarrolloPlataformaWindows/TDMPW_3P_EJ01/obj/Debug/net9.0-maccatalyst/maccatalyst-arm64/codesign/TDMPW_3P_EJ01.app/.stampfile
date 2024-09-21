@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - --entitlements /Users/mac/Downloads/TDMPW/TDMPW_3P_EJ01/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/Entitlements.xcent /Users/mac/Downloads/TDMPW/TDMPW_3P_EJ01/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/TDMPW_3P_EJ01.app

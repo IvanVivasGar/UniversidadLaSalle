@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="TDMPW_2P_EJ02.MainPage"
+            Title = "Ejercicio 2">
+
+    <ContentPage
+        Title = "INICIO"
+        IconImageSource = "home.png">
+
+            <VerticalStackLayout>
+                <Label
+                    Text = "UNIVERSIDAD LA SALLE BJX"
+                    FontAttributes = "Bold"
+                    FontSize = "Large"
+                    HorizontalOptions = "Center"/>
+
+                <Image
+                    Source = "salle.jpeg"
+                    HeightRequest = "600"
+                    WidthRequest = "400"
+                    Aspect = "AspectFill"
+                    Margin = "10"/>
+            </VerticalStackLayout>
+    </ContentPage>
+
+    <ContentPage
+        Title = "Destacados"
+        IconImageSource = "star.png">
+
+            <VerticalStackLayout
+                Padding = "20">
+
+                <Image
+                    Source = "instalaciones.png"
+                    WidthRequest = "500"
+                    HeightRequest = "300"
+                    Aspect = "AspectFill"
+                    HorizontalOptions = "Center"/>
+
+                <StackLayout
+                    Margin = "5">
+                    <Label
+                        Text = "ARTICULO 1"
+                        FontSize = "Medium"
+                        FontAttributes = "Bold"/>
+                    <Label
+                        Text = "Contenido del articulo numero 1"
+                        FontSize = "Small"/>
+                </StackLayout>
+
+                <StackLayout
+                    Margin = "5">
+                    <Label
+                        Text = "ARTICULO 2"
+                        FontSize = "Medium"
+                        FontAttributes = "Bold"/>
+                    <Label
+                        Text = "Contenido del articulo numero 2"
+                        FontSize = "Small"/>
+                </StackLayout>
+
+                <StackLayout
+                    Margin = "5">
+                    <Label
+                        Text = "ARTICULO 3"
+                        FontSize = "Medium"
+                        FontAttributes = "Bold"/>
+                    <Label
+                        Text = "Contenido del articulo numero 3"
+                        FontSize = "Small"/>
+                </StackLayout>
+
+                <StackLayout
+                    Margin = "5">
+                    <Label
+                        Text = "ARTICULO 4"
+                        FontSize = "Medium"
+                        FontAttributes = "Bold"/>
+                    <Label
+                        Text = "Contenido del articulo numero 4"
+                        FontSize = "Small"/>
+                </StackLayout>
+            </VerticalStackLayout>
+    </ContentPage>
+
+    <ContentPage
+        Title = "Ubicacion"
+        IconImageSource = "marker.png">
+
+        <ScrollView>
+            <VerticalStackLayout
+                Margin = "20">
+                <Label
+                    Text = "Universidad La Salle Bajio"
+                    FontSize = "Large"
+                    HorizontalOptions = "Center"
+                    Margin = "0, 0, 0, 20"/>
+
+                <Label
+                    Text = "Av. Universidad, Lomas del Campestre"
+                    Margin = "0, 0, 0, 10"/>
+                <Label
+                    Text = "Tel. 477 710 8500"
+                    Margin = "0, 0, 0, 10"/>
+                <Label
+                    Text = "Sitio Web: www.lasallebajio.edu.mx"
+                    Margin = "0, 0, 0, 10"/>
+                <Image
+                    Source = "mapa.jpg"
+                    HeightRequest = "600"
+                    WidthRequest = "400"
+                    Aspect = "AspectFill"/>
+            </VerticalStackLayout>
+        </ScrollView>
+    </ContentPage>
+</TabbedPage>

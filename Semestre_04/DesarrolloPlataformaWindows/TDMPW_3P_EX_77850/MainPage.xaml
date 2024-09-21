@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:views="clr-namespace:TDMPW_3P_EX_77850.Views"
+             x:Class="TDMPW_3P_EX_77850.MainPage">
+
+    <ContentPage
+        Title="INICIO">
+        <Grid>
+            <Grid.Background>
+                <LinearGradientBrush
+                    EndPoint = "1, 1">
+                    <GradientStop Offset = "0.0" Color = "#051937"/>
+                    <GradientStop Offset = "0.25" Color = "#004d7a"/>
+                    <GradientStop Offset = "0.50" Color = "#004d7a"/>
+                    <GradientStop Offset = "0.75" Color = "#00bf72"/>
+                    <GradientStop Offset = "1" Color = "#a9eb12"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+
+            <VerticalStackLayout>
+                <Label
+                    Text="Calculo de Calificaciones"
+                    FontSize="40"
+                    HorizontalOptions="Center"
+                    Margin="10"/>
+                <Label
+                    Text="Bienvenido/a"
+                    FontSize="30"
+                    HorizontalOptions="Center"
+                    Margin="10"/>
+                <Image
+                    Source="grades.png"
+                    HorizontalOptions="Center"
+                    Aspect="AspectFill"
+                    HeightRequest="500"
+                    WidthRequest="500"
+                    Margin="25"/>
+            </VerticalStackLayout>
+        </Grid>
+    </ContentPage>
+
+    <views:MateriaView
+        Title="MATERIA"/>
+
+    <views:SemestreView
+        Title="SEMESTRE"/>
+</TabbedPage>

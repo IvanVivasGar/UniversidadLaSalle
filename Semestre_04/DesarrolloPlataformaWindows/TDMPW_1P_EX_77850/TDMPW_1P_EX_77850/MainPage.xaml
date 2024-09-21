@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TDMPW_1P_EX_77850.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <!--Texto en grande de conversion de unidades -->
+            <Label
+                Text="Conversion de Unidades 2.0"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1" />
+            <HorizontalStackLayout>
+                <!-- seccion de watts con una imagen y un boton que lleva a la pantalla de conversion de watts -->
+                <VerticalStackLayout>
+                    <Image
+                        Source="watts.png"
+                        HeightRequest="185"
+                        Aspect="AspectFit"/>
+                    <Button
+                        x:Name = "wattsPotencia"
+                        Text = "Calcular potencia en Watts"
+                        Clicked = "WattsClicked"
+                        HorizontalOptions = "Fill"/>
+                </VerticalStackLayout>
+
+                <!-- seccion de la conversion industrial con una imagen y un boton que lleva a la pagina de conversion de watts industrial -->
+                <VerticalStackLayout>
+                    <Image
+                        Source="industrial.png"
+                        HeightRequest="185"
+                        Aspect="AspectFit"/>
+                    <Button
+                        x:Name = "wattsIndustrial"
+                        Text = "Calcular potencia en Watts para un proceso industrial"
+                        Clicked = "WIndustrialClicked"
+                        HorizontalOptions = "Fill"/>
+                </VerticalStackLayout>
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
