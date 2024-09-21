@@ -1,0 +1,846 @@
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/appsettings.Development.json
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/appsettings.json
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/ContosoUniversity.staticwebassets.runtime.json
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/ContosoUniversity.exe
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/ContosoUniversity.deps.json
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/ContosoUniversity.runtimeconfig.json
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/ContosoUniversity.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/ContosoUniversity.pdb
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/obj/Debug/net7.0/ContosoUniversity.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/obj/Debug/net7.0/ContosoUniversity.AssemblyInfoInputs.cache
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/obj/Debug/net7.0/ContosoUniversity.AssemblyInfo.cs
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/obj/Debug/net7.0/ContosoUniversity.csproj.CoreCompileInputs.cache
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/obj/Debug/net7.0/ContosoUniversity.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/obj/Debug/net7.0/ContosoUniversity.RazorAssemblyInfo.cache
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/obj/Debug/net7.0/ContosoUniversity.RazorAssemblyInfo.cs
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/obj/Debug/net7.0/staticwebassets/msbuild.ContosoUniversity.Microsoft.AspNetCore.StaticWebAssets.props
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/obj/Debug/net7.0/staticwebassets/msbuild.build.ContosoUniversity.props
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.ContosoUniversity.props
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.ContosoUniversity.props
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/obj/Debug/net7.0/staticwebassets.pack.json
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/obj/Debug/net7.0/staticwebassets.build.json
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/obj/Debug/net7.0/staticwebassets.development.json
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/obj/Debug/net7.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/obj/Debug/net7.0/scopedcss/bundle/ContosoUniversity.styles.css
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/obj/Debug/net7.0/scopedcss/projectbundle/ContosoUniversity.bundle.scp.css
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/obj/Debug/net7.0/ContosoUniversity.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/obj/Debug/net7.0/refint/ContosoUniversity.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/obj/Debug/net7.0/ContosoUniversity.pdb
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/obj/Debug/net7.0/ContosoUniversity.genruntimeconfig.cache
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/obj/Debug/net7.0/ref/ContosoUniversity.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/Azure.Core.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/Azure.Identity.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/Humanizer.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/Microsoft.AspNetCore.Razor.Language.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/Microsoft.Bcl.AsyncInterfaces.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/Microsoft.Build.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/Microsoft.Build.Framework.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/Microsoft.CodeAnalysis.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/Microsoft.CodeAnalysis.CSharp.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/Microsoft.CodeAnalysis.CSharp.Features.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/Microsoft.CodeAnalysis.Elfie.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/Microsoft.CodeAnalysis.Features.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/Microsoft.CodeAnalysis.Razor.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/Microsoft.CodeAnalysis.Scripting.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/Microsoft.CodeAnalysis.Workspaces.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/Microsoft.Data.SqlClient.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/Microsoft.Data.Sqlite.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/Microsoft.DiaSymReader.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/Microsoft.DotNet.Scaffolding.Shared.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Sqlite.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/Microsoft.Identity.Client.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/Microsoft.Identity.Client.Extensions.Msal.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/Microsoft.IdentityModel.Abstractions.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/Microsoft.IdentityModel.JsonWebTokens.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/Microsoft.NET.StringTools.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/Microsoft.SqlServer.Server.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/dotnet-aspnet-codegenerator-design.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/Mono.TextTemplating.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/Newtonsoft.Json.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/NuGet.Common.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/NuGet.Configuration.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/NuGet.DependencyResolver.Core.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/NuGet.Frameworks.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/NuGet.LibraryModel.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/NuGet.Packaging.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/NuGet.ProjectModel.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/NuGet.Protocol.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/NuGet.Versioning.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/SQLitePCLRaw.batteries_v2.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/SQLitePCLRaw.core.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/SQLitePCLRaw.provider.e_sqlite3.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/System.CodeDom.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/System.Composition.AttributedModel.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/System.Composition.Convention.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/System.Composition.Hosting.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/System.Composition.Runtime.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/System.Composition.TypedParts.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/System.Configuration.ConfigurationManager.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/System.Drawing.Common.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/System.Memory.Data.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/System.Reflection.MetadataLoadContext.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/System.Runtime.Caching.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/System.Security.Permissions.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/System.Windows.Extensions.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/af/Humanizer.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/ar/Humanizer.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/az/Humanizer.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/bg/Humanizer.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/bn-BD/Humanizer.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/cs/Humanizer.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/da/Humanizer.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/de/Humanizer.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/el/Humanizer.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/es/Humanizer.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/fa/Humanizer.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/fi-FI/Humanizer.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/fr/Humanizer.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/fr-BE/Humanizer.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/he/Humanizer.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/hr/Humanizer.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/hu/Humanizer.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/hy/Humanizer.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/id/Humanizer.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/is/Humanizer.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/it/Humanizer.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/ja/Humanizer.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/ko-KR/Humanizer.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/ku/Humanizer.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/lv/Humanizer.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/ms-MY/Humanizer.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/mt/Humanizer.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/nb/Humanizer.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/nb-NO/Humanizer.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/nl/Humanizer.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/pl/Humanizer.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/pt/Humanizer.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/ro/Humanizer.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/ru/Humanizer.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/sk/Humanizer.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/sl/Humanizer.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/sr/Humanizer.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/sr-Latn/Humanizer.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/sv/Humanizer.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/th-TH/Humanizer.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/tr/Humanizer.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/uk/Humanizer.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/uz-Cyrl-UZ/Humanizer.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/uz-Latn-UZ/Humanizer.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/vi/Humanizer.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/zh-CN/Humanizer.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/zh-Hans/Humanizer.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/zh-Hant/Humanizer.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/runtimes/alpine-arm/native/libe_sqlite3.so
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/runtimes/alpine-arm64/native/libe_sqlite3.so
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/runtimes/alpine-x64/native/libe_sqlite3.so
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/runtimes/browser-wasm/nativeassets/net7.0/e_sqlite3.a
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/runtimes/linux-arm/native/libe_sqlite3.so
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/runtimes/linux-arm64/native/libe_sqlite3.so
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/runtimes/linux-armel/native/libe_sqlite3.so
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/runtimes/linux-mips64/native/libe_sqlite3.so
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/runtimes/linux-musl-arm/native/libe_sqlite3.so
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/runtimes/linux-musl-arm64/native/libe_sqlite3.so
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/runtimes/linux-musl-x64/native/libe_sqlite3.so
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/runtimes/linux-ppc64le/native/libe_sqlite3.so
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/runtimes/linux-s390x/native/libe_sqlite3.so
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/runtimes/linux-x64/native/libe_sqlite3.so
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/runtimes/linux-x86/native/libe_sqlite3.so
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/runtimes/maccatalyst-arm64/native/libe_sqlite3.dylib
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/runtimes/maccatalyst-x64/native/libe_sqlite3.dylib
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/runtimes/osx-arm64/native/libe_sqlite3.dylib
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/runtimes/osx-x64/native/libe_sqlite3.dylib
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/runtimes/win-arm/native/e_sqlite3.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/runtimes/win-arm64/native/e_sqlite3.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/runtimes/win-x64/native/e_sqlite3.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/runtimes/win-x86/native/e_sqlite3.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/obj/Debug/net7.0/ContosoUniversity.csproj.AssemblyReference.cache
+C:/Users/luisp/OneDrive/Escritorio/Universidad/3er semestre/Programacion para el Desarrollo de Aplicaciones Web/3er parcial/ContosoUniversity/obj/Debug/net7.0/ContosoUniversity.csproj.CopyComplete
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/appsettings.Development.json
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/appsettings.json
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/ContosoUniversity.staticwebassets.runtime.json
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/ContosoUniversity
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/ContosoUniversity.deps.json
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/ContosoUniversity.runtimeconfig.json
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/ContosoUniversity.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/ContosoUniversity.pdb
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/Azure.Core.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/Azure.Identity.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/Humanizer.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/Microsoft.AspNetCore.Razor.Language.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/Microsoft.Build.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/Microsoft.Build.Framework.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/Microsoft.CodeAnalysis.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/Microsoft.CodeAnalysis.CSharp.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/Microsoft.CodeAnalysis.CSharp.Features.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/Microsoft.CodeAnalysis.Elfie.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/Microsoft.CodeAnalysis.Features.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/Microsoft.CodeAnalysis.Razor.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/Microsoft.CodeAnalysis.Scripting.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/Microsoft.CodeAnalysis.Workspaces.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/Microsoft.Data.SqlClient.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/Microsoft.Data.Sqlite.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/Microsoft.DiaSymReader.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/Microsoft.DotNet.Scaffolding.Shared.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Sqlite.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/Microsoft.Identity.Client.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/Microsoft.NET.StringTools.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/Microsoft.SqlServer.Server.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/dotnet-aspnet-codegenerator-design.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/Mono.TextTemplating.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/NuGet.Common.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/NuGet.Configuration.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/NuGet.DependencyResolver.Core.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/NuGet.Frameworks.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/NuGet.LibraryModel.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/NuGet.Packaging.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/NuGet.ProjectModel.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/NuGet.Protocol.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/NuGet.Versioning.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/SQLitePCLRaw.batteries_v2.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/SQLitePCLRaw.core.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/SQLitePCLRaw.provider.e_sqlite3.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/System.CodeDom.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/System.Composition.AttributedModel.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/System.Composition.Convention.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/System.Composition.Hosting.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/System.Composition.Runtime.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/System.Composition.TypedParts.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/System.Configuration.ConfigurationManager.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/System.Drawing.Common.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/System.Memory.Data.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/System.Reflection.MetadataLoadContext.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/System.Runtime.Caching.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/System.Security.Cryptography.ProtectedData.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/System.Security.Permissions.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/System.Windows.Extensions.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/af/Humanizer.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/ar/Humanizer.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/az/Humanizer.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/bg/Humanizer.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/bn-BD/Humanizer.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/cs/Humanizer.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/da/Humanizer.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/de/Humanizer.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/el/Humanizer.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/es/Humanizer.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/fa/Humanizer.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/fi-FI/Humanizer.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/fr/Humanizer.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/fr-BE/Humanizer.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/he/Humanizer.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/hr/Humanizer.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/hu/Humanizer.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/hy/Humanizer.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/id/Humanizer.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/is/Humanizer.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/it/Humanizer.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/ja/Humanizer.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/ko-KR/Humanizer.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/ku/Humanizer.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/lv/Humanizer.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/ms-MY/Humanizer.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/mt/Humanizer.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/nb/Humanizer.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/nb-NO/Humanizer.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/nl/Humanizer.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/pl/Humanizer.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/pt/Humanizer.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/ro/Humanizer.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/ru/Humanizer.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/sk/Humanizer.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/sl/Humanizer.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/sr/Humanizer.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/sr-Latn/Humanizer.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/sv/Humanizer.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/th-TH/Humanizer.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/tr/Humanizer.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/uk/Humanizer.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/uz-Cyrl-UZ/Humanizer.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/uz-Latn-UZ/Humanizer.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/vi/Humanizer.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/zh-CN/Humanizer.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/zh-Hans/Humanizer.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/zh-Hant/Humanizer.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/runtimes/alpine-arm/native/libe_sqlite3.so
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/runtimes/alpine-arm64/native/libe_sqlite3.so
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/runtimes/alpine-x64/native/libe_sqlite3.so
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/runtimes/browser-wasm/nativeassets/net7.0/e_sqlite3.a
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/runtimes/linux-arm/native/libe_sqlite3.so
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/runtimes/linux-arm64/native/libe_sqlite3.so
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/runtimes/linux-armel/native/libe_sqlite3.so
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/runtimes/linux-mips64/native/libe_sqlite3.so
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/runtimes/linux-musl-arm/native/libe_sqlite3.so
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/runtimes/linux-musl-arm64/native/libe_sqlite3.so
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/runtimes/linux-musl-x64/native/libe_sqlite3.so
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/runtimes/linux-ppc64le/native/libe_sqlite3.so
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/runtimes/linux-s390x/native/libe_sqlite3.so
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/runtimes/linux-x64/native/libe_sqlite3.so
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/runtimes/linux-x86/native/libe_sqlite3.so
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/runtimes/maccatalyst-arm64/native/libe_sqlite3.dylib
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/runtimes/maccatalyst-x64/native/libe_sqlite3.dylib
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/runtimes/osx-arm64/native/libe_sqlite3.dylib
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/runtimes/osx-x64/native/libe_sqlite3.dylib
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/runtimes/win-arm/native/e_sqlite3.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/runtimes/win-arm64/native/e_sqlite3.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/runtimes/win-x64/native/e_sqlite3.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/runtimes/win-x86/native/e_sqlite3.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/mac/Downloads/ContosoUniversity/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/Users/mac/Downloads/ContosoUniversity/obj/Debug/net7.0/ContosoUniversity.csproj.AssemblyReference.cache
+/Users/mac/Downloads/ContosoUniversity/obj/Debug/net7.0/ContosoUniversity.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mac/Downloads/ContosoUniversity/obj/Debug/net7.0/ContosoUniversity.AssemblyInfoInputs.cache
+/Users/mac/Downloads/ContosoUniversity/obj/Debug/net7.0/ContosoUniversity.AssemblyInfo.cs
+/Users/mac/Downloads/ContosoUniversity/obj/Debug/net7.0/ContosoUniversity.csproj.CoreCompileInputs.cache
+/Users/mac/Downloads/ContosoUniversity/obj/Debug/net7.0/ContosoUniversity.MvcApplicationPartsAssemblyInfo.cache
+/Users/mac/Downloads/ContosoUniversity/obj/Debug/net7.0/ContosoUniversity.RazorAssemblyInfo.cache
+/Users/mac/Downloads/ContosoUniversity/obj/Debug/net7.0/ContosoUniversity.RazorAssemblyInfo.cs
+/Users/mac/Downloads/ContosoUniversity/obj/Debug/net7.0/staticwebassets/msbuild.ContosoUniversity.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/mac/Downloads/ContosoUniversity/obj/Debug/net7.0/staticwebassets/msbuild.build.ContosoUniversity.props
+/Users/mac/Downloads/ContosoUniversity/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.ContosoUniversity.props
+/Users/mac/Downloads/ContosoUniversity/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.ContosoUniversity.props
+/Users/mac/Downloads/ContosoUniversity/obj/Debug/net7.0/staticwebassets.pack.json
+/Users/mac/Downloads/ContosoUniversity/obj/Debug/net7.0/staticwebassets.build.json
+/Users/mac/Downloads/ContosoUniversity/obj/Debug/net7.0/staticwebassets.development.json
+/Users/mac/Downloads/ContosoUniversity/obj/Debug/net7.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
+/Users/mac/Downloads/ContosoUniversity/obj/Debug/net7.0/scopedcss/bundle/ContosoUniversity.styles.css
+/Users/mac/Downloads/ContosoUniversity/obj/Debug/net7.0/scopedcss/projectbundle/ContosoUniversity.bundle.scp.css
+/Users/mac/Downloads/ContosoUniversity/obj/Debug/net7.0/ContosoUniversity.csproj.CopyComplete
+/Users/mac/Downloads/ContosoUniversity/obj/Debug/net7.0/ContosoUniversity.dll
+/Users/mac/Downloads/ContosoUniversity/obj/Debug/net7.0/refint/ContosoUniversity.dll
+/Users/mac/Downloads/ContosoUniversity/obj/Debug/net7.0/ContosoUniversity.pdb
+/Users/mac/Downloads/ContosoUniversity/obj/Debug/net7.0/ContosoUniversity.genruntimeconfig.cache
+/Users/mac/Downloads/ContosoUniversity/obj/Debug/net7.0/ref/ContosoUniversity.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\appsettings.json
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\ContosoUniversity.staticwebassets.runtime.json
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\ContosoUniversity.exe
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\ContosoUniversity.deps.json
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\ContosoUniversity.runtimeconfig.json
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\ContosoUniversity.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\ContosoUniversity.pdb
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\Humanizer.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\Microsoft.Build.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\Microsoft.Build.Framework.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\Microsoft.CodeAnalysis.Elfie.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\Microsoft.CodeAnalysis.Features.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\Microsoft.Data.Sqlite.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\Microsoft.DiaSymReader.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\Microsoft.DotNet.Scaffolding.Shared.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\Microsoft.NET.StringTools.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\NuGet.Common.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\NuGet.Configuration.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\NuGet.DependencyResolver.Core.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\NuGet.Frameworks.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\NuGet.LibraryModel.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\NuGet.Packaging.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\NuGet.ProjectModel.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\NuGet.Protocol.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\NuGet.Versioning.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\SQLitePCLRaw.core.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\System.Composition.AttributedModel.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\System.Composition.Convention.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\System.Composition.Hosting.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\System.Composition.Runtime.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\System.Composition.TypedParts.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\System.Reflection.MetadataLoadContext.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\af\Humanizer.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\ar\Humanizer.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\az\Humanizer.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\bg\Humanizer.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\bn-BD\Humanizer.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\cs\Humanizer.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\da\Humanizer.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\de\Humanizer.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\el\Humanizer.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\es\Humanizer.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\fa\Humanizer.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\fi-FI\Humanizer.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\fr\Humanizer.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\fr-BE\Humanizer.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\he\Humanizer.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\hr\Humanizer.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\hu\Humanizer.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\hy\Humanizer.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\id\Humanizer.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\is\Humanizer.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\it\Humanizer.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\ja\Humanizer.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\ko-KR\Humanizer.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\ku\Humanizer.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\lv\Humanizer.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\ms-MY\Humanizer.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\mt\Humanizer.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\nb\Humanizer.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\nb-NO\Humanizer.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\nl\Humanizer.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\pl\Humanizer.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\pt\Humanizer.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\ro\Humanizer.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\ru\Humanizer.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\sk\Humanizer.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\sl\Humanizer.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\sr\Humanizer.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\sr-Latn\Humanizer.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\sv\Humanizer.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\th-TH\Humanizer.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\tr\Humanizer.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\uk\Humanizer.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\uz-Cyrl-UZ\Humanizer.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\uz-Latn-UZ\Humanizer.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\vi\Humanizer.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\zh-CN\Humanizer.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\zh-Hans\Humanizer.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\zh-Hant\Humanizer.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\runtimes\alpine-arm\native\libe_sqlite3.so
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\runtimes\alpine-arm64\native\libe_sqlite3.so
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\runtimes\browser-wasm\nativeassets\net7.0\e_sqlite3.a
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\obj\Debug\net7.0\ContosoUniversity.csproj.AssemblyReference.cache
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\obj\Debug\net7.0\ContosoUniversity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\obj\Debug\net7.0\ContosoUniversity.AssemblyInfoInputs.cache
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\obj\Debug\net7.0\ContosoUniversity.AssemblyInfo.cs
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\obj\Debug\net7.0\ContosoUniversity.csproj.CoreCompileInputs.cache
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\obj\Debug\net7.0\ContosoUniversity.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\obj\Debug\net7.0\ContosoUniversity.RazorAssemblyInfo.cache
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\obj\Debug\net7.0\ContosoUniversity.RazorAssemblyInfo.cs
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\obj\Debug\net7.0\staticwebassets\msbuild.ContosoUniversity.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\obj\Debug\net7.0\staticwebassets\msbuild.build.ContosoUniversity.props
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.ContosoUniversity.props
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.ContosoUniversity.props
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\obj\Debug\net7.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\obj\Debug\net7.0\scopedcss\bundle\ContosoUniversity.styles.css
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\obj\Debug\net7.0\scopedcss\projectbundle\ContosoUniversity.bundle.scp.css
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\obj\Debug\net7.0\ContosoUniversity.csproj.CopyComplete
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\obj\Debug\net7.0\ContosoUniversity.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\obj\Debug\net7.0\refint\ContosoUniversity.dll
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\obj\Debug\net7.0\ContosoUniversity.pdb
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\obj\Debug\net7.0\ContosoUniversity.genruntimeconfig.cache
+C:\Users\Ulises\OneDrive\Desktop\escuela\ContosoUniversity 8\ContosoUniversity\obj\Debug\net7.0\ref\ContosoUniversity.dll

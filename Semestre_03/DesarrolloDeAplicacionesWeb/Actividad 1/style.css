@@ -1,0 +1,172 @@
+/*
+outline: red dashed 1px;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap');
+
+@font-face {
+    font-family: Game Of Thrones;
+    src: url(Font/GameOfThrones/Game\ of\ Thrones.ttf);
+}
+
+/* ETIQUETAS QUE APLICAR A TODA LA PAGINA */
+html{
+    background-color: black;
+}
+
+/* ETIQUETAS QUE APLICAN A TODOS LOS OBJETOS DE LA PAGINA */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ETIQUETA QUE APLICA A TODO EL CUERPO,  */
+body{
+    min-height: 100vh;
+}
+
+/* ETIQUETAS QUE APLICAN AL TITULO DEL LOGO */
+.logo{
+    font-family: Game Of Thrones;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+/* ETIQUETA QUE APLICA A LA IMAGEN, DA UN POCO DE ESPECIO ENTRE EL TITULO Y LA IMAGEN */
+.logo img{
+    padding-right: 15px;
+}
+
+/* ETIQUETAS PARA EL MENU */
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color: black;
+}
+
+/* ETIQUETAS PARA LOS HYPERVINCULOS DEL MENU QUE NO SEAN GAME OF THRONES */
+.navbar a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    position: relative
+}
+
+/* ETIQUETAS QUE APLICAN SOLO AL HYPERVINCULO GAME OF THRONES */
+#GoT{
+    font-family: Game Of Thrones;
+    font-weight: 50;
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    position: relative
+}
+
+/* ETIQUETAS PARA EL GIF DE INICIO */
+.dragonfire{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+/* ETIQUETAS PARA LA TABLA DE LA PAGINA PRINCIPAL */
+.rasgostargaryen{
+    table-layout: fixed;
+    width: 100%;
+    column-width: 50%;
+    background-color: black;
+    padding-top: 0;
+}
+
+/* ETIQUETAS PARA EL CONTENIDO DE LA TABLA DE LA PAGINA PRINCIPAL */
+.rasgostargaryen p{
+    padding: 50px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    line-height: 2;
+}
+
+/* ETIQUETAS PARA LOS TITULOS DE LAS COLUMNAS DE LA TABLA DE LA PAGINA PRINCIPAL */
+.rasgostargaryen h3{
+    padding: 5px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-top: 0;
+}
+
+/* ETIQUETAS PARA LA FRASE DE LA PAGINA PRINCIPAL */
+.frasedaemon{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3em;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+/* ETIQUETAS PARA LA FRASE DE DAEMON */
+#fraseprincipal{
+    text-align: center;
+}
+
+/* ETIQUETAS PARA EL NOMBRE DE DAEMON */
+#referenciafrase{
+    text-align: right;
+    padding-right: 50vh;
+}
+
+.rasgostargaryen{
+    padding-bottom: 40px;
+    table-layout: fixed;
+    columns: 50%;
+}
+
+.rasgostargaryen img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    padding-bottom: 50px;
+}
+
+.footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+.footer h3{
+    padding-left: 10%;
+    padding-bottom: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer ul{
+    list-style: none;
+    padding-left: 12%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/*  */
