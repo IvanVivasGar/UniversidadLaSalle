@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+  box-sizing: border-box;
+  /* Esta propiedad te permite incluir el padding 
+  y border en el ancho y alto del elemento.*/
+}
+ 
+body {
+  margin: 0px;
+  font-family: Arial;
+}
+ 
+.header {
+  text-align: center;
+  padding: 32px;
+}
+ 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+ 
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+ 
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  border-radius: 25px;
+}
+ 
+@media (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+ 
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+<body>
+ 
+<!-- Encabezado -->
+<div class="header">
+  <h1>Galería de imágenes</h1>
+  <p>Cambia el tamaño del browser para ver el efecto responsivo.</p>
+</div>
+ 
+<!-- Galería -->
+<div class="row"> 
+  <div class="column">
+    <div style="background-color: aqua; width: 50%;">wewerewr</div>
+    <div style="background-color: aqua; width: 20%;">wewerewr</div>
+    <img src="imagen1.jpg" style="width:50%">
+    <img src="imagen1.jpg" style="width:50%">
+    <p>Quiero dos imágenes por codigo</p>
+    <img src="imagen1.jpg" style="width:100%">
+    <img src="imagen2.jpg" style="width:100%">
+    <img src="imagen1.jpg" style="width:100%">
+  </div>
+  
+  <div class="column">
+    <img src="imagen2.jpg" style="width:100%">
+    <img src="imagen1.jpg" style="width:100%">
+    <img src="imagen1.jpg" style="width:100%">
+    <img src="imagen1.jpg" style="width:100%">
+  </div> 
+   
+  <div class="column">
+    <img src="imagen1.jpg" style="width:100%">
+    <img src="imagen2.jpg" style="width:100%">
+    <img src="imagen1.jpg" style="width:100%">
+    <img src="imagen1.jpg" style="width:100%">
+  </div>
+  
+  <div class="column">
+    <img src="imagen1.jpg" style="width:100%">
+    <img src="imagen1.jpg" style="width:100%">
+    <img src="imagen1.jpg" style="width:100%">
+    <img src="imagen2.jpg" style="width:100%">
+  </div>
+</div>
+ 
+</body>
+</html>
