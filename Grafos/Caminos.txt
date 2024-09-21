@@ -1,0 +1,200 @@
+Jïs-Hertogenbosch,Zwolle,307125
+Abu Dhabi,Zoetermeer,737350
+Adelaide,Zaanstad,79678
+Ajman,Yerevan,264687
+al-Ayn,Wollongong,809142
+Alger,Willemstad,462273
+Alkmaar,Vicente LÇüpez,525549
+al-Manama,Vanadzor,476782
+Almere,Utrecht,36980
+Almirante Brown,Tungi,883625
+Amersfoort,Tres de Febrero,685131
+Amsterdam,Townsville,591441
+Andorra la Vella,Tlemcen (Tilimsen),609621
+Annaba,Tirana,236141
+Antwerpen,Tilburg,342051
+Apeldoorn,Tigre,962510
+Arnhem,Tiaret,391922
+Avellaneda,Thimphu,291647
+BÇ¸char,The Valley,110146
+BÇ¸jaÇîa,Tangail,720415
+BahÇða Blanca,Tandil,549719
+Baku,Tafuna,665051
+Barisal,TÇ¸bessa,646171
+Batna,Sylhet,716037
+Belize City,Sydney,645227
+Belmopan,Sumqayit,771322
+Benguela,Sucre,571236
+Berazategui,South Hill,528520
+Biskra,Skikda,188840
+Blida (el-Boulaida),Sirajganj,41209
+Bogra,Sidi Bel AbbÇùs,402582
+Brahmanbaria,Sharja,268610
+Breda,Schaerbeek,167246
+Bridgetown,Santiago del Estero,665272
+Brisbane,Santa FÇ¸,185789
+Brugge,Santa Cruz de la Sierra,597457
+Bruxelles [Brussel],San Salvador de Jujuy,49175
+Buenos Aires,San Rafael,6858
+CÇürdoba,San NicolÇ­s de los Arroyos,149067
+Cairns,San Miguel de TucumÇ­n,758149
+Canberra,San Miguel,96862
+Central Coast,San Luis,205896
+Charleroi,San Juan,961889
+Chittagong,San Isidro,350396
+Cochabamba,San Fernando del Valle de Cata,52159
+Comilla,San Fernando,888695
+Comodoro Rivadavia,Salta,645812
+Concordia,Saint John¶ïs,323613
+Constantine,Saint George,880269
+Corrientes,Saidpur,502262
+Cotonou,SÇ¸tif,76357
+Delft,Rotterdam,386755
+Dhaka,Rosario,976834
+Dinajpur,Resistencia,636083
+Djougou,RÇðo Cuarto,299264
+Dordrecht,Rangpur,136450
+Dubai,Rajshahi,416069
+Ech-Chleff (el-Asnam),Quilmes,647003
+Ede,Qandahar,356370
+Eindhoven,PotosÇð,717651
+El Alto,Posadas,848307
+Emmen,Porto-Novo,280036
+Enschede,Pilar,890251
+Escobar,Perth,954797
+Esteban EcheverrÇða,ParanÇ­,582244
+Ezeiza,Parakou,256471
+Fagatogo,Pabna,488942
+Florencio Varela,Oruro,989172
+Formosa,Oranjestad,903265
+GÇÏncÇÏ,Oran,839786
+Gazipur,Nijmegen,150752
+Geelong,Newcastle,226388
+General San MartÇðn,NeuquÇ¸n,281402
+Gent,Nawabganj,199022
+GhardaÇîa,Nassau,301167
+Gjumri,Narsinghdi,183669
+Godoy Cruz,Narayanganj,735965
+Gold Coast,Naogaon,972213
+Groningen,Namur,746797
+GuaymallÇ¸n,Namibe,630046
+Haag,name,55695
+Haarlem,Mymensingh,277408
+Haarlemmermeer,Mostaganem,907549
+Hamilton,Moreno,489753
+Heerlen,MorÇün,70430
+Herat,Mons,57839
+Hobart,MingÇÏÇõevir,720424
+Huambo,Merlo,883404
+Hurlingham,Mendoza,113221
+ItuzaingÇü,Melbourne,765029
+Jamalpur,Mazar-e-Sharif,183913
+Jessore,Mar del Plata,45126
+JosÇ¸ C. Paz,Malvinas Argentinas,716047
+Kabul,Maastricht,224247
+Khulna,Luanda,51457
+La Matanza,Lomas de Zamora,504711
+La Paz,Lobito,42046
+La Plata,LiÇùge,437879
+La Rioja,Leiden,774097
+¶ïs-Hertogenbosch,Rosario,380891
+Abu Dhabi,Resistencia,478242
+Adelaide,RÇðo Cuarto,494684
+Ajman,Rangpur,718593
+al-Ayn,Rajshahi,269682
+Alger,Quilmes,504854
+Alkmaar,Qandahar,624167
+al-Manama,PotosÇð,425284
+Almere,Posadas,487441
+Almirante Brown,Porto-Novo,667705
+Amersfoort,Pilar,825094
+Amsterdam,Perth,924250
+Andorra la Vella,ParanÇ­,600833
+Annaba,Parakou,357593
+Antwerpen,Pabna,69131
+Apeldoorn,Oruro,340567
+Arnhem,Oranjestad,667350
+Avellaneda,Zwolle,9600
+BÇ¸char,Zoetermeer,433337
+BÇ¸jaÇîa,Zaanstad,777253
+BahÇða Blanca,Yerevan,151052
+Baku,Wollongong,471746
+Barisal,Willemstad,404459
+Batna,Vicente LÇüpez,176139
+Belize City,Vanadzor,507249
+Belmopan,Utrecht,946898
+Benguela,Tungi,204139
+Berazategui,Tres de Febrero,205663
+Biskra,Townsville,654404
+Blida (el-Boulaida),Tlemcen (Tilimsen),191486
+Bogra,Tirana,279011
+Brahmanbaria,Tilburg,21480
+Breda,Tigre,207198
+Bridgetown,Tiaret,608627
+Brisbane,Thimphu,312061
+Brugge,The Valley,754316
+Bruxelles [Brussel],Tangail,576820
+Buenos Aires,Tandil,774363
+CÇürdoba,Nijmegen,273764
+Cairns,Newcastle,439036
+Canberra,NeuquÇ¸n,622643
+Central Coast,Nawabganj,985728
+Charleroi,Nassau,934624
+Chittagong,Narsinghdi,274805
+Cochabamba,Narayanganj,183402
+Comilla,Naogaon,241072
+Comodoro Rivadavia,Namur,703942
+Concordia,Namibe,914348
+Constantine,name,574223
+Corrientes,Mymensingh,787419
+Cotonou,Mostaganem,259862
+Delft,Moreno,386845
+Dhaka,MorÇün,885612
+Dinajpur,Mons,650341
+Djougou,MingÇÏÇõevir,513098
+Dordrecht,Merlo,843915
+Dubai,Mendoza,311062
+Ech-Chleff (el-Asnam),Melbourne,44555
+Ede,Mazar-e-Sharif,131147
+Eindhoven,Mar del Plata,529081
+El Alto,Malvinas Argentinas,38002
+Emmen,Maastricht,459907
+Enschede,Luanda,580188
+Escobar,Lomas de Zamora,462948
+Esteban EcheverrÇða,Lobito,204166
+Ezeiza,LiÇùge,906268
+Fagatogo,Leiden,466448
+Florencio Varela,Rosario,303527
+Formosa,Resistencia,201629
+GÇÏncÇÏ,RÇðo Cuarto,380027
+Gazipur,Rangpur,507350
+Geelong,Gent,391474
+General San MartÇðn,Charleroi,814598
+Gent,LiÇùge,163904
+GhardaÇîa,Bruxelles [Brussel],951642
+Gjumri,Brugge,779138
+Godoy Cruz,Schaerbeek,866850
+Gold Coast,Namur,985900
+Groningen,Mons,661135
+GuaymallÇ¸n,Belize City,877822
+Haag,Belmopan,321451
+Haarlem,Cotonou,199082
+Haarlemmermeer,Porto-Novo,415191
+Hamilton,Djougou,288068
+Heerlen,Parakou,114889
+Herat,Saint George,528535
+Hobart,Hamilton,263716
+Huambo,Thimphu,632323
+Hurlingham,Santa Cruz de la Sierra,478295
+ItuzaingÇü,La Paz,462947
+Jamalpur,El Alto,286238
+Jessore,Cochabamba,68034
+JosÇ¸ C. Paz,Oruro,446915
+Kabul,Sucre,719682
+Khulna,PotosÇð,442288
+La Matanza,Hamilton,685604
+La Paz,Perth,150722
+La Plata,Vicente LÇüpez,193066
+La Rioja,Leiden,134226
+LaRioja,Porto-Novo,265552
+LaRioja,Perth,901437
