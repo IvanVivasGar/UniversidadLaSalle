@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:TDMPW_3P_EX_77850.ViewModels"
+             x:Class="TDMPW_3P_EX_77850.Views.SemestreView"
+             Title="SemestreView">
+
+    <ContentPage.BindingContext>
+        <vm:SemestreViewModel/>
+    </ContentPage.BindingContext>
+
+    <Grid
+        ColumnDefinitions=".2*, .4*, .4*"
+        RowDefinitions=".2*, .2*, .2*, .4*">
+        <Grid.Background>
+            <LinearGradientBrush
+                EndPoint = "1, 1">
+                <GradientStop Offset = "0.0" Color = "#051937"/>
+                <GradientStop Offset = "0.25" Color = "#004d7a"/>
+                <GradientStop Offset = "0.50" Color = "#004d7a"/>
+                <GradientStop Offset = "0.75" Color = "#00bf72"/>
+                <GradientStop Offset = "1" Color = "#a9eb12"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <Label
+            Text="Nombre de la Materia"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"/>
+        <Label
+            Text="Valor de Parciales"
+            HorizontalOptions="Center"
+            Grid.Row="1"
+            VerticalOptions="Center"/>
+        <Label
+            Text="Calificaciones de primeros dos parciales"
+            HorizontalOptions="Center"
+            Grid.Row="2"
+            VerticalOptions="Center"/>
+
+
+            <!-- ENTRY DE NOMBRE DE MATERIA -->
+        <Entry
+            Grid.Column="1"
+            Margin="20"
+            VerticalOptions="Fill"
+            HorizontalOptions="Fill"
+            Placeholder="Ingresa el nombre de la materia"
+            x:Name="entryNombreMateria"
+            IsVisible="True"/>
+        <Label
+            Text="{Binding Semestre.Nombre}"
+            Grid.Column="1"
+            Margin="20"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            IsVisible="False"
+            x:Name="lblNombreMateria"/>
+        <Button
+            Grid.Column="2"
+            Text="Ingresar"
+            Margin="20"
+            VerticalOptions="Center"
+            Command="{Binding ActualizarNombreCommand}"
+            CommandParameter="{Binding Text, Source={x:Reference entryNombreMateria}}"
+            Clicked="ClikedNombreMateria"
+            x:Name="btnNombreMateria"
+            IsVisible="True"/>
+
+
+            <!-- ENTRYS DE VALORES DE PARCIALES -->
+        <Entry
+            Grid.Column="1"
+            Grid.Row="1"
+            Margin="20"
+            VerticalOptions="Fill"
+            HorizontalOptions="Fill"
+            Placeholder="Ingresa los valores de los parciales separados por comas"
+            x:Name="entryValoresParciales"/>
+        <Label
+            Text="{Binding Semestre.ValorParciales}"
+            Grid.Column="1"
+            Grid.Row="1"
+            Margin="20"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            IsVisible="False"
+            x:Name="lblValoresParciales"/>
+        <Button
+            Grid.Column="2"
+            Grid.Row="1"
+            Text="Ingresar"
+            Margin="20"
+            VerticalOptions="Center"
+            Command="{Binding ActualizarValorParcialesCommand}"
+            CommandParameter="{Binding Text, Source={x:Reference entryValoresParciales}}"
+            Clicked="ClickedValoresParciales"
+            x:Name="btnValoresParciales"/>
+
+
+            <!-- ENTRYS DE CALIFICACIONES DE PRIMEROS DOS PARCIALES -->
+        <Entry
+            Grid.Column="1"
+            Grid.Row="2"
+            Margin="20"
+            VerticalOptions="Fill"
+            HorizontalOptions="Fill"
+            Placeholder="Ingresa las calificaciones de los dos primeros parciales"
+            x:Name="entryCalificacionParciales"/>
+        <Label
+            Text="{Binding Semestre.CalificacionParciales}"
+            Grid.Column="1"
+            Grid.Row="2"
+            Margin="20"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            IsVisible="False"
+            x:Name="lblCalificacionParciales"/>
+        <Button
+            Grid.Column="2"
+            Grid.Row="2"
+            Text="Ingresar"
+            Margin="20"
+            VerticalOptions="Center"
+            Command="{Binding ActualizarCalificacionParcialesCommand}"
+            CommandParameter="{Binding Text, Source={x:Reference entryCalificacionParciales}}"
+            x:Name="btnCalificacionParciales"
+            Clicked="ClikedCalificacionParciales"/>
+
+
+        <VerticalStackLayout
+            Grid.Row="3"
+            Grid.ColumnSpan="3"
+            HorizontalOptions="Center">
+            <Button
+                Text="Calcular Calificaciones Necesarias"
+                Margin="20"
+                VerticalOptions="Start"
+                Clicked="ClickedCalcularCalificacionNecesaria"
+                x:Name="btnCalificacionNecesaria"
+                IsVisible="False"/>
+            <Button
+                Text="Reiniciar Calculo"
+                Margin="20"
+                VerticalOptions="Start"
+                Clicked="ClickedReiniciarCalcularCalificacionNecesaria"
+                x:Name="btnReiniciarCalificacionNecesaria"
+                IsVisible="False"/>
+
+            <HorizontalStackLayout>
+                <Label
+                    Text="Calificacion para sacar 6: "
+                    FontSize="30"
+                    Margin="20"/>
+                <Label
+                    Text="..."
+                    FontSize="30"
+                    Margin="20"
+                    x:Name="lblCalificacionMinima"/>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout>
+                <Label
+                    Text="Calificacion para sacar 10: "
+                    FontSize="30"
+                    Margin="20"/>
+                <Label
+                    Text="..."
+                    FontSize="30"
+                    Margin="20"
+                    x:Name="lblCalificacionMaxima"/>
+            </HorizontalStackLayout>
+
+            <Label
+                Text="..."
+                VerticalOptions="Start"
+                FontSize="30"
+                Margin="20"
+                x:Name="lblMensajeFinal"/>
+        </VerticalStackLayout>
+    </Grid>
+</ContentPage>

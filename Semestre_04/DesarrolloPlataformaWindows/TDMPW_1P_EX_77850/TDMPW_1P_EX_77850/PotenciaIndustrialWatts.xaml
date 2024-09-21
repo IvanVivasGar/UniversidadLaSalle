@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TDMPW_1P_EX_77850.PotenciaIndustrialWatts"
+             Title="PotenciaIndustrialWatts">
+
+    <VerticalStackLayout>
+        <HorizontalStackLayout>
+            <!-- Seccion de joules con imagen de un viejito y un textbox que solo ingresa datos numericos -->
+            <VerticalStackLayout>
+                <Image
+                    Source="joules.png"
+                    HeightRequest="185"
+                    Aspect="AspectFit"/>
+                <TextBox
+                    x:Name="cantidadJoules"
+                    PlaceholderText="Ingresa la cantidad de joules"
+                    Keyboard="Numeric"/>
+            </VerticalStackLayout>
+
+            <!-- Seccion de segundos con una imagen de segundos y un textbox que solo ingresa datos numericos -->
+            <VerticalStackLayout>
+                <Image
+                    Source="segundos.png"
+                    HeightRequest="185"
+                    Aspect="AspectFit"/>
+                <TextBox
+                    x:Name="cantidadSegundos"
+                    PlaceholderText="Ingresa la cantidad de tiempo en segundos"
+                    Keyboard="Numeric"/>
+            </VerticalStackLayout>
+        </HorizontalStackLayout>
+
+        <!-- Boton que llama a la funcion para realizar la conversion -->
+        <Button
+            x:Name="conversionIndustrial"
+            Text="Conversion"
+            OnCounterClicked="ConversionIndustrial"/>
+
+        <!-- Label que muestra el resultado de la conversion -->
+        <Label
+            x:Name="resultadoConversionIndustrial"
+            Text="Resultado"/>
+    </VerticalStackLayout>
+</ContentPage>

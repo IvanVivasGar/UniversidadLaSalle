@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="TDMPW_2P_PR03.MainPage"
+            Title = "TDMPW_2P_PR03">
+
+        <!-- PAGINA DE BIENVENIDA -->
+    <ContentPage
+        Title = "Bienvenida"
+        IconImageSource = "home.png">
+        <VerticalStackLayout>
+            <Frame
+                BorderColor = "Gray"
+                CornerRadius = "10"
+                Margin = "10">
+                <StackLayout>
+                    <Frame
+                        BorderColor = "Black"
+                        CornerRadius = "100"
+                        HeightRequest = "200"
+                        WidthRequest = "200"
+                        HorizontalOptions = "Center"
+                        IsClippedToBounds = "True"
+                        Margin = "0, 15">
+                        <Image
+                            Source = "hzd_bienvenida.jpg"
+                            Aspect = "AspectFill"
+                            HeightRequest = "250"
+                            WidthRequest = "250"
+                            Margin = "0, 10"/>
+                    </Frame>
+                    <Label
+                        Text = "Horizon Zero Dawn"
+                        FontSize = "20"
+                        Margin = "0, 10"/>
+                    <BoxView
+                        Color = "Gray"
+                        HeightRequest = "2"
+                        HorizontalOptions = "Fill"/>
+                    <Label
+                        Text = "Explore distant lands, fight bigger and more awe-inspiring machines, and encounter astonishing new tribes as you return to the far-future, post-apocalyptic world of Horizon. The land is dying. Vicious storms and an unstoppable blight ravage the scattered remnants of humanity while fearsome new machines prowl their borders, and life on Earth is hurtling toward another extinction. It's up to Aloy to uncover the secrets behind these threats and restore order and balance to the world. Along the way, she must reunite with old friends, forge alliances with warring new factions and unravel the legacy of the ancient past."
+                        Margin = "0, 10"
+                        FontSize = "15"/>
+                </StackLayout>
+            </Frame>
+        </VerticalStackLayout>
+    </ContentPage>
+
+        <!-- BIOGRAFIA DEL PERSONAJE 1 -->
+    <ContentPage
+        Title = "Aloy"
+        IconImageSource = "iconuno.svg">
+        <VerticalStackLayout>
+            <Grid
+                Margin = "10">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Frame
+                    BorderColor = "Gray"
+                    CornerRadius = "10"
+                    Margin = "15, 0"
+                    Grid.ColumnSpan = "2">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+
+                        <Frame
+                            BorderColor = "Black"
+                            CornerRadius = "100"
+                            HeightRequest = "200"
+                            WidthRequest = "200"
+                            HorizontalOptions = "Center"
+                            IsClippedToBounds = "True"
+                            Margin = "0, 15">
+                            <Image
+                                Source = "aloy.jpg"
+                                Aspect = "AspectFill"
+                                HeightRequest = "250"
+                                WidthRequest = "250"
+                                Margin = "0, 10"/>
+                        </Frame>
+
+                        <StackLayout
+                            Grid.Column = "1"
+                            VerticalOptions = "Center"
+                            Margin = "15, 0, 0, 0">
+                            <Label
+                                Text = "Aloy"
+                                FontSize = "20"
+                                Margin = "0, 10"/>
+                            <BoxView
+                                Color = "Gray"
+                                HeightRequest = "2"
+                                HorizontalOptions = "Fill"/>
+                        </StackLayout>
+                        <Label
+                            Text = "The main protagonist of Horizon Zero Dawn and Horizon Forbidden West. She was born in the 31st century, a time where humans live in small, primitive tribes, and the more technologically-advanced humans of the past are known as the Old Ones. She is a Nora Brave and machine hunter who is later discovered to be the exact genectic clone of the 21st centery scientist Dr. Elisabet Sobeck. Throughout most of her life she is often mistreated by others, due to her status as an outcast. This results in her forming strong relationship with Rost, despite being her adoptive father."
+                            Margin = "0, 10"
+                            FontSize = "15"
+                            Grid.Row = "1"
+                            Grid.ColumnSpan = "2"/>
+                    </Grid>
+                </Frame>
+                    <!-- Seccion de botones -->
+                <Grid
+                    Grid.Row = "1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <ImageButton
+                        x:Name = "likeAloy"
+                        Clicked = "ClickedLikeAloy"
+                        Source = "like.png"
+                        HorizontalOptions = "Center"
+                        VerticalOptions = "Center"
+                        HeightRequest = "50"
+                        WidthRequest = "50"
+                        Margin = "0, 5"/>
+                    <ImageButton
+                        x:Name = "dislikeAloy"
+                        Clicked = "ClickedDislikeAloy"
+                        Source = "dislike.png"
+                        HorizontalOptions = "Center"
+                        VerticalOptions = "Center"
+                        Grid.Column = "1"
+                        HeightRequest = "50"
+                        WidthRequest = "50"
+                        Margin = "0, 5"/>
+                </Grid>
+
+                <Label
+                    x:Name = "aloyLabel"
+                    Text = ""
+                    VerticalOptions = "Center"
+                    HorizontalOptions = "Center"
+                    Grid.Row = "1"
+                    Grid.Column = "1"/>
+            </Grid>
+        </VerticalStackLayout>
+    </ContentPage>
+
+        <!-- BIOGRAFIA DEL PERSONAJE 2 -->
+    <ContentPage
+        Title = "Sylens"
+        IconImageSource = "icondos.svg">
+        <VerticalStackLayout>
+            <Grid
+                Margin = "10">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Frame
+                    BorderColor = "Gray"
+                    CornerRadius = "10"
+                    Margin = "15, 0"
+                    Grid.ColumnSpan = "2">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+
+                        <Frame
+                            BorderColor = "Black"
+                            CornerRadius = "100"
+                            HeightRequest = "200"
+                            WidthRequest = "200"
+                            HorizontalOptions = "Center"
+                            IsClippedToBounds = "True"
+                            Margin = "0, 15"
+                            Grid.Column = "1">
+                            <Image
+                                Source = "sylens.jpg"
+                                Aspect = "AspectFill"
+                                HeightRequest = "250"
+                                WidthRequest = "250"
+                                Margin = "0, 10"/>
+                        </Frame>
+
+                        <StackLayout
+                            VerticalOptions = "Center"
+                            Margin = "5, 0, 0, 15">
+                            <Label
+                                Text = "Sylens"
+                                FontSize = "20"
+                                Margin = "0, 10"/>
+                            <BoxView
+                                Color = "Gray"
+                                HeightRequest = "2"
+                                HorizontalOptions = "Fill"/>
+                        </StackLayout>
+                        <Label
+                            Text = "Sylens is the deuteragonist of Horizon Zero Dawn and a returning character in Horizon Forbidden West. He is a wandering traveler, archaeologist and researcher, and the founder of the Eclipse and the Sons of Prometheus. He has a deep fascination with the history and technology of the Old Ones, and allies with Aloy to discover the truth behind the machines and the fate of the Old Ones."
+                            Margin = "0, 10"
+                            FontSize = "15"
+                            Grid.Row = "1"
+                            Grid.ColumnSpan = "2"/>
+                    </Grid>
+                </Frame>
+                    <!-- Seccion de botones -->
+                <Grid
+                    Grid.Row = "1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <ImageButton
+                        x:Name = "likeSylens"
+                        Clicked = "ClickedLikeSylens"
+                        Source = "like.png"
+                        HorizontalOptions = "Center"
+                        VerticalOptions = "Center"
+                        HeightRequest = "50"
+                        WidthRequest = "50"
+                        Margin = "0, 5"/>
+                    <ImageButton
+                        x:Name = "dislikeSylens"
+                        Clicked = "ClickedDislikeSylens"
+                        Source = "dislike.png"
+                        HorizontalOptions = "Center"
+                        VerticalOptions = "Center"
+                        Grid.Column = "1"
+                        HeightRequest = "50"
+                        WidthRequest = "50"
+                        Margin = "0, 5"/>
+                </Grid>
+
+                <Label
+                    x:Name = "sylensLabel"
+                    Text = ""
+                    VerticalOptions = "Center"
+                    HorizontalOptions = "Center"
+                    Grid.Row = "1"
+                    Grid.Column = "1"/>
+            </Grid>
+        </VerticalStackLayout>
+    </ContentPage>
+</TabbedPage>

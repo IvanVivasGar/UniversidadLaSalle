@@ -1,0 +1,77 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TDMPW_2P_PR04
+build_property.ProjectDir = C:\Users\Ivan Vivas\Documents\RepositoriosUniversidad\TallerDeDesarrolloParaPlataformaWindows\TDMPW_2P_PR04\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/Ivan Vivas/Documents/RepositoriosUniversidad/TallerDeDesarrolloParaPlataformaWindows/TDMPW_2P_PR04/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TDMPW_2P_PR04.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Ivan Vivas/Documents/RepositoriosUniversidad/TallerDeDesarrolloParaPlataformaWindows/TDMPW_2P_PR04/AppFlyout.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TDMPW_2P_PR04.AppFlyout.xaml
+build_metadata.AdditionalFiles.TargetPath = AppFlyout.xaml
+build_metadata.AdditionalFiles.RelativePath = AppFlyout.xaml
+
+[C:/Users/Ivan Vivas/Documents/RepositoriosUniversidad/TallerDeDesarrolloParaPlataformaWindows/TDMPW_2P_PR04/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TDMPW_2P_PR04.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Ivan Vivas/Documents/RepositoriosUniversidad/TallerDeDesarrolloParaPlataformaWindows/TDMPW_2P_PR04/DolarPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TDMPW_2P_PR04.DolarPage.xaml
+build_metadata.AdditionalFiles.TargetPath = DolarPage.xaml
+build_metadata.AdditionalFiles.RelativePath = DolarPage.xaml
+
+[C:/Users/Ivan Vivas/Documents/RepositoriosUniversidad/TallerDeDesarrolloParaPlataformaWindows/TDMPW_2P_PR04/EuroPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TDMPW_2P_PR04.EuroPage.xaml
+build_metadata.AdditionalFiles.TargetPath = EuroPage.xaml
+build_metadata.AdditionalFiles.RelativePath = EuroPage.xaml
+
+[C:/Users/Ivan Vivas/Documents/RepositoriosUniversidad/TallerDeDesarrolloParaPlataformaWindows/TDMPW_2P_PR04/FlyoutMenuPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TDMPW_2P_PR04.FlyoutMenuPage.xaml
+build_metadata.AdditionalFiles.TargetPath = FlyoutMenuPage.xaml
+build_metadata.AdditionalFiles.RelativePath = FlyoutMenuPage.xaml
+
+[C:/Users/Ivan Vivas/Documents/RepositoriosUniversidad/TallerDeDesarrolloParaPlataformaWindows/TDMPW_2P_PR04/LibraPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TDMPW_2P_PR04.LibraPage.xaml
+build_metadata.AdditionalFiles.TargetPath = LibraPage.xaml
+build_metadata.AdditionalFiles.RelativePath = LibraPage.xaml
+
+[C:/Users/Ivan Vivas/Documents/RepositoriosUniversidad/TallerDeDesarrolloParaPlataformaWindows/TDMPW_2P_PR04/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TDMPW_2P_PR04.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/Ivan Vivas/Documents/RepositoriosUniversidad/TallerDeDesarrolloParaPlataformaWindows/TDMPW_2P_PR04/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TDMPW_2P_PR04.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Ivan Vivas/Documents/RepositoriosUniversidad/TallerDeDesarrolloParaPlataformaWindows/TDMPW_2P_PR04/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TDMPW_2P_PR04.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

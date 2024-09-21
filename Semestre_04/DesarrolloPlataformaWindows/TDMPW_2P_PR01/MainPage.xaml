@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TDMPW_2P_PR01.MainPage"
+             BackgroundColor = "Black">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition
+                Height = "2*"/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Label
+            Grid.ColumnSpan = "3"
+            Text = "Calculo de IVA"
+            HorizontalOptions = "Center"
+            VerticalOptions = "Center"/>
+
+        <Label
+            Grid.Row = "1"
+            Text = "Ingrese el monto"
+            VerticalOptions = "Center"/>
+
+        <Label
+            Grid.Row = "1"
+            Text = "Ingrese la tasa"
+            VerticalOptions = "Center"/>
+
+        <Entry
+            x:Name = "entryMonto"
+            Grid.Row = "1"
+            Grid.Column = "1"
+            Grid.ColumnSpan = "2"
+            VerticalOptions = "Center"/>
+
+        <Entry
+            x:Name = "entryTasa"
+            Grid.Row = "1"
+            Grid.Column = "1"
+            Grid.ColumnSpan = "2"
+            VerticalOptions = "Center"/>
+
+        <Button
+            x:Name = "btnCalcular"
+            Grid.Row = "2"
+            Grid.ColumnSpan = "3"
+            HorizontalOptions = "Center"
+            VerticalOptions = "Center"
+            Clicked = "ClickedCalcular"
+            Text = "CALCULAR"/>
+
+        <Image
+            Source = "iva.png"
+            Grid.Row = "3"
+            HorizontalOptions = "Center"
+            VerticalOptions = "Center"
+            HeightRequest = "100"/>
+
+        <Label
+            x:Name = "lblResultado"
+            Grid.Row = "3"
+            Grid.Column = "1"
+            Text = "RESULTADO"
+            HorizontalOptions = "Center"
+            VerticalOptions = "Center"/>
+
+        <Image
+            Source = "monto.png"
+            Grid.Row = "3"
+            Grid.Column = "2"
+            HorizontalOptions = "Center"
+            VerticalOptions = "Center"
+            HeightRequest = "100"/>
+    </Grid>
+</ContentPage>

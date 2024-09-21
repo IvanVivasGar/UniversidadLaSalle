@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "dgSpecHash": "yPuTjzK9p91LqcCVl57L3jtdDC9c8bHoCK21sA0/1L6kheVS61ATsBUMJbxVFVbzFkORRCCtlmUb1WAzevlHDg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ivan Vivas\\Documents\\LocalRepositories\\TallerDeDesarrolloParaPlataformaWindows\\TDMPW_3P_PR03\\TDMPW_3P_PR03.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ivan Vivas\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
+    "C:\\Users\\Ivan Vivas\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Ivan Vivas\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\Ivan Vivas\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Ivan Vivas\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "C:\\Users\\Ivan Vivas\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Ivan Vivas\\.nuget\\packages\\microsoft.extensions.logging.debug\\8.0.0\\microsoft.extensions.logging.debug.8.0.0.nupkg.sha512",
+    "C:\\Users\\Ivan Vivas\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\Ivan Vivas\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\Ivan Vivas\\.nuget\\packages\\microsoft.graphics.win2d\\1.2.0\\microsoft.graphics.win2d.1.2.0.nupkg.sha512",
+    "C:\\Users\\Ivan Vivas\\.nuget\\packages\\microsoft.maui.controls\\8.0.21\\microsoft.maui.controls.8.0.21.nupkg.sha512",
+    "C:\\Users\\Ivan Vivas\\.nuget\\packages\\microsoft.maui.controls.build.tasks\\8.0.21\\microsoft.maui.controls.build.tasks.8.0.21.nupkg.sha512",
+    "C:\\Users\\Ivan Vivas\\.nuget\\packages\\microsoft.maui.controls.compatibility\\8.0.21\\microsoft.maui.controls.compatibility.8.0.21.nupkg.sha512",
+    "C:\\Users\\Ivan Vivas\\.nuget\\packages\\microsoft.maui.controls.core\\8.0.21\\microsoft.maui.controls.core.8.0.21.nupkg.sha512",
+    "C:\\Users\\Ivan Vivas\\.nuget\\packages\\microsoft.maui.controls.xaml\\8.0.21\\microsoft.maui.controls.xaml.8.0.21.nupkg.sha512",
+    "C:\\Users\\Ivan Vivas\\.nuget\\packages\\microsoft.maui.core\\8.0.21\\microsoft.maui.core.8.0.21.nupkg.sha512",
+    "C:\\Users\\Ivan Vivas\\.nuget\\packages\\microsoft.maui.essentials\\8.0.21\\microsoft.maui.essentials.8.0.21.nupkg.sha512",
+    "C:\\Users\\Ivan Vivas\\.nuget\\packages\\microsoft.maui.graphics\\8.0.21\\microsoft.maui.graphics.8.0.21.nupkg.sha512",
+    "C:\\Users\\Ivan Vivas\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\8.0.21\\microsoft.maui.graphics.win2d.winui.desktop.8.0.21.nupkg.sha512",
+    "C:\\Users\\Ivan Vivas\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.21\\microsoft.maui.resizetizer.8.0.21.nupkg.sha512",
+    "C:\\Users\\Ivan Vivas\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.4\\microsoft.net.illink.tasks.8.0.4.nupkg.sha512",
+    "C:\\Users\\Ivan Vivas\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",
+    "C:\\Users\\Ivan Vivas\\.nuget\\packages\\microsoft.windowsappsdk\\1.5.240311000\\microsoft.windowsappsdk.1.5.240311000.nupkg.sha512",
+    "C:\\Users\\Ivan Vivas\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.31\\microsoft.windows.sdk.net.ref.10.0.19041.31.nupkg.sha512"
+  ],
+  "logs": []
+}

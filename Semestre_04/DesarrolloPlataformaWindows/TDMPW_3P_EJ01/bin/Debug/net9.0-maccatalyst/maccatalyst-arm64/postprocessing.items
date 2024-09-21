@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="TDMPW_3P_EJ01.app/Contents/MacOS/TDMPW_3P_EJ01">
+      <IsAppExtension>false</IsAppExtension>
+      <BCSymbolMapName>TDMPW_3P_EJ01.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>TDMPW_3P_EJ01.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>/Users/mac/Downloads/TDMPW/TDMPW_3P_EJ01/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/mtouch-symbols.list</SymbolFile>
+      <DSymName>TDMPW_3P_EJ01.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/mac/Downloads/TDMPW/TDMPW_3P_EJ01</SourceProjectPath>
+      <IsXPCService></IsXPCService>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>

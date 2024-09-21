@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TDMPW_2P_PR04.DolarPage"
+             Title="DolarPage">
+    <ScrollView>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition
+                    Height = "45"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Label
+                Grid.ColumnSpan = "3"
+                Text = "DOLAR"
+                HorizontalOptions = "Center"
+                VerticalOptions = "Center"
+                FontSize = "Large"
+                FontAttributes = "Bold"/>
+
+            <Image
+                Source = "usa.webp"
+                Grid.Row = "1"
+                Grid.RowSpan = "2"
+                HeightRequest = "200"
+                WidthRequest = "200"
+                VerticalOptions = "Center"
+                HorizontalOptions = "Center"/>
+
+            <Label
+                Grid.Column = "1"
+                Grid.Row = "1"
+                Grid.RowSpan = "2"
+                Text = "Ingrese la cantidad de pesos"
+                HorizontalOptions = "Center"
+                VerticalOptions = "Center"/>
+
+            <Entry
+                x:Name = "entryDolar"
+                Grid.Row = "2"
+                Grid.ColumnSpan = "2"
+                Grid.Column = "1"
+                VerticalOptions = "Center"
+                HorizontalOptions = "Center"
+                WidthRequest = "600"/>
+
+            <Button
+                x:Name = "btnConvertirDolar"
+                Text = "Convertir"
+                Grid.Row = "3"
+                Grid.ColumnSpan = "3"
+                Clicked = "ClickedConvertirDolar"/>
+
+            <Label
+                x:Name = "lblResultadoDolar"
+                Text = "Resultado"
+                Grid.Row = "4"
+                Grid.ColumnSpan = "3"
+                VerticalOptions = "Center"
+                HorizontalOptions = "Center"
+                FontSize = "Medium"
+                FontAttributes = "Bold"/>
+        </Grid>
+    </ScrollView>
+</ContentPage>

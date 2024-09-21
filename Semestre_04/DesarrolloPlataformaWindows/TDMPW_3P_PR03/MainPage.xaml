@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TDMPW_3P_PR03.MainPage">
+    <Grid
+        x:Name ="grdBG">
+        <Grid.Background>
+            <LinearGradientBrush
+                EndPoint = "1, 1">
+                <GradientStop Offset = "0.0" Color = "#051937"/>
+                <GradientStop Offset = "0.25" Color = "#004d7a"/>
+                <GradientStop Offset = "0.50" Color = "#004d7a"/>
+                <GradientStop Offset = "0.75" Color = "#00bf72"/>
+                <GradientStop Offset = "1" Color = "#a9eb12"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <Grid
+            Margin ="25"
+            RowDefinitions = ".7*, .2*, .1*">
+            <VerticalStackLayout>
+                <Label
+                    Text = "TDMPW_3P_PR03"
+                    FontSize = "50"
+                    HorizontalOptions="Center"
+                    TextColor="White"
+                    Margin="15"/>
+                <Image
+                    Source="..."
+                    HeightRequest="400"
+                    WidthRequest="800"
+                    Aspect="AspectFill"
+                    x:Name="imgRandom"
+                    HorizontalOptions="Center"/>
+                <Label
+                    Text = "Frase Random"
+                    FontSize = "30"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    TextColor="White"
+                    Margin="15"
+                    x:Name="lblFraseRandom"/>
+                <Button
+                    Grid.Row="1"
+                    BackgroundColor="Black"
+                    Opacity=".4"
+                    Text="Cambiar"
+                    Clicked = "btnFondo_Clicked"
+                    TextColor = "White"
+                    FontAttributes = "Bold"
+                    FontSize = "15"/>
+            </VerticalStackLayout>
+
+            <Grid
+                RowDefinitions=".5*, .5*"
+                ColumnDefinitions=".33*, .33*, .33*"
+                Grid.Row="2">
+                <Label
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    x:Name="lbl1"
+                    TextColor="White"
+                    FontSize="16"
+                    HorizontalOptions="Center"
+                    Text="..."/>
+                <Label
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    x:Name="lbl2"
+                    TextColor="White"
+                    FontSize="16"
+                    HorizontalOptions="Center"
+                    Text="..."/>
+                <Label
+                    Grid.Row="0"
+                    Grid.Column="2"
+                    x:Name="lbl3"
+                    TextColor="White"
+                    FontSize="16"
+                    HorizontalOptions="Center"
+                    Text="..."/>
+                <Label
+                    Grid.Row="1"
+                    Grid.Column="0"
+                    x:Name="lbl4"
+                    TextColor="White"
+                    FontSize="16"
+                    HorizontalOptions="Center"
+                    Text="..."/>
+                <Label
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    x:Name="lbl5"
+                    TextColor="White"
+                    FontSize="16"
+                    HorizontalOptions="Center"
+                    Text="..."/>
+                <Label
+                    Grid.Row="1"
+                    Grid.Column="2"
+                    x:Name="lbl6"
+                    TextColor="White"
+                    FontSize="16"
+                    HorizontalOptions="Center"
+                    Text="..."/>
+            </Grid>
+        </Grid>
+    </Grid>
+</ContentPage>

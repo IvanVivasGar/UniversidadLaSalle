@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TDMPW_2P_PR04"
+             x:Class="TDMPW_2P_PR04.FlyoutMenuPage"
+             Title="FlyoutMenuPage">
+    <VerticalStackLayout>
+        <Image
+            Source = "exchange.webp"
+            WidthRequest = "100"
+            HeightRequest = "100"
+            HorizontalOptions = "Center"
+            VerticalOptions = "Center"/>
+        <CollectionView
+            x:Name = "collectionView"
+            x:FieldModifier = "public"
+            SelectionMode = "Single">
+            <CollectionView.ItemsSource>
+                <x:Array Type = "{x:Type local:FlyoutPageItem}">
+                    <local:FlyoutPageItem
+                        Title = "INICIO"
+                        IconSource = "home.png"
+                        TargetType = "{x:Type local:MainPage}"/>
+                    <local:FlyoutPageItem
+                        Title = "DOLAR"
+                        IconSource = "dollar.png"
+                        TargetType = "{x:Type local:DolarPage}"/>
+                    <local:FlyoutPageItem
+                        Title = "EURO"
+                        IconSource = "euro.png"
+                        TargetType = "{x:Type local:EuroPage}"/>
+                    <local:FlyoutPageItem
+                        Title = "LIBRA"
+                        IconSource = "pound.png"
+                        TargetType = "{x:Type local:LibraPage}"/>
+                </x:Array>
+            </CollectionView.ItemsSource>
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid
+                        Padding = "5, 10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition
+                                Width = "15"/>
+                            <ColumnDefinition
+                                Width = "*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Image
+                            Source = "{Binding IconSource}"/>
+
+                        <Label
+                            Grid.Column = "1"
+                            Margin = "20, 0"
+                            Text = "{Binding Title}"
+                            FontSize = "20"
+                            VerticalOptions = "Center"/>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </VerticalStackLayout>
+</ContentPage>
