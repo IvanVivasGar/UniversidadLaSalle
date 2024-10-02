@@ -33,6 +33,36 @@ def image_bit_combination(img, bits):
             combined_img[i, z] = accumulated_value
     return combined_img
 
+import numpy as np
+import matplotlib.pyplot as plt
+import utils
+# funcion que grafica en un histograma la cantidad de intensidades que se repiten en una imagen
+
+
+def histograma(img, bins, normalizar):
+    hist = np.zeros(bins)
+    w, h = img.shape
+    for i in range(w):
+        for j in range(h):
+            intensidad = img[i, j]
+            #se suma 1 a la intensidad en el histograma para indicar que se repite una vez
+            hist[intensidad] += 1
+
+    if normalizar:
+        hist = hist / (w * h)
+
+    return hist
+
+img = utils.read_image('./data/pepper.jpg')
+bins = 256 #2-8
+hist = histograma(img, bins, True)
+total = sum(hist)
+print(total)
+
+plt.bar(range(bins), hist)
+
+plt.show()
+
 
 # img = read_image('C:\\Users\\Ivan Vivas\\Documents\\Repositorios GitHub\\ModeladoYProcesamientoDeImagenes\\Clases\\data\\pepper.jpg')
 # print(img)
