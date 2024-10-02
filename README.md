@@ -1,2 +1,2 @@
 # UniversidadLaSalle
-These are my proyects and classwork at my university.
+These are all my proyects and classwork at my university.
