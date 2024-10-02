@@ -1,20 +1,6 @@
 import numpy as np
 import utils
 
-def histograma(img, bins):
-    hist = np.zeros(bins)
-    w, h = img.shape
-    for i in range(w):
-        for j in range(h):
-            intensidad = int(img[i, j])
-            #se suma 1 a la intensidad en el histograma para indicar que se repite una vez
-            hist[intensidad] += 1
-
-    # if normalizar:
-    #     #dividir cada conteo en el numero total de pixeles (ancho * altura)
-    #     hist /=(w*h)
-    return hist
-
 # Crear la tabla de Look Up
 def crear_lookup_table(hist, total_pixeles):
     # Normalizar histograma
@@ -47,7 +33,7 @@ img_cuantizada = utils.cuantizar(img, 8, 3)
 # Calcular el histograma para la imagen cuantizada
 bins = 8  # 2^3 = 8 niveles
 total_pixeles = img_cuantizada.size
-hist = histograma(img_cuantizada, bins)
+hist = utils.histograma(img_cuantizada, bins)
 
 # Crear la Look Up Table
 lookup_table = crear_lookup_table(hist, total_pixeles)
