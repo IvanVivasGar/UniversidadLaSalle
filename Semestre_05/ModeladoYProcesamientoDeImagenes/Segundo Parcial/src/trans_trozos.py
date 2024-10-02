@@ -1,17 +1,6 @@
 import numpy as np
-from skimage.io import imread
-import matplotlib.pyplot as plt
-from skimage import color
 import time
-
-def read_image(image_path):
-    img = imread(image_path)
-    if len(img.shape) == 3:
-        img = color.rgb2gray(img)
-        img = (img*255).astype(np.uint8)
-    else:
-        img = img.astype(np.uint8)
-    return img
+import utils
 
 def trans_trozos1(img, r1):
     w, h = img.shape
@@ -59,127 +48,43 @@ def LUT_trozos(int_max, r1, r2):
             LUT[i] = 255
     return LUT
 
-# Read the image
-image_path = '/Users/ivanvivasgarcia/Downloads/segundoparcial/data/caitlinclark.webp'
-img = read_image(image_path)
-
-LUT = LUT_trozos(255, 120, 198)
-inicio = time.time()
-img2 = trans_trozos3(img, LUT)
-fin = time.time()
-print(fin - inicio)
 
 
-        # IMAGEN PEQUEÑA
-# Read another image
-image_path2 = '/Users/ivanvivasgarcia/Downloads/segundoparcial/data/pepper.jpg'
-img3 = read_image(image_path2)
+    # IMAGEN PEQUEÑA
+img_pequena = utils.read_image('data/pepper.jpg')
 
-LUT2 = LUT_trozos(255, 100, 150)
-inicio2 = time.time()
-img4 = trans_trozos3(img3, LUT2)
-fin2 = time.time()
-print(fin2 - inicio2)
+LUT_pequena = LUT_trozos(255, 100, 150)
+inicio_pequena = time.time()
+img_pequena_trozos = trans_trozos3(img_pequena, LUT_pequena)
+fin_pequena = time.time()
+print(f'Tiempo de ejecucion: {fin_pequena - inicio_pequena}')
 
-# Display the second original image
-plt.figure(figsize=(12, 6))
-plt.subplot(2, 2, 1)
-plt.imshow(img3, cmap='gray')
-plt.title('Original Image 2')
-plt.axis('off')
+    # IMAGEN MEDIANA
+img_mediana = utils.read_image('data/tetera.jpg')
 
-# Display the second transformed image
-plt.subplot(2, 2, 2)
-plt.imshow(img4, cmap='gray')
-plt.title('Transformed Image 2')
-plt.axis('off')
+LUT_mediana = LUT_trozos(255, 80, 160)
+inicio_mediana = time.time()
+img_mediana_trozos = trans_trozos3(img_mediana, LUT_mediana)
+fin_mediana = time.time()
+print(f'Tiempo de ejecucion: {fin_mediana - inicio_mediana}')
 
-# Display the histogram of the second original image
-plt.subplot(2, 2, 3)
-plt.hist(img3.ravel(), bins=256, color='black', alpha=0.75)
-plt.title('Original Histogram 2')
-plt.xlabel('Pixel intensity')
-plt.ylabel('Frequency')
+    # IMAGEN GRANDE
+img_grande = utils.read_image('data/caitlinclark.webp')
 
-# Display the histogram of the second transformed image
-plt.subplot(2, 2, 4)
-plt.hist(img4.ravel(), bins=256, color='black', alpha=0.75)
-plt.title('Transformed Histogram 2')
-plt.xlabel('Pixel intensity')
-plt.ylabel('Frequency')
-
-plt.tight_layout()
-plt.show()
+LUT_grande = LUT_trozos(255, 120, 198)
+inicio_grande = time.time()
+img_grande_trozos = trans_trozos3(img_grande, LUT_grande)
+fin_grande = time.time()
+print(f'Tiempo de ejecucion: {fin_grande - inicio_grande}')
 
 
-        # IMAGEN MEDIANA
-# Read a third image
-image_path3 = '/Users/ivanvivasgarcia/Downloads/segundoparcial/data/tetera.jpg'
-img5 = read_image(image_path3)
 
-LUT3 = LUT_trozos(255, 80, 160)
-inicio3 = time.time()
-img6 = trans_trozos3(img5, LUT3)
-fin3 = time.time()
-print(fin3 - inicio3)
+images = [img_grande, img_grande_trozos,
+          img_mediana, img_mediana_trozos,
+          img_pequena, img_pequena_trozos]
 
-# Display the third original image
-plt.figure(figsize=(12, 6))
-plt.subplot(2, 2, 1)
-plt.imshow(img5, cmap='gray')
-plt.title('Original Image 3')
-plt.axis('off')
+img_titles = ["Imagen Grande", "Imagen Grande Trozos",
+              "Imagen Mediana", "Imagen Mediana Trozos",
+              "Imagen Pequeña", "Imagen Pequeña Trozos"]
 
-# Display the third transformed image
-plt.subplot(2, 2, 2)
-plt.imshow(img6, cmap='gray')
-plt.title('Transformed Image 3')
-plt.axis('off')
-
-# Display the histogram of the third original image
-plt.subplot(2, 2, 3)
-plt.hist(img5.ravel(), bins=256, color='black', alpha=0.75)
-plt.title('Original Histogram 3')
-plt.xlabel('Pixel intensity')
-plt.ylabel('Frequency')
-
-# Display the histogram of the third transformed image
-plt.subplot(2, 2, 4)
-plt.hist(img6.ravel(), bins=256, color='black', alpha=0.75)
-plt.title('Transformed Histogram 3')
-plt.xlabel('Pixel intensity')
-plt.ylabel('Frequency')
-
-plt.tight_layout()
-plt.show()
-
-        # IMAGEN GRANDE
-# Display the original image
-plt.figure(figsize=(12, 6))
-plt.subplot(2, 2, 1)
-plt.imshow(img, cmap='gray')
-plt.title('Original Image')
-plt.axis('off')
-
-# Display the transformed image
-plt.subplot(2, 2, 2)
-plt.imshow(img2, cmap='gray')
-plt.title('Transformed Image')
-plt.axis('off')
-
-# Display the histogram of the original image
-plt.subplot(2, 2, 3)
-plt.hist(img.ravel(), bins=256, color='black', alpha=0.75)
-plt.title('Original Histogram')
-plt.xlabel('Pixel intensity')
-plt.ylabel('Frequency')
-
-# Display the histogram of the transformed image
-plt.subplot(2, 2, 4)
-plt.hist(img2.ravel(), bins=256, color='black', alpha=0.75)
-plt.title('Transformed Histogram')
-plt.xlabel('Pixel intensity')
-plt.ylabel('Frequency')
-
-plt.tight_layout()
-plt.show()
+utils.plot_images(images, img_titles, 2)

@@ -1,26 +1,5 @@
-import matplotlib.pyplot as plt
-from skimage import color 
-from skimage.io import imread
 import numpy as np
-
-def read_image(image_path):
-    img = imread(image_path)
-    if len(img.shape) == 3:
-        img = color.rgb2gray(img)
-        img = (img*255).astype(np.uint8)
-    else: 
-        img = img.astype(np.uint8)
-    return img
-
-# Cuantización a 3 bits
-def cuantizar_3_bits(img):
-    L = 8  # Bits originales (imagen de 8 bits)
-    k = 3  # Bits a los que se va a cuantizar (3 bits)
-    factor_cuantizacion = (2**k - 1) / (2**L - 1)  # Factor de cuantización
-    img_cuantizada = np.floor(img * factor_cuantizacion).astype(np.uint8)
-    return img_cuantizada
-
-img = read_image('/Users/ivanvivasgarcia/Downloads/segundoparcial/data/naranja.jpg')
+import utils
 
 def histograma(img, bins):
     hist = np.zeros(bins)
@@ -33,7 +12,7 @@ def histograma(img, bins):
 
     # if normalizar:
     #     #dividir cada conteo en el numero total de pixeles (ancho * altura)
-    #     hist /=(w*h) 
+    #     hist /=(w*h)
     return hist
 
 # Crear la tabla de Look Up
@@ -43,7 +22,7 @@ def crear_lookup_table(hist, total_pixeles):
 
     # Suma acumulada del histograma normalizado
     suma_ac = np.cumsum(hist_normalizado)
-    
+
     # Crear la tabla
     tabla = []
     for i in range(len(hist)):
@@ -56,15 +35,17 @@ def crear_lookup_table(hist, total_pixeles):
 
         fila = [intensidad, conteo, round(pr, 4), round(suma_acum, 4), round(multiplicacion, 4), entero]
         tabla.append(fila)
-    
+
     return tabla
 
+# Leer la imagen
+img = utils.read_image('data/naranja.jpg')
+
 # Cuantizar la imagen a 3 bits
-img_cuantizada = cuantizar_3_bits(img)
+img_cuantizada = utils.cuantizar(img, 8, 3)
 
 # Calcular el histograma para la imagen cuantizada
 bins = 8  # 2^3 = 8 niveles
-#normalizar = True
 total_pixeles = img_cuantizada.size
 hist = histograma(img_cuantizada, bins)
 
