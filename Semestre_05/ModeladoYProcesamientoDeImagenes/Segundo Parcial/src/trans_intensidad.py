@@ -1,41 +1,8 @@
 import matplotlib.pyplot as plt
-from skimage import color 
-from skimage.io import imread
 import numpy as np
+import utils
 
-def read_image(image_path):
-    img = imread(image_path)
-    if len(img.shape) == 3:
-        img = color.rgb2gray(img)
-        img = (img*255).astype(np.uint8)
-    else: 
-        img = img.astype(np.uint8)
-    return img
-
-# # Cuantización a 3 bits
-# def cuantizar_3_bits(img):
-#     L = 8  # Bits originales (imagen de 8 bits)
-#     k = 3  # Bits a los que se va a cuantizar (3 bits)
-#     factor_cuantizacion = (2**k - 1) / (2**L - 1)  # Factor de cuantización
-#     img_cuantizada = np.floor(img * factor_cuantizacion).astype(np.uint8)
-#     return img_cuantizada
-
-img = read_image('/Users/ivanvivasgarcia/Downloads/segundoparcial/data/pepper.jpg')
-
-def histograma(img, bins, normalizar):
-    hist = np.zeros(bins)
-    w, h = img.shape
-    for i in range(w):
-        for j in range(h):
-            intensidad = int(img[i, j])
-            #se suma 1 a la intensidad en el histograma para indicar que se repite una vez
-            hist[intensidad] += 1
-
-    if normalizar:
-        #dividir cada conteo en el numero total de pixeles (ancho * altura)
-        hist /=(w*h) 
-
-    return hist
+img = utils.read_image('data/pepper.jpg')
 
 #Negativo de una imagen
 #L son los niveles de intensidad que tiene la imagen (2^8 por ejemplo)
@@ -54,13 +21,13 @@ def log_img(img, c):
 
 
 w, h = img.shape
-total_pixeles = w*h
+total_pixeles = w * h
 
 #Parametros del histograma
 bins = 256 #2-8
 normalizar = True
 
-hist = histograma(img, bins, normalizar)
+hist = utils.histograma(img, bins, normalizar)
 
 #Suma acumulada de histograma normalizado
 suma_ac = np.cumsum(hist)
@@ -116,7 +83,7 @@ plt.axis('off')
 plt.show()
 
 # Calcular y graficar el histograma de la imagen negativa
-hist_negativa = histograma(img_negativa, bins, normalizar)
+hist_negativa = utils.histograma(img_negativa, bins, normalizar)
 
 plt.figure(figsize=(12, 6))
 plt.subplot(1, 2, 1)
@@ -147,7 +114,7 @@ plt.axis('off')
 plt.show()
 
 # Calcular y graficar el histograma de la imagen transformada con logaritmo
-hist_log = histograma(img_log, bins, normalizar)
+hist_log = utils.histograma(img_log, bins, normalizar)
 
 plt.figure(figsize=(12, 6))
 plt.subplot(1, 2, 1)
@@ -191,7 +158,7 @@ plt.axis('off')
 plt.show()
 
 # Calcular y graficar el histograma de la imagen transformada con corrección gamma
-hist_gamma = histograma(img_gamma, bins, normalizar)
+hist_gamma = utils.histograma(img_gamma, bins, normalizar)
 
 plt.figure(figsize=(12, 6))
 plt.subplot(1, 2, 1)
