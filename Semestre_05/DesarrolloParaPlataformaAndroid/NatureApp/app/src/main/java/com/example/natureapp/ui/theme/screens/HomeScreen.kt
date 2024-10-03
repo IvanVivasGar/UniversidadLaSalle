@@ -44,7 +44,7 @@ fun HomeScreen(innerPadding: PaddingValues){
     Box (
         modifier = Modifier.fillMaxSize()
             .background(MaterialTheme.colorScheme.background)
-            .padding(vertical = 15.dp)
+            .padding(top = 25.dp)
     ){
         Column (
             modifier = Modifier.padding(10.dp)

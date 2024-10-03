@@ -10,17 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a20bae98-e8a5-441a-a8f1-5f92c357e125" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../NatureApp/app/src/main/java/com/example/natureapp/ui/theme/components/Card.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NatureApp/app/src/main/java/com/example/natureapp/ui/theme/screens/HomeScreen.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lasalleapp/ui/theme/components/CardImage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lasalleapp/ui/theme/components/CardImage.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NatureApp/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NatureApp/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NatureApp/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/../NatureApp/app/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NatureApp/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NatureApp/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NatureApp/app/src/main/java/com/example/natureapp/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../NatureApp/app/src/main/java/com/example/natureapp/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NatureApp/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NatureApp/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NatureApp/gradle/libs.versions.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../NatureApp/gradle/libs.versions.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NatureApp/app/src/main/java/com/example/natureapp/ui/theme/screens/HomeScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../NatureApp/app/src/main/java/com/example/natureapp/ui/theme/screens/HomeScreen.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +21,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=/Users/ivanvivasgarcia/.android/avd/Medium_Phone_API_35.avd)]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=PhysicalDevice, isTemplate=false, identifier=serial=R58M82VZHJW)]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
