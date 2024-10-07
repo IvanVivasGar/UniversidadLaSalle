@@ -4,6 +4,7 @@ import android.util.Log
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
@@ -15,7 +16,10 @@ import androidx.compose.foundation.layout.offset
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyRow
+import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.DateRange
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
@@ -31,25 +35,26 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.navigation.NavController
+import androidx.navigation.compose.rememberNavController
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
 import com.example.lasalleapp.R
 import com.example.lasalleapp.ui.theme.LaSalleAppTheme
 import com.example.lasalleapp.ui.theme.components.CardImage
+import com.example.lasalleapp.ui.theme.components.Widget
+import com.example.lasalleapp.ui.theme.utils.Cash
 import com.example.lasalleapp.ui.theme.utils.Logout
+import com.example.lasalleapp.ui.theme.utils.Task
+import com.example.lasalleapp.utils.Screens
+import com.example.lasalleapp.utils.newsList
 
 @Composable
-fun HomeScreen(innerPadding: PaddingValues){
-    val news = listOf(
-        "https://www.lasallebajio.edu.mx/noticias/images/4719_3.jpg",
-        "https://www.lasallebajio.edu.mx/noticias/images/4718_1.jpg",
-        "https://www.lasallebajio.edu.mx/noticias/images/4718_3.jpg"
-    )
-    
+fun HomeScreen(innerPadding: PaddingValues, navController: NavController){
     Column (
         modifier = Modifier.fillMaxSize()
             .padding(innerPadding)
-            .background(Color.White)
+            .background(MaterialTheme.colorScheme.background)
     ) {
         // Header
         Box(
@@ -98,6 +103,27 @@ fun HomeScreen(innerPadding: PaddingValues){
             }
         }
 
+        // Widgets
+        Box(
+            modifier = Modifier.fillMaxWidth()
+                .height(140.dp)
+                .offset(y = (-40).dp)
+                .padding(horizontal = 24.dp)
+                .clip(RoundedCornerShape(16.dp))
+                .background(Color.White),
+            contentAlignment = Alignment.Center
+        ){
+            Row (
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.SpaceEvenly
+            ){
+                // Widget
+                Widget(icon = Icons.Default.DateRange, text = "Sin eventos")
+                Widget(icon = Task, text = "2 tareas")
+                Widget(icon = Cash, text = stringResource(R.string.cash_text))
+            }
+        }
+
         // Body
         Box (
             modifier = Modifier.fillMaxSize()
@@ -110,9 +136,13 @@ fun HomeScreen(innerPadding: PaddingValues){
                     fontWeight = FontWeight.Bold,
                     fontSize = 26.sp
                 )
-                LazyRow(){
-                    items(news.size){
-                        CardImage(image = news[it])
+                LazyRow(
+                    horizontalArrangement = Arrangement.spacedBy(10.dp)
+                ){
+                    items(newsList){
+                        CardImage(news = it){
+                            navController.navigate(Screens.NewsDetail.route)
+                        }
                     }
                 }
             }
@@ -127,7 +157,8 @@ fun HomeScreen(innerPadding: PaddingValues){
 
 @Composable
 fun HomeScreenPreview(){
+    val navController = rememberNavController()
     LaSalleAppTheme {
-        HomeScreen(innerPadding = PaddingValues(0.dp))
+        HomeScreen(innerPadding = PaddingValues(0.dp), navController = navController)
     }
 }

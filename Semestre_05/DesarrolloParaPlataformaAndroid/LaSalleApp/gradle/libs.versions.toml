@@ -1,5 +1,6 @@
 [versions]
 agp = "8.6.0"
+animatedNavigationBar = "1.0.0"
 coil = "2.7.0"
 kotlin = "1.9.0"
 coreKtx = "1.13.1"
@@ -10,9 +11,12 @@ lifecycleRuntimeKtx = "2.6.1"
 activityCompose = "1.9.2"
 composeBom = "2024.04.01"
 accompanistSystemuicontroller = "0.27.0"
+navigationCompose = "2.8.2"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigationCompose" }
+animated-navigation-bar = { module = "com.exyte:animated-navigation-bar", version.ref = "animatedNavigationBar" }
 coil = { module = "io.coil-kt:coil", version.ref = "coil" }
 coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coil" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
