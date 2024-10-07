@@ -183,3 +183,75 @@ def imagenes_histogramas(imagenes, titulos_imagenes, histogramas, titulos_histog
 
     plt.tight_layout()
     plt.show()
+
+
+"""
+Function to add Gaussian noise to an image.
+
+Parameters:
+    - img: 2D numpy array representing the grayscale image.
+    - sigma: Float representing the standard deviation of the Gaussian noise.
+
+Returns:
+    - img_out: 2D numpy array representing the noisy image.
+"""
+
+def suma_ruido(img, sigma):
+    w, h = img.shape
+    img_ruido = np.random.normal(0, sigma, (w, h))
+    img_out = img + img_ruido
+    img_out = np.clip(img_out, 0, 255).astype(np.uint8)
+    return img_out
+
+
+"""
+Function to compute the mean of multiple noisy images.
+
+Parameters:
+    - img: 2D numpy array representing the grayscale image.
+    - n: Integer representing the number of noisy images to generate.
+    - sigma: Float representing the standard deviation of the Gaussian noise.
+
+Returns:
+    - g_bar: 2D numpy array representing the mean image.
+"""
+
+def mean_image(img, n, sigma):
+    g_bar = np.zeros(img.shape, dtype=np.float64)
+    for r in range(n):
+        img_ruidosa = suma_ruido(img, sigma)
+        g_bar += img_ruidosa
+    g_bar /= n
+    g_bar = np.clip(g_bar, 0, 255).astype(np.uint8)
+    return g_bar
+
+"""
+Function to create an averaging filter kernel.
+
+Parameters:
+    - n: Integer representing the size of the kernel (n x n).
+
+Returns:
+    - kernel: 2D numpy array representing the averaging filter kernel.
+"""
+
+def filtro_promedio(n):
+    kernel = 1 / (n*n) * np.ones((n, n))
+    return kernel
+
+def gaussian_kernel(sigma, n):
+    if n % 2 == 0:
+        raise ValueError('Kernel size n should be an odd number')
+
+    # Define grid (x, y) coordinates
+    a = -(n // 2)
+    b = n // 2
+    x, y = np.meshgrid(np.arange(a, b + 1), np.arange(a, b + 1))
+
+    # Compute Gaussian function
+    g = 1 / (2 * np.pi * sigma ** 2) * np.exp(-((x ** 2 + y ** 2) / (2 * sigma ** 2)))
+
+    # Normalize so that the sum of the kernel is 1
+    g /= g.sum()
+
+    return g
