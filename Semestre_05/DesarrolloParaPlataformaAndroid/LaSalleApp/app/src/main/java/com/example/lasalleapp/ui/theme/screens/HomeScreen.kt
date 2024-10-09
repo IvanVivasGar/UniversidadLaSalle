@@ -16,8 +16,13 @@ import androidx.compose.foundation.layout.offset
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyRow
+import androidx.compose.foundation.lazy.grid.GridCells
+import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
+import androidx.compose.foundation.lazy.grid.items
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.DateRange
 import androidx.compose.material3.Icon
@@ -28,6 +33,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
@@ -46,8 +52,9 @@ import com.example.lasalleapp.ui.theme.components.Widget
 import com.example.lasalleapp.ui.theme.utils.Cash
 import com.example.lasalleapp.ui.theme.utils.Logout
 import com.example.lasalleapp.ui.theme.utils.Task
-import com.example.lasalleapp.utils.Screens
-import com.example.lasalleapp.utils.newsList
+import com.example.lasalleapp.ui.theme.utils.Screens
+import com.example.lasalleapp.ui.theme.utils.communities
+import com.example.lasalleapp.ui.theme.utils.newsList
 
 @Composable
 fun HomeScreen(innerPadding: PaddingValues, navController: NavController){
@@ -55,6 +62,9 @@ fun HomeScreen(innerPadding: PaddingValues, navController: NavController){
         modifier = Modifier.fillMaxSize()
             .padding(innerPadding)
             .background(MaterialTheme.colorScheme.background)
+            .verticalScroll(
+                rememberScrollState()
+            )
     ) {
         // Header
         Box(
@@ -126,22 +136,48 @@ fun HomeScreen(innerPadding: PaddingValues, navController: NavController){
 
         // Body
         Box (
-            modifier = Modifier.fillMaxSize()
+            modifier = Modifier
+                .fillMaxSize()
                 .background(MaterialTheme.colorScheme.background)
         ){
             Column (
                 modifier = Modifier.padding(20.dp)
             ){
-                Text(text = stringResource(id = R.string.news),
-                    fontWeight = FontWeight.Bold,
-                    fontSize = 26.sp
+                Text(
+                    text = stringResource(id = R.string.news),
+                    style = MaterialTheme.typography.titleLarge,
                 )
                 LazyRow(
                     horizontalArrangement = Arrangement.spacedBy(10.dp)
                 ){
-                    items(newsList){
-                        CardImage(news = it){
-                            navController.navigate(Screens.NewsDetail.route)
+                    items(newsList){ news ->
+                        CardImage(news = news){
+                            navController.navigate(Screens.NewsDetail.route + "/${news.id}")
+                        }
+                    }
+                }
+                Text(
+                    text = "Comunidad",
+                    modifier = Modifier.padding(top = 20.dp),
+                    style = MaterialTheme.typography.titleLarge,
+                )
+                LazyVerticalGrid(
+                    columns = GridCells.Fixed(2),
+                    modifier = Modifier.fillMaxWidth().height(500.dp)
+                ) {
+                    items(communities){
+                        Box(
+                            modifier = Modifier
+                                .size(180.dp)
+                                .clip(RoundedCornerShape(16.dp))
+                                .padding(16.dp)
+                        ){
+                            AsyncImage(
+                                model = it.image,
+                                contentDescription = it.id.toString(),
+                                modifier = Modifier.fillMaxSize(),
+                                contentScale = ContentScale.Crop
+                            )
                         }
                     }
                 }

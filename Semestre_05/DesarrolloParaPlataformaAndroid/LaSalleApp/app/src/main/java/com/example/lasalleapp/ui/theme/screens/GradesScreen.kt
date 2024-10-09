@@ -1,16 +1,15 @@
 package com.example.lasalleapp.ui.theme.screens
 
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.PaddingValues
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
+import com.example.lasalleapp.ui.theme.components.ScreenTemplate
 
 @Composable
 fun GradesScreen(innerPadding: PaddingValues) {
-    Box(modifier = Modifier.padding(innerPadding).fillMaxSize()) {
-        Text(text = "Calificaciones")
-    }
+    ScreenTemplate(innerPadding = innerPadding, header = {
+        Text("Hola")
+    },body = {
+            Text("Hola")
+    })
 }
