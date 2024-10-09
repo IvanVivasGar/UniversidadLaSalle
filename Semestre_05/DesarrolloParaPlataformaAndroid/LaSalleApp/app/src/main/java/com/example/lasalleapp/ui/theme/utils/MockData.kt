@@ -1,10 +1,11 @@
-package com.example.lasalleapp.utils
+package com.example.lasalleapp.ui.theme.utils
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.DateRange
 import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Menu
 import androidx.compose.material.icons.filled.Settings
 import com.example.lasalleapp.models.BottomNavigationItem
+import com.example.lasalleapp.models.Community
 import com.example.lasalleapp.models.News
 
 val newsList = listOf(
@@ -53,4 +54,12 @@ val bottomNavBarItems = listOf(
         route = Screens.Settings.route
 
     )
+)
+
+val communities = listOf(
+    Community(1,"https://www.lasallebajio.edu.mx/comunidad/images/tile_documentos_inspiradores.jpg"),
+    Community(2,"https://www.lasallebajio.edu.mx/comunidad/images/tile_boletin.jpg"),
+    Community(3,"https://www.lasallebajio.edu.mx/comunidad/images/tile_cat_souv_22.jpg"),
+    Community(4,"https://www.lasallebajio.edu.mx/comunidad/images/tile_tramites.jpg"),
+    Community(5,"https://www.lasallebajio.edu.mx/comunidad/images/tile_blog.jpg")
 )
