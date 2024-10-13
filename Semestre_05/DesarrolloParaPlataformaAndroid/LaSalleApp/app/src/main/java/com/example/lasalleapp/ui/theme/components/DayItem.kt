@@ -31,7 +31,6 @@ fun DayItem(){
             Box(
                 modifier = Modifier.size(8.dp).background(Color.Red, shape = CircleShape)
             ){
-                
             }
         }
     }

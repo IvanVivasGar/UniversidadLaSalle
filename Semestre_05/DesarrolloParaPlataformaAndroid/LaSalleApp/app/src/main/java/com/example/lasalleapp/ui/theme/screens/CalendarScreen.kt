@@ -1,6 +1,5 @@
 package com.example.lasalleapp.ui.theme.screens
 
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
@@ -14,12 +13,14 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.navigation.NavController
+import androidx.navigation.compose.rememberNavController
 import com.example.lasalleapp.ui.theme.LaSalleAppTheme
 import com.example.lasalleapp.ui.theme.components.DayItem
 import com.example.lasalleapp.ui.theme.components.ScreenTemplate
 
 @Composable
-fun CalendarScreen(innerPadding: PaddingValues) {
+fun CalendarScreen(innerPadding: PaddingValues, navController: NavController) {
     ScreenTemplate(innerPadding = innerPadding, header = {
         Column (
             modifier = Modifier
@@ -48,8 +49,8 @@ fun CalendarScreen(innerPadding: PaddingValues) {
             }
         }
     },body = {
-        Text("Hola")
-    })
+
+    }, headerHeight = 270.dp)
 }
 
 @Preview(
@@ -58,7 +59,8 @@ fun CalendarScreen(innerPadding: PaddingValues) {
 )
 @Composable
 fun CalendarScreenPreview(){
+    val navController = rememberNavController()
     LaSalleAppTheme {
-        CalendarScreen(innerPadding = PaddingValues(0.dp))
+        CalendarScreen(innerPadding = PaddingValues(0.dp), navController = navController)
     }
 }

@@ -196,7 +196,7 @@ Returns:
     - img_out: 2D numpy array representing the noisy image.
 """
 
-def suma_ruido(img, sigma):
+def ruido_gaussiano(img, sigma):
     w, h = img.shape
     img_ruido = np.random.normal(0, sigma, (w, h))
     img_out = img + img_ruido
@@ -236,8 +236,19 @@ Returns:
 """
 
 def filtro_promedio(n):
-    kernel = 1 / (n*n) * np.ones((n, n))
+    kernel = 1 / (n * n) * np.ones((n, n))
     return kernel
+
+"""
+Function to create a Gaussian filter kernel.
+
+Parameters:
+    - sigma: Float representing the standard deviation of the Gaussian distribution.
+    - n: Integer representing the size of the kernel (n x n). Must be an odd number.
+
+Returns:
+    - kernel: 2D numpy array representing the Gaussian filter kernel.
+"""
 
 def gaussian_kernel(sigma, n):
     if n % 2 == 0:
@@ -255,3 +266,46 @@ def gaussian_kernel(sigma, n):
     g /= g.sum()
 
     return g
+
+"""
+Function to add impulsive noise (salt and pepper noise) to an image.
+
+Parameters:
+    - img: 2D numpy array representing the grayscale image.
+    - p: Float representing the probability of a pixel being affected by noise.
+
+Returns:
+    - img_ruido: 2D numpy array representing the noisy image.
+"""
+
+def ruido_impulsivo(img, p):
+    w, h = img.shape
+    img_ruido = np.zeros((w,h))
+    probas = np.random.random((w,h))
+    ruido = np.random.randint(0, 2, (w,h))*255
+    for i in range(w):
+        for j in range(h):
+            if probas[i,j]>p:
+                img_ruido[i,j] = ruido[i,j]
+            else:
+                img_ruido[i,j] = img[i,j]
+    return img_ruido
+
+"""
+Function to add multiplicative noise to an image.
+
+Parameters:
+    - img: 2D numpy array representing the grayscale image.
+    - sigmaM: Float representing the standard deviation of the multiplicative noise.
+
+Returns:
+    - img_ruido: 2D numpy array representing the noise applied to the image.
+    - img_out: 2D numpy array representing the noisy image.
+"""
+
+def multiplicar_ruido(img, sigmaM):
+    w, h = img.shape[:2]
+    img_ruido = np.random.normal(1, sigmaM, (w, h))
+    img_out = img * img_ruido
+    img_out = np.clip(img_out, 0, 255).astype(np.uint8)
+    return img_out
