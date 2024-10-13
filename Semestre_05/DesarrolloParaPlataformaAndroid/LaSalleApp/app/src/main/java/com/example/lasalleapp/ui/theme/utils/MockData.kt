@@ -4,6 +4,7 @@ import androidx.compose.material.icons.filled.DateRange
 import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Menu
 import androidx.compose.material.icons.filled.Settings
+import com.example.lasalleapp.models.Alumn
 import com.example.lasalleapp.models.BottomNavigationItem
 import com.example.lasalleapp.models.Community
 import com.example.lasalleapp.models.News
@@ -27,6 +28,45 @@ val newsList = listOf(
         description = "Celebración anual de la Semana Cultural con diversas actividades artísticas y deportivas.",
         image = "https://www.lasallebajio.edu.mx/noticias/images/4701_3.jpg"
     )
+)
+
+val alumnsList = listOf(
+    Alumn(
+        name = "Caitlin Clark",
+        birthdate = "22/01/2002",
+        email = "cec77850@lasallebajio.edu.mx",
+        photo = "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4433403.png",
+        career = "Ingenieria en Software y Sistemas Computacionales",
+        currentSemester = 6,
+        grade = 9.5
+    ),
+    Alumn(
+        name = "Ivan Vivas",
+        birthdate = "16/07/2003",
+        email = "ivg77850@lasallebajio.edu.mx",
+        photo = "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4433403.png",
+        career = "Ingenieria en Sistemas Computacionales",
+        currentSemester = 6,
+        grade = 9.5
+    ),
+    Alumn(
+        name = "Lamine Yamal",
+        birthdate = "13/07/2003",
+        email = "ly77850@lasallebajio.edu.mx",
+        photo = "https://fcb-abj-pre.s3.amazonaws.com/img/jugadors/LAMINE%20YAMAL.png",
+        career = "Ingenieria en Sistemas Computacionales",
+        currentSemester = 6,
+        grade = 9.5
+    ),
+    Alumn(
+        name = "Xavi Simmons",
+        birthdate = "16/07/2003",
+        email = "ivg77850@lasallebajio.edu.mx",
+        photo = "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4433403.png",
+        career = "Ingenieria en Sistemas Computacionales",
+        currentSemester = 6,
+        grade = 9.5
+    ),
 )
 
 val bottomNavBarItems = listOf(

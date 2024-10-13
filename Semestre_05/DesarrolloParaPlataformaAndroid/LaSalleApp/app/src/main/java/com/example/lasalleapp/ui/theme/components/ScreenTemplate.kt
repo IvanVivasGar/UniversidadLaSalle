@@ -15,43 +15,41 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import androidx.navigation.NavController
-import androidx.navigation.compose.rememberNavController
-import com.example.lasalleapp.ui.theme.LaSalleAppTheme
 
 @Composable
 fun ScreenTemplate(
     innerPadding: PaddingValues,
     header: @Composable () -> Unit,
-    body: @Composable () -> Unit
-){
-    Column (
-        modifier = Modifier.fillMaxSize()
+    body: @Composable () -> Unit,
+    headerHeight: Dp = Dp.Unspecified
+) {
+    Column(
+        modifier = Modifier
             .padding(innerPadding)
+            .fillMaxSize()
             .background(MaterialTheme.colorScheme.background)
-            .verticalScroll(
-                rememberScrollState()
-            )
+            .verticalScroll(rememberScrollState())
     ) {
         // Header
         Box(
-            modifier = Modifier.fillMaxWidth()
+            modifier = Modifier
+                .fillMaxWidth()
                 .clip(RoundedCornerShape(bottomStart = 60.dp, bottomEnd = 60.dp))
-                .height(270.dp)
+                .height(headerHeight)
                 .background(MaterialTheme.colorScheme.primary)
         ) {
             header()
         }
 
         // Body
-        Box (
+        Box(
             modifier = Modifier
                 .fillMaxSize()
                 .background(MaterialTheme.colorScheme.background)
-        ){
-
+        ) {
+            body()
         }
     }
 }
