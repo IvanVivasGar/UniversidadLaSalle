@@ -4,7 +4,7 @@ import androidx.compose.material.icons.filled.DateRange
 import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Menu
 import androidx.compose.material.icons.filled.Settings
-import com.example.lasalleapp.models.Alumn
+import com.example.lasalleapp.models.Student
 import com.example.lasalleapp.models.BottomNavigationItem
 import com.example.lasalleapp.models.Community
 import com.example.lasalleapp.models.News
@@ -30,8 +30,8 @@ val newsList = listOf(
     )
 )
 
-val alumnsList = listOf(
-    Alumn(
+val studentsList = listOf(
+    Student(
         name = "Caitlin Clark",
         birthdate = "22/01/2002",
         email = "cec77850@lasallebajio.edu.mx",
@@ -40,7 +40,7 @@ val alumnsList = listOf(
         currentSemester = 6,
         grade = 9.5
     ),
-    Alumn(
+    Student(
         name = "Ivan Vivas",
         birthdate = "16/07/2003",
         email = "ivg77850@lasallebajio.edu.mx",
@@ -49,7 +49,7 @@ val alumnsList = listOf(
         currentSemester = 6,
         grade = 9.5
     ),
-    Alumn(
+    Student(
         name = "Lamine Yamal",
         birthdate = "13/07/2003",
         email = "ly77850@lasallebajio.edu.mx",
@@ -58,7 +58,7 @@ val alumnsList = listOf(
         currentSemester = 6,
         grade = 9.5
     ),
-    Alumn(
+    Student(
         name = "Xavi Simmons",
         birthdate = "16/07/2003",
         email = "ivg77850@lasallebajio.edu.mx",
@@ -92,7 +92,6 @@ val bottomNavBarItems = listOf(
         title = "Configuracion",
         icon = Icons.Default.Settings,
         route = Screens.Settings.route
-
     )
 )
 

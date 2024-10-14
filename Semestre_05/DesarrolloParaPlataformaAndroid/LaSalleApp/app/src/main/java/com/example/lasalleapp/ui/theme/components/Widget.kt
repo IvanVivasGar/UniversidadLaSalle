@@ -1,6 +1,7 @@
 package com.example.lasalleapp.ui.theme.components
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.size
@@ -15,17 +16,23 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.navigation.NavHostController
 import com.example.lasalleapp.ui.theme.GrayLight
 import com.example.lasalleapp.ui.theme.LaSalleAppTheme
 
 @Composable
-fun Widget(icon: ImageVector, text: String){
+fun Widget(icon: ImageVector,
+           text: String,
+           onClick: () -> Unit){
     Box(
-        modifier = Modifier.size(90.dp)
+        modifier = Modifier
+            .size(90.dp)
             .clip(RoundedCornerShape(16.dp))
-            .background(GrayLight),
+            .background(GrayLight)
+            .clickable { onClick() },
         contentAlignment = Alignment.Center
     ){
         Column (
@@ -49,6 +56,6 @@ fun Widget(icon: ImageVector, text: String){
 @Composable
 fun WidgetPreview(){
     LaSalleAppTheme {
-        Widget(icon = Icons.Default.Home, text = "Inicio")
+        Widget(icon = Icons.Default.Home, text = "Inicio", onClick = {})
     }
 }
