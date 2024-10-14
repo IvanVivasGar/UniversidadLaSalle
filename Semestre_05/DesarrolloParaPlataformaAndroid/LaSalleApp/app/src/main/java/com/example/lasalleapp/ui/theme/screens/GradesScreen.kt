@@ -3,9 +3,10 @@ package com.example.lasalleapp.ui.theme.screens
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -25,7 +26,8 @@ import com.example.lasalleapp.ui.theme.utils.studentsList
 fun GradesScreen(innerPadding: PaddingValues, navController: NavController, students: Student) {
     ScreenTemplate(innerPadding = innerPadding, header = {
         Column (
-            modifier = Modifier.fillMaxSize()
+            modifier = Modifier
+                .fillMaxSize()
                 .padding(35.dp)
         ){
             Text(
@@ -36,7 +38,7 @@ fun GradesScreen(innerPadding: PaddingValues, navController: NavController, stud
                 modifier = Modifier.padding(bottom = 5.dp)
             )
             Text(
-                text = students.career,
+                text = students.career.name,
                 style = MaterialTheme.typography.bodyMedium,
                 fontWeight = MaterialTheme.typography.bodyMedium.fontWeight,
                 color = Color.White,
@@ -54,18 +56,24 @@ fun GradesScreen(innerPadding: PaddingValues, navController: NavController, stud
                 style = MaterialTheme.typography.bodyMedium,
                 fontWeight = MaterialTheme.typography.bodyMedium.fontWeight,
                 color = Color.White,
-                modifier = Modifier.padding(bottom = 3.dp)
+                modifier = Modifier.padding(bottom = 5.dp)
             )
         }
     },body = {
         LazyColumn (
-            modifier = Modifier.height(550.dp).padding(16.dp)
+            modifier = Modifier
+                .padding(15.dp)
+                .fillMaxWidth()
         ){
-            items (20){
-                ClassItem()
+            itemsIndexed (students.career.subjects){index, subject ->
+                ClassItem(students.career.subjects[index].name,
+                    students.career.subjects[index].finalGrade,
+                    onClick = {
+                        navController.navigate("subject_detail_screen/${subject.id}")
+                    })
             }
         }
-    })
+    }, headerHeight = 205.dp)
 }
 
 @Preview(

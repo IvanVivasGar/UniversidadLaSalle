@@ -7,6 +7,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.size
@@ -34,7 +35,9 @@ import com.example.lasalleapp.ui.theme.screens.GradesScreen
 import com.example.lasalleapp.ui.theme.screens.HomeScreen
 import com.example.lasalleapp.ui.theme.screens.NewsDetailScreen
 import com.example.lasalleapp.ui.theme.screens.PaymentsScreen
+import com.example.lasalleapp.ui.theme.screens.ProvisionalScreen
 import com.example.lasalleapp.ui.theme.screens.SettingsScreen
+import com.example.lasalleapp.ui.theme.screens.SubjectDetailScreen
 import com.example.lasalleapp.ui.theme.utils.Screens
 import com.example.lasalleapp.ui.theme.utils.bottomNavBarItems
 import com.example.lasalleapp.ui.theme.utils.studentsList
@@ -55,7 +58,8 @@ class MainActivity : ComponentActivity() {
                 Screens.Calendar.route,
                 Screens.Grades.route,
                 Screens.Settings.route,
-                Screens.Payments.route
+                Screens.Payments.route,
+                Screens.Provisional.route
             )
             LaSalleAppTheme {
                 val currentRoute = navController.currentBackStackEntryAsState().value?.destination?.route
@@ -122,7 +126,22 @@ class MainActivity : ComponentActivity() {
                             NewsDetailScreen(newsId = id, innerPadding = innerPadding)
                         }
                         composable(route = Screens.Payments.route){
-                            PaymentsScreen(innerPadding = innerPadding, navController = navController)
+                            PaymentsScreen(innerPadding = innerPadding)
+                        }
+                        composable(route = Screens.Provisional.route){
+                            ProvisionalScreen(innerPadding = innerPadding)
+                        }
+                        composable(
+                            route = "subject_detail_screen/{subjectId}",
+                            arguments = listOf(navArgument("subjectId") { type = NavType.IntType })
+                        ) { backStackEntry ->
+                            val subjectId = backStackEntry.arguments?.getInt("subjectId") ?: 0
+                            val subject = studentsList[0].career.subjects.find { it.id == subjectId }
+                            if (subject != null) {
+                                SubjectDetailScreen(innerPadding = innerPadding, subject = subject)
+                            } else {
+                                Text("Subject not found")
+                            }
                         }
                     }
                 }

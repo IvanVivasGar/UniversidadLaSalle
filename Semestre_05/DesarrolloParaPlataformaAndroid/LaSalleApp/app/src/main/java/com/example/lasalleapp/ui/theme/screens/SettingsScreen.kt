@@ -1,6 +1,7 @@
 package com.example.lasalleapp.ui.theme.screens
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -32,6 +33,7 @@ import com.example.lasalleapp.models.Student
 import com.example.lasalleapp.ui.theme.LaSalleAppTheme
 import com.example.lasalleapp.ui.theme.components.ScreenTemplate
 import com.example.lasalleapp.ui.theme.utils.Password
+import com.example.lasalleapp.ui.theme.utils.Screens
 import com.example.lasalleapp.ui.theme.utils.SunMoon
 import com.example.lasalleapp.ui.theme.utils.studentsList
 
@@ -101,7 +103,10 @@ fun SettingsScreen(
                     modifier = Modifier
                         .fillMaxWidth()
                         .clip(RoundedCornerShape(10.dp))
-                        .background(Color.LightGray),
+                        .background(Color.LightGray)
+                        .clickable {
+                            navController.navigate(Screens.Provisional.route)
+                        }
                 ){
                     Icon(imageVector = Password,
                         contentDescription = "Icon",
@@ -121,7 +126,10 @@ fun SettingsScreen(
                     modifier = Modifier
                         .fillMaxWidth()
                         .clip(RoundedCornerShape(10.dp))
-                        .background(Color.LightGray),
+                        .background(Color.LightGray)
+                        .clickable {
+                            navController.navigate(Screens.Provisional.route)
+                        }
                 ){
                     Icon(imageVector = SunMoon,
                         contentDescription = "Icon",

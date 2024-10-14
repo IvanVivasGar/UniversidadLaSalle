@@ -65,9 +65,7 @@ fun HomeScreen(innerPadding: PaddingValues, navController: NavController){
             .fillMaxSize()
             .padding(innerPadding)
             .background(MaterialTheme.colorScheme.background)
-            .verticalScroll(
-                rememberScrollState()
-            )
+            .verticalScroll(rememberScrollState())
     ) {
         // Header
         Box(
