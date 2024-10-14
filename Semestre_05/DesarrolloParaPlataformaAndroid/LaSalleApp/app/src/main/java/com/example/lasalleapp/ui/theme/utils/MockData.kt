@@ -6,8 +6,10 @@ import androidx.compose.material.icons.filled.Menu
 import androidx.compose.material.icons.filled.Settings
 import com.example.lasalleapp.models.Student
 import com.example.lasalleapp.models.BottomNavigationItem
+import com.example.lasalleapp.models.Career
 import com.example.lasalleapp.models.Community
 import com.example.lasalleapp.models.News
+import com.example.lasalleapp.models.Subject
 
 val newsList = listOf(
     News(
@@ -30,42 +32,91 @@ val newsList = listOf(
     )
 )
 
+val subjectsList = listOf(
+    Subject(
+        id = 1,
+        name = "Administracion de Bases de Datos",
+        firstCut = 9.5,
+        secondCut = 9.0,
+        thirdCut = 9.0
+    ),
+    Subject(
+        id = 2,
+        name = "Programacion Web",
+        firstCut = 9.0,
+        secondCut = 8.0,
+        thirdCut = 8.2
+    ),
+    Subject(
+        id = 3,
+        name = "Programacion Movil",
+        firstCut = 8.1,
+        secondCut = 8.6,
+        thirdCut = 8.5
+    ),
+    Subject(
+        id = 4,
+        name = "Inteligencia Artificial",
+        firstCut = 8.5,
+        secondCut = 7.9,
+        thirdCut = 9.1
+    ),
+    Subject(
+        id = 5,
+        name = "Diseño de Sistemas",
+        firstCut = 10.0,
+        secondCut = 9.0,
+        thirdCut = 9.1
+    ),
+    Subject(
+        id = 6,
+        name = "Sistemas Operativos",
+        firstCut = 6.3,
+        secondCut = 6.1,
+        thirdCut = 6.7
+    )
+)
+
+val careerList = listOf(
+    Career(
+        id = 1,
+        name = "Ingenieria en Software y Sistemas Computacionales",
+        subjects = subjectsList
+    )
+)
+
 val studentsList = listOf(
     Student(
         name = "Caitlin Clark",
         birthdate = "22/01/2002",
         email = "cec77850@lasallebajio.edu.mx",
         photo = "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4433403.png",
-        career = "Ingenieria en Software y Sistemas Computacionales",
-        currentSemester = 6,
-        grade = 9.5
+        career = careerList[0],
+        currentSemester = 6
     ),
     Student(
         name = "Ivan Vivas",
         birthdate = "16/07/2003",
         email = "ivg77850@lasallebajio.edu.mx",
         photo = "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4433403.png",
-        career = "Ingenieria en Sistemas Computacionales",
-        currentSemester = 6,
-        grade = 9.5
+        career = careerList[0],
+        currentSemester = 6
     ),
     Student(
         name = "Lamine Yamal",
         birthdate = "13/07/2003",
         email = "ly77850@lasallebajio.edu.mx",
         photo = "https://fcb-abj-pre.s3.amazonaws.com/img/jugadors/LAMINE%20YAMAL.png",
-        career = "Ingenieria en Sistemas Computacionales",
-        currentSemester = 6,
-        grade = 9.5
+        career = careerList[0],
+        currentSemester = 6
     ),
     Student(
         name = "Xavi Simmons",
         birthdate = "16/07/2003",
         email = "ivg77850@lasallebajio.edu.mx",
         photo = "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4433403.png",
-        career = "Ingenieria en Sistemas Computacionales",
-        currentSemester = 6,
-        grade = 9.5
+        career = careerList[0],
+        currentSemester = 6
     ),
 )
 

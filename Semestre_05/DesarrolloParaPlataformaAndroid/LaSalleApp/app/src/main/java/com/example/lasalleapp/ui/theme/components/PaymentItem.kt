@@ -27,7 +27,7 @@ fun PaymentItem(){
     Box(
         modifier = Modifier.fillMaxWidth()
             .background(MaterialTheme.colorScheme.background)
-            .padding(top = 10.dp)
+            .padding(top = 10.dp, start = 10.dp, end = 10.dp, bottom = 5.dp)
     ){
         Column (
             modifier = Modifier.fillMaxWidth()
@@ -65,14 +65,12 @@ fun PaymentItem(){
                             text = "Periodo",
                             fontStyle = MaterialTheme.typography.titleMedium.fontStyle,
                             fontWeight = MaterialTheme.typography.titleMedium.fontWeight,
-                            fontSize = MaterialTheme.typography.titleMedium.fontSize,
-                            color = MaterialTheme.colorScheme.primary)
+                            fontSize = MaterialTheme.typography.titleMedium.fontSize)
                         Text(
                             text = "157 - AGO-DIC 2024",
                             fontStyle = MaterialTheme.typography.titleMedium.fontStyle,
                             fontWeight = MaterialTheme.typography.titleLarge.fontWeight,
-                            fontSize = MaterialTheme.typography.titleMedium.fontSize,
-                            color = MaterialTheme.colorScheme.primary)
+                            fontSize = MaterialTheme.typography.titleMedium.fontSize)
                     }
 
                     Row(
@@ -110,14 +108,12 @@ fun PaymentItem(){
                             text = "Vencimiento",
                             fontStyle = MaterialTheme.typography.titleMedium.fontStyle,
                             fontWeight = MaterialTheme.typography.titleMedium.fontWeight,
-                            fontSize = MaterialTheme.typography.titleMedium.fontSize,
-                            color = MaterialTheme.colorScheme.primary)
+                            fontSize = MaterialTheme.typography.titleMedium.fontSize)
                         Text(
                             text = "octubre 10 de 2024",
                             fontStyle = MaterialTheme.typography.titleMedium.fontStyle,
                             fontWeight = MaterialTheme.typography.titleLarge.fontWeight,
-                            fontSize = MaterialTheme.typography.titleMedium.fontSize,
-                            color = MaterialTheme.colorScheme.primary)
+                            fontSize = MaterialTheme.typography.titleMedium.fontSize)
                     }
 
                     Row(

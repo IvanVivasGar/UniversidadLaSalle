@@ -1,6 +1,7 @@
 package com.example.lasalleapp.ui.theme.components
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -18,7 +19,9 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 
 @Composable
-fun ClassItem(){
+fun ClassItem(className: String,
+              classGrade: Double,
+              onClick: () -> Unit){
     Column (
         modifier = Modifier.padding(5.dp)
     ){
@@ -26,11 +29,14 @@ fun ClassItem(){
             modifier = Modifier
                 .fillMaxWidth()
                 .clip(RoundedCornerShape(10.dp))
-                .background(Color.LightGray),
+                .background(Color.LightGray)
+                .clickable {
+                    onClick()
+                },
             horizontalArrangement = Arrangement.SpaceBetween
         ){
             Text(
-                text = "Clase",
+                text = className,
                 modifier = Modifier.align(Alignment.CenterVertically).padding(top = 10.dp, bottom = 10.dp, start = 15.dp),
                 color = MaterialTheme.colorScheme.primary,
                 style = MaterialTheme.typography.bodyMedium,
@@ -38,7 +44,7 @@ fun ClassItem(){
             )
 
             Text(
-                text = "9.4",
+                text = classGrade.toString(),
                 modifier = Modifier.align(Alignment.CenterVertically).padding(top = 10.dp, bottom = 10.dp, end = 15.dp),
                 color = MaterialTheme.colorScheme.primary,
                 style = MaterialTheme.typography.bodyMedium,
@@ -51,5 +57,5 @@ fun ClassItem(){
 @Preview
 @Composable
 fun ClassItemPreview(){
-    ClassItem()
+    ClassItem("Administracion de bases de datos", 9.0, onClick = {})
 }
