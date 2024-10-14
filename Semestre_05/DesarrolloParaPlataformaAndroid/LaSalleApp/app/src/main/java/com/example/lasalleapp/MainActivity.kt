@@ -4,7 +4,6 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import androidx.appcompat.app.AppCompatDelegate
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -34,11 +33,11 @@ import com.example.lasalleapp.ui.theme.screens.CalendarScreen
 import com.example.lasalleapp.ui.theme.screens.GradesScreen
 import com.example.lasalleapp.ui.theme.screens.HomeScreen
 import com.example.lasalleapp.ui.theme.screens.NewsDetailScreen
+import com.example.lasalleapp.ui.theme.screens.PaymentsScreen
 import com.example.lasalleapp.ui.theme.screens.SettingsScreen
 import com.example.lasalleapp.ui.theme.utils.Screens
-import com.example.lasalleapp.ui.theme.utils.alumnsList
 import com.example.lasalleapp.ui.theme.utils.bottomNavBarItems
-import com.example.lasalleapp.ui.theme.utils.newsList
+import com.example.lasalleapp.ui.theme.utils.studentsList
 import com.exyte.animatednavbar.AnimatedNavigationBar
 import com.exyte.animatednavbar.animation.indendshape.shapeCornerRadius
 
@@ -55,7 +54,8 @@ class MainActivity : ComponentActivity() {
                 Screens.Home.route,
                 Screens.Calendar.route,
                 Screens.Grades.route,
-                Screens.Settings.route
+                Screens.Settings.route,
+                Screens.Payments.route
             )
             LaSalleAppTheme {
                 val currentRoute = navController.currentBackStackEntryAsState().value?.destination?.route
@@ -104,10 +104,10 @@ class MainActivity : ComponentActivity() {
                             CalendarScreen(innerPadding = innerPadding, navController = navController)
                         }
                         composable(route = Screens.Grades.route){
-                            GradesScreen(innerPadding = innerPadding, navController = navController, alumns = alumnsList[0])
+                            GradesScreen(innerPadding = innerPadding, navController = navController, students = studentsList[0])
                         }
                         composable(route = Screens.Settings.route){
-                            SettingsScreen(innerPadding = innerPadding, navController = navController, alumns = alumnsList[0])
+                            SettingsScreen(innerPadding = innerPadding, navController = navController, students = studentsList[0])
                         }
                         composable(
                             route = Screens.NewsDetail.route + "/{id}",
@@ -120,6 +120,9 @@ class MainActivity : ComponentActivity() {
                         ){
                             val id = it.arguments?.getInt("id", 0) ?:0
                             NewsDetailScreen(newsId = id, innerPadding = innerPadding)
+                        }
+                        composable(route = Screens.Payments.route){
+                            PaymentsScreen(innerPadding = innerPadding, navController = navController)
                         }
                     }
                 }

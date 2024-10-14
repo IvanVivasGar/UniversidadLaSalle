@@ -1,6 +1,6 @@
 package com.example.lasalleapp.models
 
-data class Alumn (
+data class Student (
     val name: String,
     val birthdate: String,
     val email: String,

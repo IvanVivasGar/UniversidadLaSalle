@@ -28,18 +28,18 @@ import androidx.navigation.compose.rememberNavController
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
 import com.example.lasalleapp.R
-import com.example.lasalleapp.models.Alumn
+import com.example.lasalleapp.models.Student
 import com.example.lasalleapp.ui.theme.LaSalleAppTheme
 import com.example.lasalleapp.ui.theme.components.ScreenTemplate
 import com.example.lasalleapp.ui.theme.utils.Password
 import com.example.lasalleapp.ui.theme.utils.SunMoon
-import com.example.lasalleapp.ui.theme.utils.alumnsList
+import com.example.lasalleapp.ui.theme.utils.studentsList
 
 @Composable
 fun SettingsScreen(
     innerPadding: PaddingValues,
     navController: NavController,
-    alumns: Alumn) {
+    students: Student) {
     ScreenTemplate(innerPadding = innerPadding, header = {
         Row (
             modifier = Modifier.fillMaxWidth().padding(16.dp)
@@ -54,7 +54,7 @@ fun SettingsScreen(
                 AsyncImage(
                     model = ImageRequest.Builder(LocalContext.current)
                         .placeholder(R.drawable.portrait_1)
-                        .data(alumns.photo)
+                        .data(students.photo)
                         .build(),
                     contentDescription = "CardImage",
                     modifier = Modifier.fillMaxWidth().height(200.dp),
@@ -65,18 +65,18 @@ fun SettingsScreen(
                 modifier = Modifier.padding(start = 16.dp)
             ){
                 Text(
-                    text = alumns.name,
+                    text = students.name,
                     color = Color.White,
                     style = MaterialTheme.typography.titleLarge,
                     fontWeight = MaterialTheme.typography.bodyMedium.fontWeight)
                 Text(
-                    text = alumns.email,
+                    text = students.email,
                     color = Color.White,
                     style = MaterialTheme.typography.bodyMedium,
                     fontWeight = MaterialTheme.typography.bodySmall.fontWeight,
                     modifier = Modifier.padding(top = 5.dp))
                 Text(
-                    text = alumns.birthdate,
+                    text = students.birthdate,
                     color = Color.White,
                     style = MaterialTheme.typography.bodyMedium,
                     fontWeight = MaterialTheme.typography.bodySmall.fontWeight,
@@ -147,6 +147,6 @@ fun SettingsScreen(
 fun SettingsScreenPreview(){
     val navController = rememberNavController()
     LaSalleAppTheme {
-        SettingsScreen(innerPadding = PaddingValues(0.dp), navController = navController, alumns = alumnsList[0])
+        SettingsScreen(innerPadding = PaddingValues(0.dp), navController = navController, students = studentsList[0])
     }
 }

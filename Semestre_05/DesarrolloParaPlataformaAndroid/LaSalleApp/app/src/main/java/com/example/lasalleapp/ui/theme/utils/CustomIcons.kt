@@ -422,3 +422,100 @@ public val SunMoon: ImageVector
     }
 
 private var _SunMoon: ImageVector? = null
+
+public val MagnifyingGlass: ImageVector
+    get() {
+        if (_MagnifyingGlass != null) {
+            return _MagnifyingGlass!!
+        }
+        _MagnifyingGlass = ImageVector.Builder(
+            name = "MagnifyingGlass",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 24f,
+            viewportHeight = 24f
+        ).apply {
+            path(
+                fill = null,
+                fillAlpha = 1.0f,
+                stroke = SolidColor(Color(0xFF0F172A)),
+                strokeAlpha = 1.0f,
+                strokeLineWidth = 1.5f,
+                strokeLineCap = StrokeCap.Round,
+                strokeLineJoin = StrokeJoin.Round,
+                strokeLineMiter = 1.0f,
+                pathFillType = PathFillType.NonZero
+            ) {
+                moveTo(21f, 21f)
+                lineTo(15.8033f, 15.8033f)
+                moveTo(15.8033f, 15.8033f)
+                curveTo(17.1605f, 14.4461f, 18f, 12.5711f, 18f, 10.5f)
+                curveTo(18f, 6.3579f, 14.6421f, 3f, 10.5f, 3f)
+                curveTo(6.3579f, 3f, 3f, 6.3579f, 3f, 10.5f)
+                curveTo(3f, 14.6421f, 6.3579f, 18f, 10.5f, 18f)
+                curveTo(12.5711f, 18f, 14.4461f, 17.1605f, 15.8033f, 15.8033f)
+                close()
+            }
+        }.build()
+        return _MagnifyingGlass!!
+    }
+
+private var _MagnifyingGlass: ImageVector? = null
+
+public val Credit_card: ImageVector
+    get() {
+        if (_Credit_card != null) {
+            return _Credit_card!!
+        }
+        _Credit_card = ImageVector.Builder(
+            name = "Credit_card",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 960f,
+            viewportHeight = 960f
+        ).apply {
+            path(
+                fill = SolidColor(Color.Black),
+                fillAlpha = 1.0f,
+                stroke = null,
+                strokeAlpha = 1.0f,
+                strokeLineWidth = 1.0f,
+                strokeLineCap = StrokeCap.Butt,
+                strokeLineJoin = StrokeJoin.Miter,
+                strokeLineMiter = 1.0f,
+                pathFillType = PathFillType.NonZero
+            ) {
+                moveTo(880f, 240f)
+                verticalLineToRelative(480f)
+                quadToRelative(0f, 33f, -23.5f, 56.5f)
+                reflectiveQuadTo(800f, 800f)
+                horizontalLineTo(160f)
+                quadToRelative(-33f, 0f, -56.5f, -23.5f)
+                reflectiveQuadTo(80f, 720f)
+                verticalLineToRelative(-480f)
+                quadToRelative(0f, -33f, 23.5f, -56.5f)
+                reflectiveQuadTo(160f, 160f)
+                horizontalLineToRelative(640f)
+                quadToRelative(33f, 0f, 56.5f, 23.5f)
+                reflectiveQuadTo(880f, 240f)
+                moveToRelative(-720f, 80f)
+                horizontalLineToRelative(640f)
+                verticalLineToRelative(-80f)
+                horizontalLineTo(160f)
+                close()
+                moveToRelative(0f, 160f)
+                verticalLineToRelative(240f)
+                horizontalLineToRelative(640f)
+                verticalLineToRelative(-240f)
+                close()
+                moveToRelative(0f, 240f)
+                verticalLineToRelative(-480f)
+                close()
+            }
+        }.build()
+        return _Credit_card!!
+    }
+
+private var _Credit_card: ImageVector? = null
+
+

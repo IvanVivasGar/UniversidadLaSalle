@@ -42,6 +42,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
+import androidx.navigation.compose.NavHost
+import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
@@ -59,7 +61,8 @@ import com.example.lasalleapp.ui.theme.utils.newsList
 @Composable
 fun HomeScreen(innerPadding: PaddingValues, navController: NavController){
     Column (
-        modifier = Modifier.fillMaxSize()
+        modifier = Modifier
+            .fillMaxSize()
             .padding(innerPadding)
             .background(MaterialTheme.colorScheme.background)
             .verticalScroll(
@@ -68,7 +71,8 @@ fun HomeScreen(innerPadding: PaddingValues, navController: NavController){
     ) {
         // Header
         Box(
-            modifier = Modifier.fillMaxWidth()
+            modifier = Modifier
+                .fillMaxWidth()
                 .clip(RoundedCornerShape(bottomStart = 60.dp, bottomEnd = 60.dp))
                 .height(270.dp)
                 .background(MaterialTheme.colorScheme.primary)
@@ -78,10 +82,14 @@ fun HomeScreen(innerPadding: PaddingValues, navController: NavController){
                     .data("https://www.lasallebajio.edu.mx/comunidad/images/imagotipos/Elementos%20Gr%C3%A1ficos/Edificios%20en%20vectores-13.png")
                     .build()
                 , contentDescription = "Background Image",
-                modifier = Modifier.fillMaxSize().offset(y = 70.dp)
+                modifier = Modifier
+                    .fillMaxSize()
+                    .offset(y = 70.dp)
             )
             Row (
-                modifier = Modifier.fillMaxWidth().padding(20.dp),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(20.dp),
                 verticalAlignment = Alignment.CenterVertically
             ){
                 Image(
@@ -105,9 +113,11 @@ fun HomeScreen(innerPadding: PaddingValues, navController: NavController){
 
                 Icon(imageVector = Logout,
                     contentDescription = "Logout",
-                    modifier = Modifier.size(45.dp).clickable {
-                        Log.i("HomeScreen", "Cerrando Sesion")
-                    },
+                    modifier = Modifier
+                        .size(45.dp)
+                        .clickable {
+                            Log.i("HomeScreen", "Cerrando Sesion")
+                        },
                     tint = Color.White
                 )
             }
@@ -115,7 +125,8 @@ fun HomeScreen(innerPadding: PaddingValues, navController: NavController){
 
         // Widgets
         Box(
-            modifier = Modifier.fillMaxWidth()
+            modifier = Modifier
+                .fillMaxWidth()
                 .height(140.dp)
                 .offset(y = (-40).dp)
                 .padding(horizontal = 24.dp)
@@ -128,9 +139,9 @@ fun HomeScreen(innerPadding: PaddingValues, navController: NavController){
                 horizontalArrangement = Arrangement.SpaceEvenly
             ){
                 // Widget
-                Widget(icon = Icons.Default.DateRange, text = "Sin eventos")
-                Widget(icon = Task, text = "2 tareas")
-                Widget(icon = Cash, text = stringResource(R.string.cash_text))
+                Widget(icon = Icons.Default.DateRange, text = "Sin eventos", onClick = {})
+                Widget(icon = Task, text = "2 tareas", onClick = {})
+                Widget(icon = Cash, text = stringResource(R.string.cash_text), onClick = {navController.navigate(Screens.Payments.route)})
             }
         }
 
@@ -163,7 +174,9 @@ fun HomeScreen(innerPadding: PaddingValues, navController: NavController){
                 )
                 LazyVerticalGrid(
                     columns = GridCells.Fixed(2),
-                    modifier = Modifier.fillMaxWidth().height(500.dp)
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .height(500.dp)
                 ) {
                     items(communities){
                         Box(
