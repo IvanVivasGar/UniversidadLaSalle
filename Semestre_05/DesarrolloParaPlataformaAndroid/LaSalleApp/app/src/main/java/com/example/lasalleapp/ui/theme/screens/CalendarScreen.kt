@@ -44,7 +44,7 @@ fun CalendarScreen(innerPadding: PaddingValues, navController: NavController) {
                     .padding(top = 5.dp)
             ){
                 items(31){
-                    DayItem()
+                    DayItem(day = it)
                 }
             }
         }

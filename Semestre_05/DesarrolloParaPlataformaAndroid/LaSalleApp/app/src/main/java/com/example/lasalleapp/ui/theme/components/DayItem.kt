@@ -18,7 +18,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 
 @Composable
-fun DayItem(){
+fun DayItem(day: Int){
     Card(
         modifier = Modifier.size(60.dp).padding(4.dp)
     ){
@@ -27,7 +27,7 @@ fun DayItem(){
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center
         ){
-            Text("1")
+            Text((day + 1).toString())
             Box(
                 modifier = Modifier.size(8.dp).background(Color.Red, shape = CircleShape)
             ){
@@ -39,5 +39,5 @@ fun DayItem(){
 @Preview
 @Composable
 fun DayItemPreview(){
-    DayItem()
+    DayItem(1)
 }
