@@ -65,7 +65,7 @@ fun GradesScreen(innerPadding: PaddingValues, navController: NavController, stud
                 .padding(15.dp)
                 .fillMaxWidth()
         ){
-            itemsIndexed (students.career.subjects){index, subject ->
+            itemsIndexed (students.career.subjects.filter { it.coursed }){index, subject ->
                 ClassItem(students.career.subjects[index].name,
                     students.career.subjects[index].finalGrade,
                     onClick = {

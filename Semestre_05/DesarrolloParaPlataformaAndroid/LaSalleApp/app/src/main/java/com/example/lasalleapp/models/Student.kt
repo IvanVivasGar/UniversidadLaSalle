@@ -6,15 +6,17 @@ data class Student (
     val email: String,
     val photo: String,
     val career: Career,
-    val currentSemester: Int
+    val currentSemester: Int,
+    val payments: List<Payment> = emptyList()
 ){
     val grade: Double
         get() {
-            val totalSubjects = career.subjects.size
+            val coursedSubjects = career.subjects.filter { it.coursed } // Filter coursed subjects
+            val totalSubjects = coursedSubjects.size
             if (totalSubjects == 0) {
                 return 0.0
             }
-            val sumOfGrades = career.subjects.sumOf { it.finalGrade }
+            val sumOfGrades = coursedSubjects.sumOf { it.finalGrade } // Sum grades of coursed subjects
             val average = sumOfGrades / totalSubjects
             return String.format("%.1f", average).toDouble()
         }

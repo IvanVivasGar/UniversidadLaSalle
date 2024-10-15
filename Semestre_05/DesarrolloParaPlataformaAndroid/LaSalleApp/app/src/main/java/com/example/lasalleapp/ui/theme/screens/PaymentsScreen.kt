@@ -6,6 +6,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
@@ -14,11 +15,13 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.example.lasalleapp.models.Student
 import com.example.lasalleapp.ui.theme.LaSalleAppTheme
 import com.example.lasalleapp.ui.theme.components.PaymentItem
+import com.example.lasalleapp.ui.theme.utils.studentsList
 
 @Composable
-fun PaymentsScreen(innerPadding: PaddingValues) {
+fun PaymentsScreen(innerPadding: PaddingValues, student: Student) {
     val scrollState = rememberLazyListState()
 
     LazyColumn(
@@ -38,8 +41,8 @@ fun PaymentsScreen(innerPadding: PaddingValues) {
                 textAlign = TextAlign.Center
             )
         }
-        items(3) {
-            PaymentItem()
+        itemsIndexed(student.payments.filter { !it.paid }) { index, payment ->
+            PaymentItem(payment = payment)
         }
 
         item {
@@ -52,8 +55,8 @@ fun PaymentsScreen(innerPadding: PaddingValues) {
                 textAlign = TextAlign.Center
             )
         }
-        items(2) {
-            PaymentItem()
+        itemsIndexed(student.payments.filter{it.paid}) { index, payment ->
+            PaymentItem(payment = payment)
         }
     }
 }
@@ -65,6 +68,6 @@ fun PaymentsScreen(innerPadding: PaddingValues) {
 @Composable
 fun PaymentsScreenPreview(){
     LaSalleAppTheme {
-        PaymentsScreen(innerPadding = PaddingValues(0.dp))
+        PaymentsScreen(innerPadding = PaddingValues(0.dp), studentsList[0])
     }
 }
