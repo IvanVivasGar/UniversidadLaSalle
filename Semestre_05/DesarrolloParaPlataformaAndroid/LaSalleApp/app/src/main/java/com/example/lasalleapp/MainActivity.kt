@@ -7,7 +7,6 @@ import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.size
@@ -57,9 +56,7 @@ class MainActivity : ComponentActivity() {
                 Screens.Home.route,
                 Screens.Calendar.route,
                 Screens.Grades.route,
-                Screens.Settings.route,
-                Screens.Payments.route,
-                Screens.Provisional.route
+                Screens.Settings.route
             )
             LaSalleAppTheme {
                 val currentRoute = navController.currentBackStackEntryAsState().value?.destination?.route
@@ -102,7 +99,7 @@ class MainActivity : ComponentActivity() {
                 ) { innerPadding ->
                     NavHost(navController = navController, startDestination = Screens.Home.route) {
                         composable(route = Screens.Home.route){
-                            HomeScreen(innerPadding = innerPadding, navController = navController)
+                            HomeScreen(innerPadding = innerPadding, navController = navController, student = studentsList[0])
                         }
                         composable(route = Screens.Calendar.route){
                             CalendarScreen(innerPadding = innerPadding, navController = navController)

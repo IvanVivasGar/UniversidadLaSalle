@@ -1,6 +1,7 @@
 package com.example.lasalleapp.ui.theme.components
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -53,7 +54,7 @@ fun PaymentItem(payment: Payment){
                         imageVector = Check_circle,
                         contentDescription = "paid",
                         modifier = Modifier.size(40.dp).padding(top = 10.dp, end = 10.dp),
-                        tint = Color.Green)
+                        tint = Color.DarkGray)
                 }else{
                     Icon(
                         imageVector = Pending_actions,
@@ -98,7 +99,8 @@ fun PaymentItem(payment: Payment){
                     Row(
                         modifier = Modifier.fillMaxHeight()
                             .weight(1f)
-                            .background(MaterialTheme.colorScheme.primary),
+                            .background(MaterialTheme.colorScheme.primary)
+                            .clickable {  },
                         horizontalArrangement = Arrangement.Center,
                         verticalAlignment = androidx.compose.ui.Alignment.CenterVertically
                     ){
@@ -141,23 +143,33 @@ fun PaymentItem(payment: Payment){
                     Row(
                         modifier = Modifier.fillMaxHeight()
                             .weight(1f)
-                            .background(MaterialTheme.colorScheme.error),
+                            .background(MaterialTheme.colorScheme.error)
+                            .clickable {  },
                         horizontalArrangement = Arrangement.Center,
                         verticalAlignment = androidx.compose.ui.Alignment.CenterVertically
                     ){
-                        Icon(
-                            imageVector = Credit_card,
-                            contentDescription = "text",
-                            modifier = Modifier.size(40.dp)
-                                .padding(end = 15.dp),
-                            tint = MaterialTheme.colorScheme.background
-                        )
-                        Text(
-                            text = "Pagar en linea",
-                            fontStyle = MaterialTheme.typography.titleMedium.fontStyle,
-                            fontWeight = MaterialTheme.typography.titleLarge.fontWeight,
-                            fontSize = MaterialTheme.typography.titleMedium.fontSize,
-                            color = MaterialTheme.colorScheme.background)
+                        if(!payment.paid){
+                            Icon(
+                                imageVector = Credit_card,
+                                contentDescription = "text",
+                                modifier = Modifier.size(40.dp)
+                                    .padding(end = 15.dp),
+                                tint = MaterialTheme.colorScheme.background
+                            )
+                            Text(
+                                text = "Pagar en linea",
+                                fontStyle = MaterialTheme.typography.titleMedium.fontStyle,
+                                fontWeight = MaterialTheme.typography.titleLarge.fontWeight,
+                                fontSize = MaterialTheme.typography.titleMedium.fontSize,
+                                color = MaterialTheme.colorScheme.background)
+                        }else{
+                            Text(
+                                text = "Pagado",
+                                fontStyle = MaterialTheme.typography.titleMedium.fontStyle,
+                                fontWeight = MaterialTheme.typography.titleLarge.fontWeight,
+                                fontSize = MaterialTheme.typography.titleMedium.fontSize,
+                                color = MaterialTheme.colorScheme.background)
+                        }
                     }
                 }
             }
