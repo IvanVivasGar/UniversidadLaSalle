@@ -65,6 +65,6 @@ fun SubjectDetailScreen(innerPadding: PaddingValues, subject: Subject) {
 fun SubjectDetailScreenPreview(){
     LaSalleAppTheme {
         SubjectDetailScreen(innerPadding = PaddingValues(0.dp),
-            subject = Subject(1, "Administracion de bases de datos", 9.0, 9.0, 9.0))
+            subject = Subject(1, "Administracion de bases de datos", true,9.0, 9.0, 9.0))
     }
 }

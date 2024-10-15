@@ -126,7 +126,7 @@ class MainActivity : ComponentActivity() {
                             NewsDetailScreen(newsId = id, innerPadding = innerPadding)
                         }
                         composable(route = Screens.Payments.route){
-                            PaymentsScreen(innerPadding = innerPadding)
+                            PaymentsScreen(innerPadding = innerPadding, student = studentsList[0])
                         }
                         composable(route = Screens.Provisional.route){
                             ProvisionalScreen(innerPadding = innerPadding)

@@ -19,11 +19,15 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.example.lasalleapp.models.Payment
+import com.example.lasalleapp.ui.theme.utils.Check_circle
 import com.example.lasalleapp.ui.theme.utils.Credit_card
 import com.example.lasalleapp.ui.theme.utils.MagnifyingGlass
+import com.example.lasalleapp.ui.theme.utils.Pending_actions
+import com.example.lasalleapp.ui.theme.utils.payments
 
 @Composable
-fun PaymentItem(){
+fun PaymentItem(payment: Payment){
     Box(
         modifier = Modifier.fillMaxWidth()
             .background(MaterialTheme.colorScheme.background)
@@ -34,14 +38,32 @@ fun PaymentItem(){
                 .height(230.dp)
                 .background(Color.LightGray)
         ){
-            Text(text = "Primer Pago",
-                fontStyle = MaterialTheme.typography.titleLarge.fontStyle,
-                fontWeight = MaterialTheme.typography.titleLarge.fontWeight,
-                fontSize = MaterialTheme.typography.titleLarge.fontSize,
-                color = MaterialTheme.colorScheme.primary,
-                modifier = Modifier.padding(top = 10.dp, start = 10.dp))
+            Row(
+                modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween
+            ){
+                Text(text = "Primer Pago",
+                    fontStyle = MaterialTheme.typography.titleLarge.fontStyle,
+                    fontWeight = MaterialTheme.typography.titleLarge.fontWeight,
+                    fontSize = MaterialTheme.typography.titleLarge.fontSize,
+                    color = MaterialTheme.colorScheme.primary,
+                    modifier = Modifier.padding(top = 10.dp, start = 10.dp))
 
-            Text(text = "Folio: ",
+                if(payment.paid){
+                    Icon(
+                        imageVector = Check_circle,
+                        contentDescription = "paid",
+                        modifier = Modifier.size(40.dp).padding(top = 10.dp, end = 10.dp),
+                        tint = Color.Green)
+                }else{
+                    Icon(
+                        imageVector = Pending_actions,
+                        contentDescription = "not paid",
+                        modifier = Modifier.size(40.dp).padding(top = 10.dp, end = 10.dp),
+                        tint = MaterialTheme.colorScheme.error)
+                }
+            }
+
+            Text(text = "Folio: " + payment.id.toString(),
                 fontStyle = MaterialTheme.typography.titleMedium.fontStyle,
                 fontWeight = MaterialTheme.typography.titleLarge.fontWeight,
                 fontSize = MaterialTheme.typography.titleMedium.fontSize,
@@ -67,7 +89,7 @@ fun PaymentItem(){
                             fontWeight = MaterialTheme.typography.titleMedium.fontWeight,
                             fontSize = MaterialTheme.typography.titleMedium.fontSize)
                         Text(
-                            text = "157 - AGO-DIC 2024",
+                            text = payment.period,
                             fontStyle = MaterialTheme.typography.titleMedium.fontStyle,
                             fontWeight = MaterialTheme.typography.titleLarge.fontWeight,
                             fontSize = MaterialTheme.typography.titleMedium.fontSize)
@@ -110,7 +132,7 @@ fun PaymentItem(){
                             fontWeight = MaterialTheme.typography.titleMedium.fontWeight,
                             fontSize = MaterialTheme.typography.titleMedium.fontSize)
                         Text(
-                            text = "octubre 10 de 2024",
+                            text = payment.dueDate,
                             fontStyle = MaterialTheme.typography.titleMedium.fontStyle,
                             fontWeight = MaterialTheme.typography.titleLarge.fontWeight,
                             fontSize = MaterialTheme.typography.titleMedium.fontSize)
@@ -146,5 +168,5 @@ fun PaymentItem(){
 @Preview
 @Composable
 fun PaymentItemPreview(){
-    PaymentItem()
+    PaymentItem(payment = payments[0])
 }
