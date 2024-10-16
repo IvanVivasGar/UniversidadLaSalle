@@ -1,0 +1,9 @@
+{% if lista_preguntas_recientes %}
+<ul>
+    {% for pregunta in lista_preguntas_recientes %}
+    <li><a href="/votaciones/{{ pregunta.id }}/">{{ pregunta.texto_pregunta }}</a></li>
+    {% endfor %}
+</ul>
+{% else %}
+<p>No hay votaciones disponibles.</p>
+{% endif %}
