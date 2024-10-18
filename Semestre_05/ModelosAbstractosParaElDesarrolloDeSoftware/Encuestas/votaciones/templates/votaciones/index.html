@@ -1,7 +1,7 @@
 {% if lista_preguntas_recientes %}
 <ul>
     {% for pregunta in lista_preguntas_recientes %}
-    <li><a href="/votaciones/{{ pregunta.id }}/">{{ pregunta.texto_pregunta }}</a></li>
+    <li><a href="{% url 'votaciones:detail' pregunta.id %}">{{ pregunta.texto_pregunta }}</a></li>
     {% endfor %}
 </ul>
 {% else %}

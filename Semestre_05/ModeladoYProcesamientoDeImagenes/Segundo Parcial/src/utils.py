@@ -309,3 +309,28 @@ def multiplicar_ruido(img, sigmaM):
     img_out = img * img_ruido
     img_out = np.clip(img_out, 0, 255).astype(np.uint8)
     return img_out
+
+"""
+Function to apply a 2D convolution to an image using a given kernel.
+
+Parameters:
+    - img: 2D numpy array representing the grayscale image.
+    - k: 2D numpy array representing the convolution kernel.
+
+Returns:
+    - img_out: 2D numpy array representing the convolved image.
+"""
+
+def conv2d(img, kernel):
+    kernel_rotado = np.rot90(kernel, 2)
+    padding_height = kernel.shape[0] // 2
+    padding_width = kernel.shape[1] // 2
+    img_padded = np.pad(img, ((padding_height, padding_height), (padding_width, padding_width)), mode='constant', constant_values=0)
+    img_out = np.zeros_like(img)
+    for i in range(img.shape[0]):
+        for j in range(img.shape[1]):
+            region = img_padded[i:i + kernel.shape[0], j:j + kernel.shape[1]]
+            img_out[i, j] = np.sum(region * kernel_rotado)
+
+    img_out = np.clip(img_out, 0, 255).astype(np.uint8)
+    return img_out

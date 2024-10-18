@@ -1,18 +1,24 @@
 import utils
-import numpy as np
+from scipy.signal import convolve2d
 
-def conv2d(k):
-    # Paso 1. Rotar el kernel 180 grados
+img = utils.read_image('data/pepper.jpg')
+img_impulsivo = utils.ruido_impulsivo(img, 0.7)
 
-    print(k)
-    print(kernel_rotado)
+img_conv_personal_gaussiano = utils.conv2d(img_impulsivo, utils.gaussian_kernel(10, 5))
+img_conv_scipy_gaussiano = convolve2d(img_impulsivo, utils.gaussian_kernel(10, 5), mode='same', boundary='wrap')
 
-    # Paso 2. Calcula el tamaño del 0's padding en funcion del kernel
+img_conv_personal_promedio = utils.conv2d(img_impulsivo, utils.filtro_promedio(5))
+img_conv_scipy_promedio = convolve2d(img_impulsivo, utils.filtro_promedio(5), mode='same', boundary='wrap')
 
-    # Paso 3. Aplicar convolucion
-
-    return print("final")
-
-kernel = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-
-conv2d(kernel)
+utils.plot_images([img,
+                   img_conv_personal_gaussiano,
+                   img_conv_scipy_gaussiano, img_impulsivo,
+                   img_conv_personal_promedio,
+                   img_conv_scipy_promedio],
+                   ["Imagen Original",
+                    "Convolucion Personal Filtro Gaussiano",
+                    "Convolucion Scipy Filtro Gaussiano",
+                    "Imagen con Ruido Impulsivo",
+                    "Convolucion Personal Filtro Promedio",
+                    "Convolucion Scipy Filtro Promedio"],
+                    3)

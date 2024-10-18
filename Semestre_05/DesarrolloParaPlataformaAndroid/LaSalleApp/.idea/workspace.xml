@@ -10,11 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a20bae98-e8a5-441a-a8f1-5f92c357e125" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ModelosAbstractosParaElDesarrolloDeSoftware/Encuestas/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../../ModelosAbstractosParaElDesarrolloDeSoftware/Encuestas/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ModelosAbstractosParaElDesarrolloDeSoftware/Encuestas/votaciones/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../ModelosAbstractosParaElDesarrolloDeSoftware/Encuestas/votaciones/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ModelosAbstractosParaElDesarrolloDeSoftware/Encuestas/votaciones/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../ModelosAbstractosParaElDesarrolloDeSoftware/Encuestas/votaciones/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ModelosAbstractosParaElDesarrolloDeSoftware/Encuestas/votaciones/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../ModelosAbstractosParaElDesarrolloDeSoftware/Encuestas/votaciones/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lasalleapp/ui/theme/utils/Screens.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lasalleapp/ui/theme/utils/Screens.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ModeladoYProcesamientoDeImagenes/Segundo Parcial/src/tarea04.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../ModeladoYProcesamientoDeImagenes/Segundo Parcial/src/tarea04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ModeladoYProcesamientoDeImagenes/Segundo Parcial/src/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../ModeladoYProcesamientoDeImagenes/Segundo Parcial/src/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
