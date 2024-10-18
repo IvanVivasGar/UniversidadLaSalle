@@ -1,0 +1,11 @@
+<form action="{% url 'votaciones:vote' pregunta.id %}" method="post">
+    <fieldset>
+        <legend><h1>{{pregunta.texto_pregunta}}</h1></legend>
+        {% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+        {% for respuesta in pregunta.respuesta_set.all %}
+            <input type="radio" name="respuesta" id="respuesta{{ forloop.counter }}" value="{{ respuesta.id }}">
+            <label for="respuesta{{ forloop.counter }}">{{ respuesta.texto_respuesta }}</label><br>
+        {% endfor %}
+    </fieldset>
+    <input type="submit" value="Votar">
+</form>

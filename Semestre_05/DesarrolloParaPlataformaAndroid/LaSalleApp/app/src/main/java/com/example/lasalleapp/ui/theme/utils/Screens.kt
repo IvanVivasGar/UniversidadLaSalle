@@ -9,5 +9,4 @@ sealed class Screens (val route: String){
     data object Payments: Screens("payments")
     data object Provisional: Screens("provisional")
     data object SubjectDetail: Screens("subject-detail")
-
 }
