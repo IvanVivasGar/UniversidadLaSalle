@@ -41,19 +41,21 @@ Function to plot a list of images with their corresponding titles in a grid layo
 Parameters:
     - images: List of 2D numpy arrays representing the images to be plotted.
     - titles: List of strings representing the titles for each image.
+    - fig_title: String representing the title for the entire figure.
     - cols: Integer representing the number of columns in the grid layout (default is 3).
 
 Returns:
     - None
 """
 
-def plot_images(images, titles, cols=3):
+def plot_images(images, titles, fig_title, cols=3):
     assert len(images) == len(titles), "The number of images must match the number of titles"
 
     n_images = len(images)
     rows = (n_images + cols - 1) // cols  # Calculate the number of rows needed
 
     fig, axes = plt.subplots(rows, cols, figsize=(cols * 3, rows * 3))  # Set column width to 300 pixels (3 inches) and row height to 300 pixels (3 inches)
+    fig.canvas.manager.set_window_title(fig_title)  # Set the window title
     axes = axes.flatten()  # Flatten in case of a single row
 
     for i, (img, title) in enumerate(zip(images, titles)):
@@ -272,20 +274,20 @@ Function to add impulsive noise (salt and pepper noise) to an image.
 
 Parameters:
     - img: 2D numpy array representing the grayscale image.
-    - p: Float representing the probability of a pixel being affected by noise.
+    - probability: Float representing the probability of a pixel being affected by noise.
 
 Returns:
     - img_ruido: 2D numpy array representing the noisy image.
 """
 
-def ruido_impulsivo(img, p):
+def ruido_impulsivo(img, probability):
     w, h = img.shape
-    img_ruido = np.zeros((w,h))
-    probas = np.random.random((w,h))
-    ruido = np.random.randint(0, 2, (w,h))*255
+    img_ruido = np.zeros((w, h))
+    probas = np.random.random((w, h))
+    ruido = np.random.randint(0, 2, (w,h)) * 255
     for i in range(w):
         for j in range(h):
-            if probas[i,j]>p:
+            if probas[i,j] > probability:
                 img_ruido[i,j] = ruido[i,j]
             else:
                 img_ruido[i,j] = img[i,j]
@@ -333,4 +335,52 @@ def conv2d(img, kernel):
             img_out[i, j] = np.sum(region * kernel_rotado)
 
     img_out = np.clip(img_out, 0, 255).astype(np.uint8)
+    return img_out
+
+"""
+Function to apply an arithmetic mean filter to an image.
+
+Parameters:
+    - img: 2D numpy array representing the grayscale image.
+    - w_size: Integer representing the size of the window (w_size x w_size).
+
+Returns:
+    - img_out: 2D numpy array representing the filtered image.
+"""
+
+def media_aritmetica(img, w_size, str_filtro):
+    padding_height = w_size // 2
+    padding_width = w_size // 2
+    img_padded = np.pad(img, ((padding_height, padding_height), (padding_width, padding_width)), mode='constant', constant_values=0)
+    img_out = np.zeros_like(img)
+    for i in range(img.shape[0]):
+        for j in range(img.shape[1]):
+            region = img_padded[i:i + w_size, j:j + w_size]
+            img_out[i, j] = np.mean(region)
+
+    return img_out
+
+"""
+Function to apply a geometric mean filter to an image.
+
+Parameters:
+    - img: 2D numpy array representing the grayscale image.
+    - w_size: Integer representing the size of the window (w_size x w_size).
+
+Returns:
+    - img_out: 2D numpy array representing the filtered image.
+
+Note:
+    - Bad for impulsive noise
+"""
+
+def media_geometrica(img, w_size):
+    padding_height = w_size // 2
+    padding_width = w_size // 2
+    img_padded = np.pad(img, ((padding_height, padding_height), (padding_width, padding_width)), mode='constant', constant_values=0)
+    img_out = np.zeros(img.shape)
+    for i in range(img.shape[0]):
+        for j in range(img.shape[1]):
+            region = img_padded[i:i + w_size, j:j + w_size]
+            img_out[i, j] = (np.prod(region)) ** (1/w_size)
     return img_out
