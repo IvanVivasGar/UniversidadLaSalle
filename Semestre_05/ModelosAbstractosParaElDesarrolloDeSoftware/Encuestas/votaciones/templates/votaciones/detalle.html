@@ -1,4 +1,5 @@
 <form action="{% url 'votaciones:vote' pregunta.id %}" method="post">
+    {% csrf_token %}
     <fieldset>
         <legend><h1>{{pregunta.texto_pregunta}}</h1></legend>
         {% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
