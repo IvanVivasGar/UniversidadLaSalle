@@ -375,6 +375,7 @@ Note:
 """
 
 def media_geometrica(img, w_size):
+    img = img.astype(np.float64)
     padding_height = w_size // 2
     padding_width = w_size // 2
     img_padded = np.pad(img, ((padding_height, padding_height), (padding_width, padding_width)), mode='constant', constant_values=0)
@@ -383,4 +384,17 @@ def media_geometrica(img, w_size):
         for j in range(img.shape[1]):
             region = img_padded[i:i + w_size, j:j + w_size]
             img_out[i, j] = (np.prod(region)) ** (1/w_size)
+    return img_out
+
+def media_armonica(img, w_size):
+    img = img.astype(np.float64)
+    img = img + 0.0001
+    padding_height = w_size // 2
+    padding_width = w_size // 2
+    img_padded = np.pad(img, ((padding_height, padding_height), (padding_width, padding_width)), mode='constant', constant_values=0)
+    img_out = np.zeros(img.shape)
+    for i in range(img.shape[0]):
+        for j in range(img.shape[1]):
+            region = img_padded[i:i + w_size, j:j + w_size]
+            img_out[i, j] = w_size * w_size / (1 / np.sum(region))
     return img_out
