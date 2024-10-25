@@ -1,8 +1,8 @@
 import utils
 
 img = utils.read_image('data/pepper.jpg')
-imgRuido = utils.multiplicar_ruido(img, 20)
-imgRuido2 = utils.multiplicar_ruido(img, 50)
+imgRuido = utils.ruido_gaussiano(img, 20)
+imgRuido2 = utils.ruido_gaussiano(img, 50)
 imgFiltroMediaGeo = utils.media_geometrica(imgRuido, 3)
 imgFiltroMediaGeo2 = utils.media_geometrica(imgRuido2, 3)
 
