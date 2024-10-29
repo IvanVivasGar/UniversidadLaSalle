@@ -386,6 +386,20 @@ def media_geometrica(img, w_size):
             img_out[i, j] = (np.prod(region)) ** (1/w_size)
     return img_out
 
+"""
+Function to apply a harmonic mean filter to an image.
+
+Parameters:
+    - img: 2D numpy array representing the grayscale image.
+    - w_size: Integer representing the size of the window (w_size x w_size).
+
+Returns:
+    - img_out: 2D numpy array representing the filtered image.
+
+Note:
+    - Bad for impulsive noise
+"""
+
 def media_armonica(img, w_size):
     img = img.astype(np.float64)
     img = img + 0.0001
@@ -397,4 +411,72 @@ def media_armonica(img, w_size):
         for j in range(img.shape[1]):
             region = img_padded[i:i + w_size, j:j + w_size]
             img_out[i, j] = w_size * w_size / (1 / np.sum(region))
+    return img_out
+
+"""
+Function to apply a harmonic mean filter to an image.
+
+Parameters:
+    - img: 2D numpy array representing the grayscale image.
+    - w_size: Integer representing the size of the window (w_size x w_size).
+
+Returns:
+    - img_out: 2D numpy array representing the filtered image.
+
+Note:
+    - Bad for impulsive noise
+"""
+
+def media_contraarmonico(img, w_size, q):
+    img = img.astype(np.float64)
+    img = img + 0.0001
+    padding_height = w_size // 2
+    padding_width = w_size // 2
+    img_padded = np.pad(img, ((padding_height, padding_height), (padding_width, padding_width)), mode='constant', constant_values=0)
+    img_out = np.zeros(img.shape)
+    for i in range(img.shape[0]):
+        for j in range(img.shape[1]):
+            region = img_padded[i:i + w_size, j:j + w_size]
+            img_out[i, j] = (np.sum(region ** (q+1)) / np.sum(region ** q))
+    return img_out
+
+def filtro_mediana(img, w_size):
+    img = img.astype(np.float64)
+    img = img + 0.0001
+    padding_height = w_size // 2
+    padding_width = w_size // 2
+    img_padded = np.pad(img, ((padding_height, padding_height), (padding_width, padding_width)), mode='constant', constant_values=0)
+    img_out = np.zeros(img.shape)
+    for i in range(img.shape[0]):
+        for j in range(img.shape[1]):
+            region = img_padded[i:i + w_size, j:j + w_size]
+            img_out[i, j] = np.median(region)
+    return img_out
+
+def filtro_max_min(img, w_size, alpha):
+    img = img.astype(np.float64)
+    padding_height = w_size // 2
+    padding_width = w_size // 2
+    img_padded = np.pad(img, ((padding_height, padding_height), (padding_width, padding_width)), mode='constant', constant_values=0)
+    img_out = np.zeros(img.shape)
+    for i in range(img.shape[0]):
+        for j in range(img.shape[1]):
+            region = img_padded[i:i + w_size, j:j + w_size]
+            max_val = np.max(region)
+            min_val = np.min(region)
+            img_out[i, j] = alpha * max_val + (1 - alpha) * min_val
+    img_out = np.clip(img_out, 0, 255).astype(np.uint8)
+    return img_out
+
+def filtro_max_min(img, w_size, alpha):
+    img = img.astype(np.float64)
+    img = img + 0.0001
+    padding_height = w_size // 2
+    padding_width = w_size // 2
+    img_padded = np.pad(img, ((padding_height, padding_height), (padding_width, padding_width)), mode='constant', constant_values=0)
+    img_out = np.zeros(img.shape)
+    for i in range(img.shape[0]):
+        for j in range(img.shape[1]):
+            region = img_padded[i:i + w_size, j:j + w_size]
+            img_out[i, j] = region
     return img_out

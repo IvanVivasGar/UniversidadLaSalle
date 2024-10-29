@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.fakestoreapp"
+    namespace = "com.example.rickandmortyapp"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.fakestoreapp"
+        applicationId = "com.example.rickandmortyapp"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -70,5 +70,4 @@ dependencies {
     implementation(libs.converter.gson)
     implementation(libs.coil.kt.coil.compose)
     implementation(libs.androidx.navigation.compose)
-    implementation(kotlin("script-runtime"))
 }
