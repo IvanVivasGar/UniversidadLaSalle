@@ -480,3 +480,39 @@ def filtro_max_min(img, w_size, alpha):
             region = img_padded[i:i + w_size, j:j + w_size]
             img_out[i, j] = region
     return img_out
+
+def gradiante(img, kernel):
+    img_out = np.zeros(img.shape)
+    img_sobel_x = conv2d(img, )
+    return img_out
+
+
+# def aplicar_sobel(img):
+#     # Definir los kernels de Sobel
+#     sobel_x = np.array([[-1, 0, 1],
+#                         [-2, 0, 2],
+#                         [-1, 0, 1]])
+#     sobel_y = np.array([[-1, -2, -1],
+#                         [0, 0, 0],
+#                         [1, 2, 1]])
+#     # Aplicar convolución con los kernels de Sobel
+#     img_sobel_x = convolve2d(img, sobel_x, mode='same', boundary='wrap')
+#     img_sobel_y = convolve2d(img, sobel_y, mode='same', boundary='wrap')
+#     # Calcular la magnitud del gradiente
+#     img_sobel = np.sqrt(img_sobel_x*2 + img_sobel_y*2)
+#     img_sobel = np.clip(img_sobel, 0, 255).astype(np.uint8)
+#     return img_sobel, sobel_x, sobel_ydef aplicar_sobel(img):
+#     # Definir los kernels de Sobel
+#     sobel_x = np.array([[-1, 0, 1],
+#                         [-2, 0, 2],
+#                         [-1, 0, 1]])
+#     sobel_y = np.array([[-1, -2, -1],
+#                         [0, 0, 0],
+#                         [1, 2, 1]])
+#     # Aplicar convolución con los kernels de Sobel
+#     img_sobel_x = convolve2d(img, sobel_x, mode='same', boundary='wrap')
+#     img_sobel_y = convolve2d(img, sobel_y, mode='same', boundary='wrap')
+#     # Calcular la magnitud del gradiente
+#     img_sobel = np.sqrt(img_sobel_x*2 + img_sobel_y*2)
+#     img_sobel = np.clip(img_sobel, 0, 255).astype(np.uint8)
+#     return img_sobel, sobel_x, sobel_y
