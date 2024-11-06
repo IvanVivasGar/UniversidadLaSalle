@@ -1,12 +1,29 @@
-<form action="{% url 'votaciones:vote' pregunta.id %}" method="post">
-    {% csrf_token %}
-    <fieldset>
-        <legend><h1>{{pregunta.texto_pregunta}}</h1></legend>
-        {% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
-        {% for respuesta in pregunta.respuesta_set.all %}
-            <input type="radio" name="respuesta" id="respuesta{{ forloop.counter }}" value="{{ respuesta.id }}">
-            <label for="respuesta{{ forloop.counter }}">{{ respuesta.texto_respuesta }}</label><br>
-        {% endfor %}
-    </fieldset>
-    <input type="submit" value="Votar">
-</form>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'votaciones/detalle.css' %}">
+    <title>Detalles</title>
+</head>
+<body>
+    <form action="{% url 'votaciones:vote' pregunta.id %}" method="post">
+        {% csrf_token %}
+        <fieldset>
+            <legend><h1>{{ pregunta.texto_pregunta }}</h1></legend>
+            {% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+            {% for respuesta in pregunta.respuesta_set.all %}
+                <input type="radio" name="respuesta" id="respuesta{{ forloop.counter }}" value="{{ respuesta.id }}">
+                <label for="respuesta{{ forloop.counter }}">{{ respuesta.texto_respuesta }}</label><br>
+            {% endfor %}
+        </fieldset>
+        <div class="botones-container">
+            <input type="submit" value="Votar">
+            <a href="{% url 'votaciones:index' %}" class="btn-regresar">Regresar a Todas las Preguntas</a>
+        </div>
+    </form>
+</body>
+</html>
+
+

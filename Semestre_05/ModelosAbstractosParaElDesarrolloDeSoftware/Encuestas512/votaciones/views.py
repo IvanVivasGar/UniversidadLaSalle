@@ -5,6 +5,8 @@ from django.shortcuts import render, get_object_or_404
 from .models import Pregunta, Respuesta
 from django.urls import reverse
 from django.views import generic
+from django.contrib.auth.mixins import LoginRequiredMixin
+from django.contrib.auth.decorators import login_required
 
 # Create your views here.
 #// def index(request):
@@ -16,7 +18,7 @@ from django.views import generic
 #     #//return HttpResponse(template.render(context, request))
 #//     return render(request, "votaciones/index.html", context)
 
-class IndexView(generic.ListView):
+class IndexView(LoginRequiredMixin, generic.ListView):
     template_name = "votaciones/index.html"
     context_object_name = "lista_preguntas_recientes"
 
@@ -32,7 +34,7 @@ class IndexView(generic.ListView):
 #     #//return HttpResponse("Estas en la pregunta %s" % pregunta_id)
 # //    return render(request, "votaciones/detalle.html", {"pregunta":pregunta})
 
-class DetailView(generic.DetailView):
+class DetailView(LoginRequiredMixin, generic.DetailView):
     model = Pregunta
     template_name = "votaciones/detalle.html"
 
@@ -42,10 +44,11 @@ class DetailView(generic.DetailView):
 #//     return render(request,"votaciones/resultados.html", {"pregunta": pregunta})
 #//     #//return HttpResponse(respuesta % pregunta_id)
 
-class ResultView(generic.DetailView):
+class ResultView(LoginRequiredMixin, generic.DetailView):
     model = Pregunta
     template_name = "votaciones/resultados.html"
 
+@login_required
 def vote(request, pregunta_id):
     pregunta = get_object_or_404(Pregunta, pk=pregunta_id)
     try:
