@@ -1,9 +1,29 @@
-{% if lista_preguntas_recientes %}
-<ul>
-    {% for pregunta in lista_preguntas_recientes %}
-    <li><a href="{% url 'votaciones:detail' pregunta.id %}">{{ pregunta.texto_pregunta }}</a></li>
-    {% endfor %}
-</ul>
-{% else %}
-<p>No hay votaciones disponibles.</p>
-{% endif %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'votaciones/index.css' %}">
+    <title>Preguntas</title>
+</head>
+<body>
+    {% if lista_preguntas_recientes %}
+    <ul>
+        {% for pregunta in lista_preguntas_recientes %}
+        <li><a href="{% url 'votaciones:detail' pregunta.id %}">{{ pregunta.texto_pregunta }}</a></li>
+        {% endfor %}
+    </ul>
+    {% else %}
+    <p>No hay votaciones disponibles.</p>
+    {% endif %}
+    <form action="{% url 'logout' %}" method="post">
+        {% csrf_token %}
+        <button type="submit" style="border: none; background: none; padding: 0; color: blue; cursor: pointer;">
+            Cerrar sesión
+        </button>
+    </form>
+</body>
+</html>
+
+
