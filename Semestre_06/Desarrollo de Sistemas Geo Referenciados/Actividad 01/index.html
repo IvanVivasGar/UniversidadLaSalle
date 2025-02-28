@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa con Leaflet</title>
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</head>
+<body class="bg-gray-100 flex">
+    <div class="w-1/3 p-4 bg-white shadow-lg h-screen overflow-y-auto">
+        <h1 class="text-2xl font-bold mb-4 text-center">Agregar Marcador</h1>
+        <form id="markerForm" class="mb-6">
+            <label class="block mb-2">Título:</label>
+            <input type="text" id="title" class="w-full p-2 mb-4 border rounded" required>
+            
+            <label class="block mb-2">Descripción:</label>
+            <textarea id="description" class="w-full p-2 mb-4 border rounded" required></textarea>
+            
+            <label class="block mb-2">Latitud:</label>
+            <input type="number" step="any" id="lat" class="w-full p-2 mb-4 border rounded" required>
+            
+            <label class="block mb-2">Longitud:</label>
+            <input type="number" step="any" id="lng" class="w-full p-2 mb-4 border rounded" required>
+            
+            <button type="submit" class="w-full bg-blue-500 text-white p-2 rounded hover:bg-blue-600">Agregar Marcador</button>
+        </form>
+
+        <h2 class="text-xl font-semibold mb-4">Marcadores</h2>
+        <ul id="markerList" class="space-y-2"></ul>
+    </div>
+
+    <div id="map" class="w-2/3 h-screen"></div>
+
+    <script>
+        var map = L.map('map').setView([19.4326, -99.1332], 13);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+
+        document.getElementById('markerForm').onsubmit = function (e) {
+            e.preventDefault();
+            var title = document.getElementById('title').value;
+            var description = document.getElementById('description').value;
+            var lat = parseFloat(document.getElementById('lat').value);
+            var lng = parseFloat(document.getElementById('lng').value);
+
+            if (isNaN(lat) || isNaN(lng)) {
+                alert("Coordenadas inválidas");
+                return;
+            }
+
+            var marker = L.marker([lat, lng]).addTo(map)
+                .bindPopup(`<b>${title}</b><br>${description}`);
+
+            var listItem = document.createElement('li');
+            listItem.className = "p-2 bg-gray-200 rounded hover:bg-gray-300 cursor-pointer";
+            listItem.innerHTML = `<b>${title}</b><br>${description}`;
+            listItem.onclick = function () {
+                map.setView([lat, lng], 15);
+                marker.openPopup();
+            };
+            document.getElementById('markerList').appendChild(listItem);
+
+            // Limpiar formulario
+            document.getElementById('markerForm').reset();
+        };
+    </script>
+</body>
+</html>
