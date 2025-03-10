@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorMaker", "ColorMaker.csproj", "{3C921E0C-5797-0AF9-E133-10E8594A8324}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C921E0C-5797-0AF9-E133-10E8594A8324}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C921E0C-5797-0AF9-E133-10E8594A8324}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C921E0C-5797-0AF9-E133-10E8594A8324}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C921E0C-5797-0AF9-E133-10E8594A8324}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {862F391E-466C-4045-81BC-BDA37879A2F3}
+	EndGlobalSection
+EndGlobal
