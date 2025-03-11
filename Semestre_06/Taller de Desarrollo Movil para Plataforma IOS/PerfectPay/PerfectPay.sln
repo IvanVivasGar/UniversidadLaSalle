@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerfectPay", "PerfectPay.csproj", "{C2F5C458-A6A7-C922-F947-27C5A49B89CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2F5C458-A6A7-C922-F947-27C5A49B89CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2F5C458-A6A7-C922-F947-27C5A49B89CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2F5C458-A6A7-C922-F947-27C5A49B89CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2F5C458-A6A7-C922-F947-27C5A49B89CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1113D4DE-3E64-4183-9DC3-566E70FE200A}
+	EndGlobalSection
+EndGlobal

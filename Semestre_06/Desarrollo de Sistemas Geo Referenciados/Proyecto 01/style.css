@@ -1,0 +1,43 @@
+/* Estilos generales */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+/* Contenedor principal del mapa */
+#map {
+    width: 100%;
+    height: 100vh;
+}
+
+/* Menú lateral oculto por defecto */
+.menu {
+    position: fixed;
+    left: -250px;  /* Fuera de la pantalla */
+    top: 0;
+    width: 250px;
+    height: 100vh;
+    background: white;
+    transition: left 0.3s ease-in-out;
+    padding: 20px;
+    z-index: 1000;
+}
+
+/* Área sensible al hover */
+.hover-area {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 30px; /* Aumentamos un poco el área para mejor sensibilidad */
+    height: 100vh;
+    z-index: 1001;
+}
+
+/* Mantener el menú abierto si el mouse está sobre hover-area o sobre el menú */
+.hover-area:hover ~ .menu,
+.menu:hover {
+    left: 0;
+}
