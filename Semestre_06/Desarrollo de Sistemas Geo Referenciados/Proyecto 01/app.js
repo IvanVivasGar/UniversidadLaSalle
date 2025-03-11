@@ -1,20 +1,19 @@
 // Asegurar que el script se ejecute después de que el DOM esté cargado
 document.addEventListener("DOMContentLoaded", function () {
 
-    // Definir el sistema de coordenadas correcto antes de crear el mapa
-    var crs = new L.Proj.CRS('EPSG:4326',
-        '+proj=longlat +datum=WGS84 +no_defs',
-        { resolutions: [0.001, 0.0005, 0.00025] });
+    document.addEventListener("DOMContentLoaded", function () {
+        var crs = new L.Proj.CRS('EPSG:4326',
+            '+proj=longlat +datum=WGS84 +no_defs',
+            { resolutions: [156543.03392804097, 78271.51696402048, 39135.75848201024] });
 
-    // Inicializar el mapa con la proyección correcta
-    var map = L.map('map', { crs: crs }).setView([19.4326, -99.1332], 12); // CDMX
+        var map = L.map('map', { crs: crs }).setView([19.4326, -99.1332], 12);
 
-    // Agregar capa base de OpenStreetMap
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; OpenStreetMap contributors',
-        maxZoom: 18,
-        detectRetina: true
-    }).addTo(map);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; OpenStreetMap contributors',
+            maxZoom: 18,
+            detectRetina: true
+        }).addTo(map);
+    });
 
     // Función para geocodificación (buscar direcciones)
     function geocodeAddress(address) {
