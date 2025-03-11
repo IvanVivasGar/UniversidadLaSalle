@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PerfectPay.MainPage"
+             BackgroundColor="#121212">
+
+    <Grid RowSpacing="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="120" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0" BackgroundColor="#1E1E1E">
+            <Label Text="Perfect Pay"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   FontSize="72"
+                   FontAttributes="Bold"
+                   TextColor="#4CAF50"
+                   FontFamily="BillyMoneyRegular"/>
+        </Grid>
+
+        <ScrollView Grid.Row="1">
+            <VerticalStackLayout Spacing="20" Padding="20">
+                <Frame BackgroundColor="#2A2A2A"
+                       BorderColor="Transparent"
+                       Padding="20"
+                       CornerRadius="15"
+                       HasShadow="False">
+                    <VerticalStackLayout Spacing="10">
+                        <Label Text="MONTO TOTAL"
+                               TextColor="#888888"
+                               FontSize="14" />
+                        <Grid ColumnDefinitions="Auto, *">
+                            <Label Text="$  "
+                                   TextColor="White"
+                                   FontSize="24"
+                                   VerticalOptions="Center" />
+                            <Entry Grid.Column="1"
+                                   x:Name="etrTotalAmount"
+                                   Placeholder="Ingresa el monto"
+                                   PlaceholderColor="#AAAAAA"
+                                   TextColor="White"
+                                   FontSize="18"
+                                   BackgroundColor="Transparent"
+                                   Keyboard="Numeric" />
+                        </Grid>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <Frame BackgroundColor="#2A2A2A"
+                       BorderColor="Transparent"
+                       Padding="20"
+                       CornerRadius="15"
+                       HasShadow="False">
+                    <VerticalStackLayout Spacing="15">
+                        <Label Text="NÚMERO DE PERSONAS"
+                               TextColor="#888888"
+                               FontSize="14" />
+                        <Slider x:Name="sldrAmountPeople"
+                                Minimum="1"
+                                Maximum="30"
+                                Value="1"
+                                ThumbColor="#4CAF50"
+                                MinimumTrackColor="#4CAF50"
+                                MaximumTrackColor="#555555"
+                                ValueChanged="OnSliderPeopleValueChanged" />
+                        <Label x:Name="peopleAmountLbl"
+                               Text="1 persona"
+                               TextColor="White"
+                               HorizontalOptions="End"
+                               FontSize="18" />
+                    </VerticalStackLayout>
+                </Frame>
+
+                <Frame BackgroundColor="#2A2A2A"
+                       BorderColor="Transparent"
+                       Padding="20"
+                       CornerRadius="15"
+                       HasShadow="False">
+                    <VerticalStackLayout Spacing="15">
+                        <Label Text="PROPINA"
+                               TextColor="#888888"
+                               FontSize="14" />
+                        <Slider x:Name="sldrTipPercentage"
+                                Minimum="0"
+                                Maximum="100"
+                                Value="0"
+                                ThumbColor="#4CAF50"
+                                MinimumTrackColor="#4CAF50"
+                                MaximumTrackColor="#555555"
+                                ValueChanged="OnSliderTipValueChanged" />
+                        <Label x:Name="tipPercentageLbl"
+                               Text="0%"
+                               TextColor="White"
+                               HorizontalOptions="End"
+                               FontSize="18" />
+                    </VerticalStackLayout>
+                </Frame>
+
+                <Button Text="CALCULAR"
+                        BackgroundColor="#4CAF50"
+                        TextColor="White"
+                        FontAttributes="Bold"
+                        FontSize="18"
+                        CornerRadius="30"
+                        HeightRequest="60"
+                        Margin="0,10"
+                        Clicked="OnCalculateClicked" />
+
+                <Frame BackgroundColor="#2A2A2A"
+                       BorderColor="Transparent"
+                       Padding="20"
+                       CornerRadius="15"
+                       HasShadow="False">
+                    <VerticalStackLayout Spacing="15" HorizontalOptions="Center">
+                        <Label Text="TOTAL POR PERSONA"
+                               TextColor="#888888"
+                               FontSize="14"
+                               HorizontalOptions="Center" />
+                        <Label x:Name="resultAmountLbl"
+                               Text="$0.00"
+                               TextColor="White"
+                               FontSize="50"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Center"
+                               Margin="0,10" />
+                        <BoxView Color="#444444" HeightRequest="1" Margin="30,0" />
+                        <Label x:Name="tipInfoLbl"
+                               Text="INCLUYE 0% DE PROPINA"
+                               TextColor="#888888"
+                               FontSize="14"
+                               HorizontalOptions="Center" />
+                    </VerticalStackLayout>
+                </Frame>
+            </VerticalStackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>
