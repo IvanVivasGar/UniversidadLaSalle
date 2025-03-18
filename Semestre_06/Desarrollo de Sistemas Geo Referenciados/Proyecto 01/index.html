@@ -4,22 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mapa Georreferenciado</title>
-    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
 </head>
 <body>
-
     <div class="hover-area"></div>
     <div class="menu">
         <h2>Capas del Mapa</h2>
-        <p>Aquí se gestionarán las capas y funciones del mapa.</p>
+
+        <div class="menu-section">
+            <h3>Proyección Cartográfica</h3>
+            <select id="projection-selector">
+                <option value="EPSG:3857" selected>Web Mercator (EPSG:3857)</option>
+                <option value="EPSG:4326">WGS84 (EPSG:4326)</option>
+                <option value="EPSG:3395">Mercator (EPSG:3395)</option>
+            </select>
+            <div class="projection-info">
+                <p id="projection-description">Web Mercator: Proyección estándar para mapas web. Buena para navegación, distorsiona áreas en latitudes altas.</p>
+            </div>
+        </div>
+
+        <div class="menu-section">
+            <h3>Base del Mapa</h3>
+            <div class="map-type">
+                <input type="radio" id="osm" name="maptype" value="osm" checked>
+                <label for="osm">OpenStreetMap</label>
+            </div>
+            <div class="map-type">
+                <input type="radio" id="satellite" name="maptype" value="satellite">
+                <label for="satellite">Satélite</label>
+            </div>
+        </div>
+
+        <div class="menu-section">
+            <h3>Capas</h3>
+            <div class="layer-option">
+                <input type="checkbox" id="heatmap" checked>
+                <label for="heatmap">Mapa de Calor (Tráfico)</label>
+            </div>
+            <div class="layer-option">
+                <input type="checkbox" id="markers">
+                <label for="markers">Puntos de Interés</label>
+            </div>
+        </div>
+
+        <div class="menu-section">
+            <h3>Buscar Dirección</h3>
+            <input type="text" id="address-input" placeholder="Ingrese dirección o coordenadas (lat, lng)">
+            <button id="search-button">Buscar</button>
+        </div>
+
+        <div class="menu-section">
+            <h3>Información</h3>
+            <div id="info-panel">
+                <p>Seleccione un punto en el mapa para ver detalles.</p>
+            </div>
+        </div>
     </div>
 
-    <div id="map">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.6.2/proj4.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4leaflet/1.0.2/proj4leaflet.js"></script>
-        <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-        <script src="app.js"></script> <!-- Tu script de la aplicación -->
-    </div>
+    <div id="map"></div>
+    <script src="app.js"></script>
 </body>
 </html>
