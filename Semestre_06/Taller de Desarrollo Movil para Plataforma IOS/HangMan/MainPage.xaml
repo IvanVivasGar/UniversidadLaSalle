@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HangMan.MainPage"
-             BackgroundColor="#f5f5f5"
+             BackgroundColor="#121212"
              Title="Juego del Ahorcado">
 
     <Grid x:Name="MainGrid" Padding="20" RowSpacing="15">
@@ -14,20 +14,22 @@
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
-        <!-- Título del juego -->
-        <Label Grid.Row="0" 
-               Text="JUEGO DEL AHORCADO" 
-               FontSize="28" 
+        <!-- Título del juego con nuevo estilo -->
+        <Label Grid.Row="0"
+               Text="JUEGO DEL AHORCADO"
+               FontSize="28"
                FontAttributes="Bold"
-               TextColor="#3498db"
-               HorizontalOptions="Center"/>
+               TextColor="#BB86FC"
+               HorizontalOptions="Center"
+               Margin="0,10,0,5"/>
 
         <!-- Área para la imagen del ahorcado -->
-        <Frame Grid.Row="1" 
-               BackgroundColor="White" 
-               CornerRadius="10" 
+        <Frame Grid.Row="1"
+               BackgroundColor="#1E1E1E"
+               BorderColor="#333333"
+               CornerRadius="16"
                HasShadow="True"
-               Margin="10,0">
+               Margin="10,5">
             <Image x:Name="HangmanImage"
                    Source="hangman_0.png"
                    Aspect="AspectFit"
@@ -35,96 +37,101 @@
         </Frame>
 
         <!-- Área para mostrar la palabra a adivinar -->
-        <Frame Grid.Row="2" 
-            BackgroundColor="#e0e0e0" 
-            BorderColor="#ff0000"
-            CornerRadius="10" 
-            HasShadow="True"
-            Padding="15"
-            HeightRequest="80">
+        <Frame Grid.Row="2"
+               BackgroundColor="#1E1E1E"
+               BorderColor="#333333"
+               CornerRadius="16"
+               HasShadow="True"
+               Padding="15"
+               Margin="10,5"
+               HeightRequest="80">
             <Label x:Name="WordToGuess"
-                Text="TEST TEXT"
-                FontSize="32"
-                FontAttributes="Bold"
-                TextColor="#000000"
-                BackgroundColor="#ffff00"
-                HorizontalOptions="Center"
-                VerticalOptions="Center"/>
+                   FontSize="32"
+                   FontAttributes="Bold"
+                   TextColor="#03DAC6"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"/>
         </Frame>
 
         <!-- Área para mostrar letras usadas -->
-        <Frame Grid.Row="3" 
-               BackgroundColor="White" 
-               CornerRadius="10" 
+        <Frame Grid.Row="3"
+               BackgroundColor="#1E1E1E"
+               BorderColor="#333333"
+               CornerRadius="16"
                HasShadow="True"
-               Padding="15">
+               Padding="15"
+               Margin="10,5">
             <VerticalStackLayout Spacing="5">
-                <Label Text="Letras usadas:" 
-                       FontSize="16" 
-                       TextColor="#7f8c8d"/>
-                <Label x:Name="UsedLetters" 
+                <Label Text="Letras usadas:"
+                       FontSize="16"
+                       TextColor="#BB86FC"/>
+                <Label x:Name="UsedLetters"
                        Text=""
                        FontSize="18"
-                       TextColor="#e74c3c"/>
+                       TextColor="#CF6679"/>
             </VerticalStackLayout>
         </Frame>
 
         <!-- Área para el teclado -->
-        <Frame Grid.Row="4" 
-               BackgroundColor="White" 
-               CornerRadius="10" 
+        <Frame Grid.Row="4"
+               BackgroundColor="#1E1E1E"
+               BorderColor="#333333"
+               CornerRadius="16"
                HasShadow="True"
-               Padding="10">
-            <VerticalStackLayout Spacing="10">
+               Padding="15"
+               Margin="10,5">
+            <VerticalStackLayout Spacing="12">
                 <!-- Primera fila de letras -->
-                <FlexLayout JustifyContent="SpaceEvenly">
-                    <Button Text="A" WidthRequest="40" HeightRequest="40" CornerRadius="20" BackgroundColor="#3498db" TextColor="White" Clicked="OnLetterClicked"/>
-                    <Button Text="B" WidthRequest="40" HeightRequest="40" CornerRadius="20" BackgroundColor="#3498db" TextColor="White" Clicked="OnLetterClicked"/>
-                    <Button Text="C" WidthRequest="40" HeightRequest="40" CornerRadius="20" BackgroundColor="#3498db" TextColor="White" Clicked="OnLetterClicked"/>
-                    <Button Text="D" WidthRequest="40" HeightRequest="40" CornerRadius="20" BackgroundColor="#3498db" TextColor="White" Clicked="OnLetterClicked"/>
-                    <Button Text="E" WidthRequest="40" HeightRequest="40" CornerRadius="20" BackgroundColor="#3498db" TextColor="White" Clicked="OnLetterClicked"/>
-                    <Button Text="F" WidthRequest="40" HeightRequest="40" CornerRadius="20" BackgroundColor="#3498db" TextColor="White" Clicked="OnLetterClicked"/>
-                    <Button Text="G" WidthRequest="40" HeightRequest="40" CornerRadius="20" BackgroundColor="#3498db" TextColor="White" Clicked="OnLetterClicked"/>
+                <FlexLayout JustifyContent="SpaceEvenly" Margin="0,5">
+                    <Button Text="A" WidthRequest="42" HeightRequest="42" CornerRadius="21" BackgroundColor="#2D2D2D" TextColor="#BB86FC" FontAttributes="Bold" Clicked="OnLetterClicked"/>
+                    <Button Text="B" WidthRequest="42" HeightRequest="42" CornerRadius="21" BackgroundColor="#2D2D2D" TextColor="#BB86FC" FontAttributes="Bold" Clicked="OnLetterClicked"/>
+                    <Button Text="C" WidthRequest="42" HeightRequest="42" CornerRadius="21" BackgroundColor="#2D2D2D" TextColor="#BB86FC" FontAttributes="Bold" Clicked="OnLetterClicked"/>
+                    <Button Text="D" WidthRequest="42" HeightRequest="42" CornerRadius="21" BackgroundColor="#2D2D2D" TextColor="#BB86FC" FontAttributes="Bold" Clicked="OnLetterClicked"/>
+                    <Button Text="E" WidthRequest="42" HeightRequest="42" CornerRadius="21" BackgroundColor="#2D2D2D" TextColor="#BB86FC" FontAttributes="Bold" Clicked="OnLetterClicked"/>
+                    <Button Text="F" WidthRequest="42" HeightRequest="42" CornerRadius="21" BackgroundColor="#2D2D2D" TextColor="#BB86FC" FontAttributes="Bold" Clicked="OnLetterClicked"/>
+                    <Button Text="G" WidthRequest="42" HeightRequest="42" CornerRadius="21" BackgroundColor="#2D2D2D" TextColor="#BB86FC" FontAttributes="Bold" Clicked="OnLetterClicked"/>
                 </FlexLayout>
 
                 <!-- Segunda fila de letras -->
-                <FlexLayout JustifyContent="SpaceEvenly">
-                    <Button Text="H" WidthRequest="40" HeightRequest="40" CornerRadius="20" BackgroundColor="#3498db" TextColor="White" Clicked="OnLetterClicked"/>
-                    <Button Text="I" WidthRequest="40" HeightRequest="40" CornerRadius="20" BackgroundColor="#3498db" TextColor="White" Clicked="OnLetterClicked"/>
-                    <Button Text="J" WidthRequest="40" HeightRequest="40" CornerRadius="20" BackgroundColor="#3498db" TextColor="White" Clicked="OnLetterClicked"/>
-                    <Button Text="K" WidthRequest="40" HeightRequest="40" CornerRadius="20" BackgroundColor="#3498db" TextColor="White" Clicked="OnLetterClicked"/>
-                    <Button Text="L" WidthRequest="40" HeightRequest="40" CornerRadius="20" BackgroundColor="#3498db" TextColor="White" Clicked="OnLetterClicked"/>
-                    <Button Text="M" WidthRequest="40" HeightRequest="40" CornerRadius="20" BackgroundColor="#3498db" TextColor="White" Clicked="OnLetterClicked"/>
-                    <Button Text="N" WidthRequest="40" HeightRequest="40" CornerRadius="20" BackgroundColor="#3498db" TextColor="White" Clicked="OnLetterClicked"/>
+                <FlexLayout JustifyContent="SpaceEvenly" Margin="0,5">
+                    <Button Text="H" WidthRequest="42" HeightRequest="42" CornerRadius="21" BackgroundColor="#2D2D2D" TextColor="#BB86FC" FontAttributes="Bold" Clicked="OnLetterClicked"/>
+                    <Button Text="I" WidthRequest="42" HeightRequest="42" CornerRadius="21" BackgroundColor="#2D2D2D" TextColor="#BB86FC" FontAttributes="Bold" Clicked="OnLetterClicked"/>
+                    <Button Text="J" WidthRequest="42" HeightRequest="42" CornerRadius="21" BackgroundColor="#2D2D2D" TextColor="#BB86FC" FontAttributes="Bold" Clicked="OnLetterClicked"/>
+                    <Button Text="K" WidthRequest="42" HeightRequest="42" CornerRadius="21" BackgroundColor="#2D2D2D" TextColor="#BB86FC" FontAttributes="Bold" Clicked="OnLetterClicked"/>
+                    <Button Text="L" WidthRequest="42" HeightRequest="42" CornerRadius="21" BackgroundColor="#2D2D2D" TextColor="#BB86FC" FontAttributes="Bold" Clicked="OnLetterClicked"/>
+                    <Button Text="M" WidthRequest="42" HeightRequest="42" CornerRadius="21" BackgroundColor="#2D2D2D" TextColor="#BB86FC" FontAttributes="Bold" Clicked="OnLetterClicked"/>
+                    <Button Text="N" WidthRequest="42" HeightRequest="42" CornerRadius="21" BackgroundColor="#2D2D2D" TextColor="#BB86FC" FontAttributes="Bold" Clicked="OnLetterClicked"/>
                 </FlexLayout>
 
                 <!-- Tercera fila de letras -->
-                <FlexLayout JustifyContent="SpaceEvenly">
-                    <Button Text="Ñ" WidthRequest="40" HeightRequest="40" CornerRadius="20" BackgroundColor="#3498db" TextColor="White" Clicked="OnLetterClicked"/>
-                    <Button Text="O" WidthRequest="40" HeightRequest="40" CornerRadius="20" BackgroundColor="#3498db" TextColor="White" Clicked="OnLetterClicked"/>
-                    <Button Text="P" WidthRequest="40" HeightRequest="40" CornerRadius="20" BackgroundColor="#3498db" TextColor="White" Clicked="OnLetterClicked"/>
-                    <Button Text="Q" WidthRequest="40" HeightRequest="40" CornerRadius="20" BackgroundColor="#3498db" TextColor="White" Clicked="OnLetterClicked"/>
-                    <Button Text="R" WidthRequest="40" HeightRequest="40" CornerRadius="20" BackgroundColor="#3498db" TextColor="White" Clicked="OnLetterClicked"/>
-                    <Button Text="S" WidthRequest="40" HeightRequest="40" CornerRadius="20" BackgroundColor="#3498db" TextColor="White" Clicked="OnLetterClicked"/>
-                    <Button Text="T" WidthRequest="40" HeightRequest="40" CornerRadius="20" BackgroundColor="#3498db" TextColor="White" Clicked="OnLetterClicked"/>
+                <FlexLayout JustifyContent="SpaceEvenly" Margin="0,5">
+                    <Button Text="Ñ" WidthRequest="42" HeightRequest="42" CornerRadius="21" BackgroundColor="#2D2D2D" TextColor="#BB86FC" FontAttributes="Bold" Clicked="OnLetterClicked"/>
+                    <Button Text="O" WidthRequest="42" HeightRequest="42" CornerRadius="21" BackgroundColor="#2D2D2D" TextColor="#BB86FC" FontAttributes="Bold" Clicked="OnLetterClicked"/>
+                    <Button Text="P" WidthRequest="42" HeightRequest="42" CornerRadius="21" BackgroundColor="#2D2D2D" TextColor="#BB86FC" FontAttributes="Bold" Clicked="OnLetterClicked"/>
+                    <Button Text="Q" WidthRequest="42" HeightRequest="42" CornerRadius="21" BackgroundColor="#2D2D2D" TextColor="#BB86FC" FontAttributes="Bold" Clicked="OnLetterClicked"/>
+                    <Button Text="R" WidthRequest="42" HeightRequest="42" CornerRadius="21" BackgroundColor="#2D2D2D" TextColor="#BB86FC" FontAttributes="Bold" Clicked="OnLetterClicked"/>
+                    <Button Text="S" WidthRequest="42" HeightRequest="42" CornerRadius="21" BackgroundColor="#2D2D2D" TextColor="#BB86FC" FontAttributes="Bold" Clicked="OnLetterClicked"/>
+                    <Button Text="T" WidthRequest="42" HeightRequest="42" CornerRadius="21" BackgroundColor="#2D2D2D" TextColor="#BB86FC" FontAttributes="Bold" Clicked="OnLetterClicked"/>
                 </FlexLayout>
 
                 <!-- Cuarta fila de letras -->
-                <FlexLayout JustifyContent="SpaceEvenly">
-                    <Button Text="U" WidthRequest="40" HeightRequest="40" CornerRadius="20" BackgroundColor="#3498db" TextColor="White" Clicked="OnLetterClicked"/>
-                    <Button Text="V" WidthRequest="40" HeightRequest="40" CornerRadius="20" BackgroundColor="#3498db" TextColor="White" Clicked="OnLetterClicked"/>
-                    <Button Text="W" WidthRequest="40" HeightRequest="40" CornerRadius="20" BackgroundColor="#3498db" TextColor="White" Clicked="OnLetterClicked"/>
-                    <Button Text="X" WidthRequest="40" HeightRequest="40" CornerRadius="20" BackgroundColor="#3498db" TextColor="White" Clicked="OnLetterClicked"/>
-                    <Button Text="Y" WidthRequest="40" HeightRequest="40" CornerRadius="20" BackgroundColor="#3498db" TextColor="White" Clicked="OnLetterClicked"/>
-                    <Button Text="Z" WidthRequest="40" HeightRequest="40" CornerRadius="20" BackgroundColor="#3498db" TextColor="White" Clicked="OnLetterClicked"/>
+                <FlexLayout JustifyContent="SpaceEvenly" Margin="0,5">
+                    <Button Text="U" WidthRequest="42" HeightRequest="42" CornerRadius="21" BackgroundColor="#2D2D2D" TextColor="#BB86FC" FontAttributes="Bold" Clicked="OnLetterClicked"/>
+                    <Button Text="V" WidthRequest="42" HeightRequest="42" CornerRadius="21" BackgroundColor="#2D2D2D" TextColor="#BB86FC" FontAttributes="Bold" Clicked="OnLetterClicked"/>
+                    <Button Text="W" WidthRequest="42" HeightRequest="42" CornerRadius="21" BackgroundColor="#2D2D2D" TextColor="#BB86FC" FontAttributes="Bold" Clicked="OnLetterClicked"/>
+                    <Button Text="X" WidthRequest="42" HeightRequest="42" CornerRadius="21" BackgroundColor="#2D2D2D" TextColor="#BB86FC" FontAttributes="Bold" Clicked="OnLetterClicked"/>
+                    <Button Text="Y" WidthRequest="42" HeightRequest="42" CornerRadius="21" BackgroundColor="#2D2D2D" TextColor="#BB86FC" FontAttributes="Bold" Clicked="OnLetterClicked"/>
+                    <Button Text="Z" WidthRequest="42" HeightRequest="42" CornerRadius="21" BackgroundColor="#2D2D2D" TextColor="#BB86FC" FontAttributes="Bold" Clicked="OnLetterClicked"/>
                 </FlexLayout>
 
                 <!-- Botón de nuevo juego -->
-                <Button Text="Nuevo Juego" 
-                        BackgroundColor="#2ecc71" 
-                        TextColor="White"
-                        CornerRadius="10"
-                        Margin="20,10"
+                <Button Text="NUEVO JUEGO"
+                        BackgroundColor="#03DAC6"
+                        TextColor="#121212"
+                        FontAttributes="Bold"
+                        CornerRadius="25"
+                        HeightRequest="50"
+                        Margin="30,10"
                         Clicked="OnNewGameClicked"/>
             </VerticalStackLayout>
         </Frame>
