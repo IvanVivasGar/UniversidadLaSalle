@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PerfectPay")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+81fb38baafe11dec7a022392e433fc3d67c6b44e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+a7a481ab6858cb6cbf1f355d2397511e6affe6f9")]
 [assembly: System.Reflection.AssemblyProductAttribute("PerfectPay")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PerfectPay")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
