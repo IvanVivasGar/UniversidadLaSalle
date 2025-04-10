@@ -303,17 +303,3 @@
 /Users/ivanvivas/Documents/UniversidadLaSalle/Semestre_06/Taller de Desarrollo Movil para Plataforma IOS/HangMan/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/HangMan.pdb
 /Users/ivanvivas/Documents/UniversidadLaSalle/Semestre_06/Taller de Desarrollo Movil para Plataforma IOS/HangMan/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/HangMan.genruntimeconfig.cache
 /Users/ivanvivas/Documents/UniversidadLaSalle/Semestre_06/Taller de Desarrollo Movil para Plataforma IOS/HangMan/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/ref/HangMan.dll
-/Users/ivanvivas/Documents/UniversidadLaSalle/Semestre_06/Taller de Desarrollo Movil para Plataforma IOS/HangMan/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Extensions.Configuration.Abstractions.stamp
-/Users/ivanvivas/Documents/UniversidadLaSalle/Semestre_06/Taller de Desarrollo Movil para Plataforma IOS/HangMan/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Extensions.Configuration.stamp
-/Users/ivanvivas/Documents/UniversidadLaSalle/Semestre_06/Taller de Desarrollo Movil para Plataforma IOS/HangMan/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Extensions.DependencyInjection.Abstractions.stamp
-/Users/ivanvivas/Documents/UniversidadLaSalle/Semestre_06/Taller de Desarrollo Movil para Plataforma IOS/HangMan/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Extensions.DependencyInjection.stamp
-/Users/ivanvivas/Documents/UniversidadLaSalle/Semestre_06/Taller de Desarrollo Movil para Plataforma IOS/HangMan/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Extensions.Logging.Abstractions.stamp
-/Users/ivanvivas/Documents/UniversidadLaSalle/Semestre_06/Taller de Desarrollo Movil para Plataforma IOS/HangMan/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Extensions.Logging.Debug.stamp
-/Users/ivanvivas/Documents/UniversidadLaSalle/Semestre_06/Taller de Desarrollo Movil para Plataforma IOS/HangMan/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Extensions.Logging.stamp
-/Users/ivanvivas/Documents/UniversidadLaSalle/Semestre_06/Taller de Desarrollo Movil para Plataforma IOS/HangMan/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Extensions.Options.stamp
-/Users/ivanvivas/Documents/UniversidadLaSalle/Semestre_06/Taller de Desarrollo Movil para Plataforma IOS/HangMan/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Extensions.Primitives.stamp
-/Users/ivanvivas/Documents/UniversidadLaSalle/Semestre_06/Taller de Desarrollo Movil para Plataforma IOS/HangMan/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Maui.Controls.stamp
-/Users/ivanvivas/Documents/UniversidadLaSalle/Semestre_06/Taller de Desarrollo Movil para Plataforma IOS/HangMan/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Maui.Controls.Xaml.stamp
-/Users/ivanvivas/Documents/UniversidadLaSalle/Semestre_06/Taller de Desarrollo Movil para Plataforma IOS/HangMan/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Maui.stamp
-/Users/ivanvivas/Documents/UniversidadLaSalle/Semestre_06/Taller de Desarrollo Movil para Plataforma IOS/HangMan/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Maui.Essentials.stamp
-/Users/ivanvivas/Documents/UniversidadLaSalle/Semestre_06/Taller de Desarrollo Movil para Plataforma IOS/HangMan/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Maui.Graphics.stamp

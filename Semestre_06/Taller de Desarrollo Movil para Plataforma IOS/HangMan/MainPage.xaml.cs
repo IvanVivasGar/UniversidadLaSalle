@@ -117,7 +117,7 @@ public partial class MainPage : ContentPage
     {
         List<Button> buttons = new List<Button>();
 
-        // Buscar todos los Frame dentro de la cuadrícula principal
+        // Becar todos los Frame dentro de la cuadrícula principal
         var frames = this.FindByName<Grid>("MainGrid").Children.OfType<Frame>().ToList();
 
         foreach (var frame in frames)
