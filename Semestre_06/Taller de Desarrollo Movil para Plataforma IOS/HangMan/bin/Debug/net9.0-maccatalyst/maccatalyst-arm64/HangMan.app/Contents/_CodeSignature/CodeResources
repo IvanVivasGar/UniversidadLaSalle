@@ -16,6 +16,10 @@
 		<data>
 		a4931LwQWyxJVaXHNKKnIVb5aLM=
 		</data>
+		<key>Resources/MauiInfo.plist</key>
+		<data>
+		4jZ/pOJGXwmAFXCgk7LRa9BJH58=
+		</data>
 		<key>Resources/MonoTouchDebugConfiguration.txt</key>
 		<data>
 		oowkf1sL6T19nanXUObgmuayWqM=
@@ -44,6 +48,34 @@
 		<data>
 		2Ikgd4MekBz4KDFadcRsOaz6Qws=
 		</data>
+		<key>Resources/hangman_0.png</key>
+		<data>
+		cHIHOT+Q39tu1SuUvXKWJ01TLZA=
+		</data>
+		<key>Resources/hangman_1.png</key>
+		<data>
+		sAQJaBk5VkH2aZV61pJBpGGp8hY=
+		</data>
+		<key>Resources/hangman_2.png</key>
+		<data>
+		FCu9xtjOBZPOAi0LMRR/tBmlP+M=
+		</data>
+		<key>Resources/hangman_3.png</key>
+		<data>
+		G+VJh4e8t5G/kc7J9gikM1JP54k=
+		</data>
+		<key>Resources/hangman_4.png</key>
+		<data>
+		BlusDfGXmKo2qJ8e4y6phH3vNP8=
+		</data>
+		<key>Resources/hangman_5.png</key>
+		<data>
+		G/GyogZPHu1i6jR/b+pfGyIDzm4=
+		</data>
+		<key>Resources/hangman_6.png</key>
+		<data>
+		BvueAejnf/vWL9fqDp1xB3ekvpU=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -51,14 +83,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			L0c5Hoq5MJsyThIZwL0TR4LmCHen66A6FpQ7YAtAS7s=
+			v0OCQdRQsnFjkzfpOQVTK0Sq2kbwQz8rmKTFwaR3xdg=
 			</data>
 		</dict>
 		<key>MonoBundle/HangMan.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DFa19k0Y8X/pBTNa3A7rLXrDSu+iMV2/zIINS0uxDmU=
+			zRiHlk/lHdpG09wzdXIWMnwfA7aVJMKCECKmAbzCgiY=
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.CSharp.dll</key>
@@ -1636,6 +1668,13 @@
 			tHXIdQgmdh0ic/kPFTzldeIcUsxkJWK7CK5Af9xgNWM=
 			</data>
 		</dict>
+		<key>Resources/MauiInfo.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			D7xF2d/FAU0oXTW+VlzYG1hotU4XDYbby3Tmkh09oro=
+			</data>
+		</dict>
 		<key>Resources/MonoTouchDebugConfiguration.txt</key>
 		<dict>
 			<key>hash2</key>
@@ -1683,6 +1722,55 @@
 			<key>hash2</key>
 			<data>
 			xjB46IJZchU4aUkPUeVRhWJViqBU1K6H3B/8RQ1fB7M=
+			</data>
+		</dict>
+		<key>Resources/hangman_0.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			J7HUy/Bm4UxJ7CEL8jWWc6EPC3jr3qFiHVyM5UBPyV4=
+			</data>
+		</dict>
+		<key>Resources/hangman_1.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DHM9pj7CN6rk4lgs/Ga54VdNY7bGysBHdDTA8/4PMJc=
+			</data>
+		</dict>
+		<key>Resources/hangman_2.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			St83lNM0pR1TbOL8+uy1F34gvvo5h4ELFXiRwK0OQ78=
+			</data>
+		</dict>
+		<key>Resources/hangman_3.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			E5BdrMPRyNmyqIKraxi3Pqo1vc0FneaUI+nH9twcX6k=
+			</data>
+		</dict>
+		<key>Resources/hangman_4.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			E5NCiC49QNlQog/NtPGgVW/Y2syX6LA1TA2G7GZvnwM=
+			</data>
+		</dict>
+		<key>Resources/hangman_5.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AZ35G7qBVBY6cYJnJ7gCzHCd56YvGsyh7C8ED9KFqPE=
+			</data>
+		</dict>
+		<key>Resources/hangman_6.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RveoMhsXN/imL0nBEgiimQ0SQF3TUcqGVVuQjcgMhz0=
 			</data>
 		</dict>
 	</dict>
