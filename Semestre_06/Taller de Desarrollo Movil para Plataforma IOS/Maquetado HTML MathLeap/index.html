@@ -1,0 +1,653 @@
+<!-- Este código HTML simula wireframes para la aplicación MathLeap -->
+
+<style>
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin: 0;
+        padding: 20px;
+    }
+    .wireframe-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+    .screen {
+        width: 300px;
+        height: 600px;
+        border: 2px solid #333;
+        border-radius: 25px;
+        padding: 20px;
+        box-sizing: border-box;
+        position: relative;
+        background-color: #f8f8f8;
+        display: flex;
+        flex-direction: column;
+    }
+    .screen-title {
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 15px;
+        font-size: 12px;
+        color: #555;
+    }
+    .screen-content {
+        height: calc(100% - 30px);
+        display: flex;
+        flex-direction: column;
+        overflow-y: auto; /* Añadido scroll vertical */
+        flex: 1;
+    }
+    .status-bar {
+        display: flex;
+        justify-content: space-between;
+        font-size: 12px;
+        margin-bottom: 10px;
+        position: sticky;
+        top: 0;
+        background-color: #f8f8f8;
+        z-index: 10;
+        padding-bottom: 5px;
+    }
+    .button {
+        background-color: #0080ff;
+        color: white;
+        padding: 10px 15px;
+        border-radius: 8px;
+        text-align: center;
+        margin: 5px 0;
+        font-weight: bold;
+    }
+    .button.secondary {
+        background-color: #e0e0e0;
+        color: #333;
+    }
+    .centered-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-grow: 1;
+        text-align: center;
+    }
+    .logo {
+        width: 150px;
+        height: 150px;
+        background-color: #0080ff;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .grade-selection {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+        margin: 10px 0;
+    }
+    .grade-option {
+        width: 70px;
+        height: 40px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+    }
+    .grade-option.selected {
+        background-color: #0080ff;
+        color: white;
+        border-color: #0080ff;
+    }
+    .topic-list {
+        overflow-y: auto;
+        flex-grow: 1;
+        margin-bottom: 10px;
+    }
+    .topic-item {
+        background-color: white;
+        padding: 15px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .topic-icon {
+        width: 40px;
+        height: 40px;
+        background-color: #f0f0f0;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .problem-container {
+        background-color: white;
+        padding: 20px;
+        border-radius: 15px;
+        margin: 20px 0;
+        text-align: center;
+    }
+    .options-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        margin: 20px 0;
+    }
+    .option {
+        background-color: white;
+        padding: 15px 10px;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+        text-align: center;
+    }
+    .option.correct {
+        background-color: #c8f7c5;
+        border-color: #4caf50;
+    }
+    .option.incorrect {
+        background-color: #ffcdd2;
+        border-color: #f44336;
+    }
+    .feedback-icon {
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+    .progress-container {
+        margin: 15px 0;
+    }
+    .progress-bar {
+        height: 15px;
+        background-color: #e0e0e0;
+        border-radius: 10px;
+        overflow: hidden;
+        margin-top: 5px;
+    }
+    .progress-fill {
+        height: 100%;
+        background-color: #4caf50;
+        width: 75%;
+    }
+    .stats-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        margin: 15px 0;
+    }
+    .stat-box {
+        background-color: white;
+        border-radius: 8px;
+        padding: 10px;
+        text-align: center;
+    }
+    .stat-value {
+        font-size: 24px;
+        font-weight: bold;
+        color: #0080ff;
+    }
+    .avatar-container {
+        width: 100px;
+        height: 100px;
+        background-color: #e0e0e0;
+        border-radius: 50%;
+        margin: 0 auto 20px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+    }
+    .reward-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+        margin: 15px 0;
+    }
+    .reward-item {
+        background-color: white;
+        border-radius: 8px;
+        padding: 10px;
+        text-align: center;
+        font-size: 12px;
+    }
+    .reward-icon {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+    .tab-bar {
+        display: flex;
+        justify-content: space-around;
+        background-color: #f0f0f0;
+        border-radius: 15px;
+        padding: 10px;
+        margin-top: auto;
+        position: sticky;
+        bottom: 0;
+        z-index: 10;
+    }
+    .tab {
+        text-align: center;
+        font-size: 10px;
+    }
+    .tab-icon {
+        font-size: 20px;
+        margin-bottom: 2px;
+    }
+    h2 {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+    h3 {
+        font-size: 16px;
+        margin: 10px 0 5px 0;
+    }
+    p {
+        font-size: 14px;
+        margin: 5px 0 10px 0;
+    }
+    .footer-spacer {
+        height: 10px;
+    }
+</style>
+
+<div class="wireframe-container">
+    <!-- Pantalla 1: Bienvenida -->
+    <div class="screen">
+        <div class="screen-title">Pantalla de Bienvenida</div>
+        <div class="screen-content">
+            <div class="status-bar">
+                <div>9:41</div>
+                <div>WiFi 100%</div>
+            </div>
+            <div class="centered-content">
+                <div class="logo">MathLeap</div>
+                <h2>¡Bienvenido a MathLeap!</h2>
+                <p>Aprende matemáticas de forma divertida</p>
+                <div class="button">Comenzar</div>
+                <div class="button secondary">Ya tengo una cuenta</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pantalla 2: Selección de Grado/Nivel -->
+    <div class="screen">
+        <div class="screen-title">Pantalla de Selección de Grado/Nivel</div>
+        <div class="screen-content">
+            <div class="status-bar">
+                <div>9:41</div>
+                <div>WiFi 100%</div>
+            </div>
+            <h2>Selecciona tu grado</h2>
+            <p>Esto nos ayudará a ofrecerte ejercicios adecuados para ti</p>
+            
+            <h3>Primaria Baja</h3>
+            <div class="grade-selection">
+                <div class="grade-option">1º</div>
+                <div class="grade-option selected">2º</div>
+                <div class="grade-option">3º</div>
+            </div>
+            
+            <h3>Primaria Alta</h3>
+            <div class="grade-selection">
+                <div class="grade-option">4º</div>
+                <div class="grade-option">5º</div>
+                <div class="grade-option">6º</div>
+            </div>
+            
+            <h3>Secundaria</h3>
+            <div class="grade-selection">
+                <div class="grade-option">7º</div>
+                <div class="grade-option">8º</div>
+                <div class="grade-option">9º</div>
+            </div>
+            
+            <div style="margin-top: 20px; margin-bottom: 20px;">
+                <div class="button">Continuar</div>
+            </div>
+            <div class="footer-spacer"></div>
+        </div>
+    </div>
+
+    <!-- Pantalla 3: Selección de Tema -->
+    <div class="screen">
+        <div class="screen-title">Pantalla de Selección de Tema</div>
+        <div class="screen-content">
+            <div class="status-bar">
+                <div>9:41</div>
+                <div>WiFi 100%</div>
+            </div>
+            <h2>2º Primaria</h2>
+            <p>Selecciona un tema para practicar</p>
+            
+            <div class="topic-list">
+                <div class="topic-item">
+                    <div>
+                        <div class="topic-icon">+</div>
+                    </div>
+                    <div style="flex-grow: 1; margin-left: 10px;">
+                        <div style="font-weight: bold;">Suma</div>
+                        <div style="font-size: 12px; color: #666;">Progreso: 75%</div>
+                    </div>
+                    <div>→</div>
+                </div>
+                
+                <div class="topic-item">
+                    <div>
+                        <div class="topic-icon">−</div>
+                    </div>
+                    <div style="flex-grow: 1; margin-left: 10px;">
+                        <div style="font-weight: bold;">Resta</div>
+                        <div style="font-size: 12px; color: #666;">Progreso: 50%</div>
+                    </div>
+                    <div>→</div>
+                </div>
+                
+                <div class="topic-item">
+                    <div>
+                        <div class="topic-icon">×</div>
+                    </div>
+                    <div style="flex-grow: 1; margin-left: 10px;">
+                        <div style="font-weight: bold;">Multiplicación</div>
+                        <div style="font-size: 12px; color: #666;">Nuevo</div>
+                    </div>
+                    <div>→</div>
+                </div>
+                
+                <div class="topic-item">
+                    <div>
+                        <div class="topic-icon">▢</div>
+                    </div>
+                    <div style="flex-grow: 1; margin-left: 10px;">
+                        <div style="font-weight: bold;">Formas</div>
+                        <div style="font-size: 12px; color: #666;">Progreso: 25%</div>
+                    </div>
+                    <div>→</div>
+                </div>
+            </div>
+            
+            <div class="tab-bar">
+                <div class="tab">
+                    <div class="tab-icon">📚</div>
+                    <div>Temas</div>
+                </div>
+                <div class="tab">
+                    <div class="tab-icon">🎯</div>
+                    <div>Desafíos</div>
+                </div>
+                <div class="tab">
+                    <div class="tab-icon">📊</div>
+                    <div>Progreso</div>
+                </div>
+                <div class="tab">
+                    <div class="tab-icon">👤</div>
+                    <div>Perfil</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pantalla 4: Ejercicio -->
+    <div class="screen">
+        <div class="screen-title">Pantalla de Ejercicio</div>
+        <div class="screen-content">
+            <div class="status-bar">
+                <div>9:41</div>
+                <div>WiFi 100%</div>
+            </div>
+            <h2>Suma</h2>
+            <div style="text-align: right; font-size: 12px; color: #666;">
+                Ejercicio 3 de 10
+            </div>
+            
+            <div class="problem-container">
+                <div style="font-size: 24px; margin-bottom: 20px;">
+                    ¿Cuánto es 5 + 8?
+                </div>
+                <div style="font-size: 16px; color: #666;">
+                    Selecciona la respuesta correcta
+                </div>
+            </div>
+            
+            <div class="options-container">
+                <div class="option">12</div>
+                <div class="option">14</div>
+                <div class="option">13</div>
+                <div class="option">15</div>
+            </div>
+            
+            <div style="margin-top: auto;">
+                <div class="button">Comprobar respuesta</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pantalla 5: Retroalimentación -->
+    <div class="screen">
+        <div class="screen-title">Pantalla de Retroalimentación</div>
+        <div class="screen-content">
+            <div class="status-bar">
+                <div>9:41</div>
+                <div>WiFi 100%</div>
+            </div>
+            <div class="centered-content">
+                <div class="feedback-icon" style="color: #4caf50;">✓</div>
+                <h2>¡Correcto!</h2>
+                <p>5 + 8 = 13</p>
+                <div style="margin: 20px 0;">
+                    <div style="font-weight: bold;">Has ganado:</div>
+                    <div>+10 puntos</div>
+                </div>
+                <div class="button">Siguiente ejercicio</div>
+            </div>
+            
+            <!-- Retroalimentación negativa (alternativa) -->
+            <!-- 
+            <div class="centered-content">
+                <div class="feedback-icon" style="color: #f44336;">✗</div>
+                <h2>¡Inténtalo de nuevo!</h2>
+                <p>La respuesta correcta es 13</p>
+                <div style="margin: 20px 0;">
+                    <div style="font-weight: bold;">Pista:</div>
+                    <div>Piensa en contar 8 números después del 5</div>
+                </div>
+                <div class="button">Siguiente ejercicio</div>
+                <div class="button secondary">Intentar de nuevo</div>
+            </div>
+            -->
+        </div>
+    </div>
+
+    <!-- Pantalla 6: Progreso -->
+    <div class="screen">
+        <div class="screen-title">Pantalla de Progreso</div>
+        <div class="screen-content">
+            <div class="status-bar">
+                <div>9:41</div>
+                <div>WiFi 100%</div>
+            </div>
+            <h2>Tu Progreso</h2>
+            
+            <div class="progress-container">
+                <div style="display: flex; justify-content: space-between;">
+                    <div>Progreso General</div>
+                    <div>75%</div>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill"></div>
+                </div>
+            </div>
+            
+            <div class="stats-grid">
+                <div class="stat-box">
+                    <div>Ejercicios</div>
+                    <div class="stat-value">45</div>
+                </div>
+                <div class="stat-box">
+                    <div>Correctos</div>
+                    <div class="stat-value">38</div>
+                </div>
+                <div class="stat-box">
+                    <div>Nivel</div>
+                    <div class="stat-value">5</div>
+                </div>
+                <div class="stat-box">
+                    <div>Puntos</div>
+                    <div class="stat-value">380</div>
+                </div>
+            </div>
+            
+            <h3>Temas</h3>
+            <div class="topic-list">
+                <div class="topic-item">
+                    <div style="flex-grow: 1;">
+                        <div style="font-weight: bold;">Suma</div>
+                    </div>
+                    <div>
+                        <div style="font-size: 14px; color: #4caf50; font-weight: bold;">90%</div>
+                    </div>
+                </div>
+                
+                <div class="topic-item">
+                    <div style="flex-grow: 1;">
+                        <div style="font-weight: bold;">Resta</div>
+                    </div>
+                    <div>
+                        <div style="font-size: 14px; color: #4caf50; font-weight: bold;">75%</div>
+                    </div>
+                </div>
+                
+                <div class="topic-item">
+                    <div style="flex-grow: 1;">
+                        <div style="font-weight: bold;">Multiplicación</div>
+                    </div>
+                    <div>
+                        <div style="font-size: 14px; color: #ff9800; font-weight: bold;">45%</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tab-bar">
+                <div class="tab">
+                    <div class="tab-icon">📚</div>
+                    <div>Temas</div>
+                </div>
+                <div class="tab">
+                    <div class="tab-icon">🎯</div>
+                    <div>Desafíos</div>
+                </div>
+                <div class="tab">
+                    <div class="tab-icon">📊</div>
+                    <div>Progreso</div>
+                </div>
+                <div class="tab">
+                    <div class="tab-icon">👤</div>
+                    <div>Perfil</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pantalla 7: Recompensas -->
+    <div class="screen">
+        <div class="screen-title">Pantalla de Recompensas</div>
+        <div class="screen-content">
+            <div class="status-bar">
+                <div>9:41</div>
+                <div>WiFi 100%</div>
+            </div>
+            <h2>Tus Recompensas</h2>
+            
+            <div class="avatar-container">
+                😎
+            </div>
+            
+            <div style="text-align: center; margin-bottom: 15px;">
+                <div style="font-weight: bold;">Nivel 5</div>
+                <div style="font-size: 12px; color: #666;">380 puntos</div>
+            </div>
+            
+            <h3>Insignias Ganadas</h3>
+            <div class="reward-grid">
+                <div class="reward-item">
+                    <div class="reward-icon">🥇</div>
+                    <div>Suma Master</div>
+                </div>
+                <div class="reward-item">
+                    <div class="reward-icon">🌟</div>
+                    <div>5 días</div>
+                </div>
+                <div class="reward-item">
+                    <div class="reward-icon">🚀</div>
+                    <div>Velocidad</div>
+                </div>
+            </div>
+            
+            <h3>Elementos de Avatar</h3>
+            <div class="reward-grid">
+                <div class="reward-item">
+                    <div class="reward-icon">👓</div>
+                    <div>Gafas</div>
+                </div>
+                <div class="reward-item">
+                    <div class="reward-icon">🧢</div>
+                    <div>Gorra</div>
+                </div>
+                <div class="reward-item">
+                    <div class="reward-icon">🎒</div>
+                    <div>Mochila</div>
+                </div>
+            </div>
+            
+            <div class="footer-spacer"></div>
+            
+            <div class="tab-bar">
+                <div class="tab">
+                    <div class="tab-icon">📚</div>
+                    <div>Temas</div>
+                </div>
+                <div class="tab">
+                    <div class="tab-icon">🎯</div>
+                    <div>Desafíos</div>
+                </div>
+                <div class="tab">
+                    <div class="tab-icon">📊</div>
+                    <div>Progreso</div>
+                </div>
+                <div class="tab">
+                    <div class="tab-icon">👤</div>
+                    <div>Perfil</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div style="margin-top: 40px;">
+    <h2>Descripción del Maquetado</h2>
+    <p>Los wireframes presentados ilustran las principales pantallas de la aplicación MathLeap, diseñadas con un enfoque en la simplicidad, intuitividad y facilidad de uso para estudiantes de 6 a 15 años. A continuación se describe cada pantalla:</p>
+    
+    <ol>
+        <li><strong>Pantalla de Bienvenida:</strong> Introduce la aplicación con un logo prominente y opciones para comenzar o acceder a una cuenta existente.</li>
+        
+        <li><strong>Pantalla de Selección de Grado/Nivel:</strong> Permite al usuario seleccionar su grado escolar, agrupado por niveles (Primaria Baja, Primaria Alta, Secundaria) para facilitar la navegación y personalización del contenido.</li>
+        
+        <li><strong>Pantalla de Selección de Tema:</strong> Muestra los temas matemáticos disponibles para el grado seleccionado, con indicadores visuales de progreso y una barra de navegación inferior para acceder a las principales secciones de la app.</li>
+        
+        <li><strong>Pantalla de Ejercicio:</strong> Presenta problemas matemáticos con opciones de respuesta de manera clara, informando al usuario sobre su avance dentro del tema actual.</li>
+        
+        <li><strong>Pantalla de Retroalimentación:</strong> Proporciona retroalimentación inmediata al usuario después de responder un ejercicio, mostrando si su respuesta fue correcta o incorrecta, junto con explicaciones o pistas según corresponda.</li>
+        
+        <li><strong>Pantalla de Progreso:</strong> Visualiza el avance general del usuario, así como estadísticas específicas por tema, motivando la continuidad del aprendizaje.</li>
+        
+        <li><strong>Pantalla de Recompensas:</strong> Muestra las insignias y elementos de personalización del avatar que el usuario ha desbloqueado, implementando elementos de gamificación para mantener el compromiso.</li>
+    </ol>
+    
+    <p>El diseño sigue los principios de la interfaz humana de iOS, con controles táctiles grandes y fáciles de usar, navegación intuitiva, retroalimentación visual clara y una jerarquía visual que guía al usuario a través de la aplicación. Los colores brillantes y los iconos descriptivos hacen que la app sea atractiva para los usuarios jóvenes mientras mantiene la simplicidad necesaria para una experiencia de usuario efectiva.</p>
+</div>
