@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Probando Leaflet</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css">
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <style>
+        #mapid {height: 400px;}
+    </style>
+</head>
+<body>
+    <h1>Hello this is my first page using Leaflet</h1>
+    <div id="mapid"></div>
+
+    <script>
+    var map = L.map('mapid').setView([51.505, -0.09], 13);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '© OpenStreetMap contributors'
+    }).addTo(map);
+
+    var marker = L.marker([51.505, -0.09]).addTo(map);
+
+    marker.bindPopup("<b> ¡Hola! </b>  Este es un Popup").openPopup();
+
+    var circle = L.circle([51.500, -0.11],{
+        color: 'red',
+        fillColor: '#f03',
+        fillOpacity: 0.5,
+        radius: 500,
+    }).addTo(map);
+
+    var polygon = L.polygon([
+        [51.509, -0.08],
+        [51.503, -0.06],
+        [51.51, -0.047]
+    ]).addTo(map);
+
+    map.on('click', function(e){
+        alert("Hiciste clic en el mapa en " + e.latlng);
+    })
+</script>
+</body>
+</html>
