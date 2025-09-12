@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.js"></script>
+    <title>My first connection with Mapbox</title>
+</head>
+<body>
+    <div id="map" style="width: 100%; height: 1000px;">
+    </div>
+
+    <script>
+        // Configurar el token de acceso
+        mapboxgl.accessToken = 'pk.eyJ1IjoiaXZhbnZpdmFzZ2FyIiwiYSI6ImNtZXJyNzdjdDA5bzMya3B5bDV4a3Q2azAifQ._2Ca0Tvn6fM5l_z_U3iuLA';
+        // Inicializar el mapa
+        const map = new mapboxgl.Map({
+            container: 'map', // ID del DIV en donde se ubicara el mapa
+            style: 'mapbox://styles/mapbox/streets-v11', // Estilo o tipo de mapa
+            center: [-74.5, 40], // Coordenadas iniciales
+            zoom: 9 // Nivel de Zoom
+        });
+
+        // Controles de Navegacion (Zoom y rotacion)
+        map.addControl(new mapboxgl.NavigationControl());
+
+        // Marcadores en un punto especifico
+        const marker = new mapboxgl.Marker().setLngLat([-74.5, 40]).addTo(map);
+
+        map.on('load', function(){
+            map.addSource('route',{
+                'type': 'geojson',
+                'data': {
+                    'type': 'Feature',
+                    'properties': {},
+                    'geometry': {
+                        'type': 'LineString',
+                        'coordinates': [
+                            [-74.5, 40],
+                            [-75, 41]
+                        ]
+                    }
+                }
+            });
+
+            map.addLayer({
+                'id': 'route',
+                'type': 'line',
+                'source': 'route',
+                'layout': {
+                    'line-join': 'round',
+                    'line-cap': 'round'
+                },
+                'paint': {
+                    'line-color': '#00FF80',
+                    'line-width': 6
+                }
+            });
+        });
+
+        const popup = new mapboxgl.Popup({ offset: 25 })
+            .setText('Este es un punto de interes');
+        new mapboxgl.Marker().setLngLat([-74.5, 40]).setPopup(popup).addTo(map);
+        map.on('load', function(){
+            map.addSource('route', {
+                'type': 'geojson',
+                'data': {
+                    'type': 'Feature',
+                    'properties': {},
+                    'geometry': {
+                        'type': 'LineString',
+                        'coordinates': [
+                            [-74.5, 40],
+                            [-75, 41]
+                        ]
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+PRACTICA
+Desarrolla una aplicación WEB que contenga los siguientes archivos:
+
+Estructura del HTML:
+Se incluye una barra de navegación (nav) en la parte superior con enlaces a diferentes secciones de la página.
+Se presenta un mapa interactivo dentro del contenedor <div id="map">.
+Se añade una sección de información adicional debajo del mapa con texto explicativo.
+Finalmente, hay un pie de página (footer) con información de contacto.
+
+CSS:
+Se le da estilo al mapa, la barra de navegación, el contenedor principal y el pie de página para que todo el sitio web se vea limpio y estructurado.
+El mapa tiene una altura de 500px para hacerlo visible de forma prominente en la página.
+
+Mapbox JS:
+El mapa utiliza Mapbox con un estilo streets-v11.
+Se carga un archivo GeoJSON público de terremotos y se visualiza como puntos circulares rojos en el mapa.
+Se añaden popups al hacer clic en 5 puntos para mostrar información sobre el lugar y la magnitud del terremoto.
+Se forma un Decagono exacto en cualquier zona del mapa con una capa de lineas sobre el mapa, diseñado con coordenadas.
+También se agregan controles de zoom y navegación en el mapa.
+Se cambia el cursor a un puntero cuando se pasa por encima de un punto de terremoto en el mapa.
