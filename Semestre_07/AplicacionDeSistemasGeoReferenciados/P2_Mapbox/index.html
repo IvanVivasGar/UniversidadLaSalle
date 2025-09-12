@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa Mapbox - Terremotos</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#map">Mapa</a></li>
+            <li><a href="#info">Información</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div id="map"></div>
+
+        <section id="info">
+            <h2>Información adicional</h2>
+            <p>Se muestran terremotos públicos en formato GeoJSON como puntos rojos. Haga clic en algunos puntos para ver detalles de lugar y magnitud.</p>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <p>Contacto: ivg77850@lasallebajio.edu.mx</p>
+    </footer>
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
