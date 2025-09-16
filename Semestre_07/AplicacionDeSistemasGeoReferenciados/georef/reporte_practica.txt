@@ -1,0 +1,283 @@
+Introducción
+
+En esta práctica se crearon endpoints modulados en Express.js para las entidades: users, categories, brands y products. Cada entidad tiene endpoints para "Obtener todos" y "Obtener por id". Además, products incluye endpoints para filtrar por categoría y por marca. Los datos se generaron con la librería Faker para simular una fuente de datos.
+
+Desarrollo (Paso a paso — detallado)
+
+A continuación explico cada paso realizado, qué se hace y por qué. Incluyo fragmentos de código y comandos para probar localmente.
+
+Paso 1 — Preparar el proyecto y dependencias
+- Qué se hace: Inicializar un proyecto Node.js y agregar dependencias necesarias (Express y Faker).
+- Por qué: Express es el framework para crear el servidor HTTP. Faker genera datos de prueba sin depender de una base de datos.
+- Comandos:
+
+  npm init -y
+  npm install express faker
+
+Paso 2 — Crear `index.js` y levantar el servidor
+- Qué se hace: Crear el archivo principal que configura Express, carga las rutas y arranca el servidor.
+- Por qué: `index.js` es el punto de entrada. Todas las rutas se registran ahí mediante una función en `routes/rutas.js`.
+- Fragmento (index.js):
+
+const express = require('express');
+const routerApi = require('./routes/rutas');
+const app = express();
+const port = 3000;
+
+app.get('/', (req, res) => {
+  res.send('Hola desde mi server en Express');
+});
+
+// Registrar rutas modulares
+routerApi(app);
+
+app.listen(port, ()=>{
+  console.log('My server is working on port ' + port);
+});
+
+Paso 3 — Crear el enrutador principal `routes/rutas.js`
+- Qué se hace: Crear una función que recibe la instancia `app` y monta routers modulares en rutas específicas (`/products`, `/users`, `/categories`, `/brands`).
+- Por qué: La modularidad permite mantener cada entidad en su propio archivo y facilita el mantenimiento y escalado.
+- Fragmento:
+
+const productsRouter = require('./productsRouter');
+const usersRouter = require('./usersRouter');
+const categoriesRouter = require('./categoriesRouter');
+const brandsRouter = require('./brandsRouter');
+
+function routerApi(app){
+  app.use('/products', productsRouter);
+  app.use('/users', usersRouter);
+  app.use('/categories', categoriesRouter);
+  app.use('/brands', brandsRouter);
+}
+
+module.exports = routerApi;
+Introducción
+
+Este reporte documenta la práctica: crear endpoints modulados en Express.js para las entidades Users, Categories, Brands y Products. El código actual del proyecto se utilizó como fuente para las explicaciones y fragmentos. Los endpoints permiten obtener todos los registros y obtener por id; Products añade filtros por categoría y por marca. Faker (la versión @faker-js/faker) se usa para generar datos de prueba.
+
+Desarrollo (Paso a paso — basado en el código actual)
+
+Checklist de lo que hicimos (y por qué):
+- Crear servidor Express y punto de entrada (`index.js`) — levantar la app.
+- Crear archivo de rutas principal (`routes/rutas.js`) — montar routers modulares.
+- Implementar routers por entidad en `routes/` — cada router define `GET /` y `GET /:id`.
+- Products: añadir `GET /category/:categoryId` y `GET /brand/:brandId`.
+- Usar Faker para generar datos de prueba.
+
+Paso 1 — Punto de entrada: `index.js`
+
+Qué hace: configura Express, define rutas simples y registra el enrutador principal.
+
+Fragmento real (archivo `index.js` en el proyecto):
+
+const express = require('express');
+const routerApi = require('./routes/rutas');
+const app = express();
+const port = 3000;
+
+app.get("/", (req, res) => {
+  res.send("Hola desde mi server en Express");
+});
+
+app.get("/nuevaruta", (req, res) => {
+  res.send("Hola desde mi nueva ruta");
+})
+
+routerApi(app);
+
+app.listen(port, ()=>{
+  console.log("My server is working on port " + port);
+});
+
+Por qué: mantener `index.js` mínimo y delegar rutas al módulo `routes/rutas.js` facilita modularidad y organización.
+
+Paso 2 — Enrutador principal: `routes/rutas.js`
+
+Qué hace: importa los routers concretos y los monta en rutas base.
+
+Fragmento real (`routes/rutas.js`):
+
+const usersRouter = require('./users');
+const categoriesRouter = require('./categories');
+const brandsRouter = require('./brands');
+const productsRouter = require('./products');
+
+function routerApi(app){
+  app.use('/users', usersRouter);
+  app.use('/categories', categoriesRouter);
+  app.use('/brands', brandsRouter);
+  app.use('/products', productsRouter);
+}
+
+module.exports = routerApi;
+
+Por qué: así cada entidad queda separada en su propio archivo y se monta bajo su prefijo REST.
+
+Paso 3 — Router de Products: `routes/products.js` (explicación y fragmentos reales)
+
+Qué hace: genera 50 productos con Faker al iniciar el servidor y expone endpoints para listar, obtener por id, y filtrar por categoría o marca.
+
+Fragmento real (extracto):
+
+const express = require('express');
+const router = express.Router();
+const { faker } = require('@faker-js/faker');
+
+function createProduct(id, categoryId, brandId) {
+  return {
+    id,
+    image: faker.image.url(),
+    productName: faker.commerce.productName(),
+    description: faker.commerce.productDescription(),
+    price: faker.commerce.price(),
+    stock: faker.number.int({ min: 0, max: 100 }),
+    categoryId,
+  brandId
+  };
+}
+
+const products = Array.from({ length: 50 }, (_, i) =>
+  createProduct(i + 1,
+    faker.number.int({ min: 1, max: 10 }),
+    faker.number.int({ min: 1, max: 10 })));
+
+// GET /products
+router.get('/', (req, res) => {
+  res.json(products);
+});
+
+// GET /products/:id
+router.get('/:id', (req, res) => {
+  const productId = parseInt(req.params.id);
+
+  const product = products.find(p => p.id === productId);
+
+  if (product) {
+    res.json(product);
+  } else {
+    res.status(404).json({ error: 'Producto no encontrado' });
+  }
+});
+
+// GET /products/category/:categoryId
+router.get('/category/:categoryId', (req, res) => {
+  const categoryId = parseInt(req.params.categoryId);
+
+  const productsByCategory = products.filter(p => p.categoryId === categoryId);
+
+  if (productsByCategory.length > 0) {
+    res.json(productsByCategory);
+  } else {
+    res.json([]);
+  }
+});
+
+// GET /products/brand/:brandId
+router.get('/brand/:brandId', (req, res) => {
+  const brandId = parseInt(req.params.brandId);
+
+  const productsByBrand = products.filter(p => p.brandId === brandId);
+
+  if (productsByBrand.length > 0) {
+    res.json(productsByBrand);
+  } else {
+    res.json([]);
+  }
+});
+
+module.exports = router;
+
+Notas importantes sobre este código (observación encontrada):
+- Orden de rutas: en este archivo `/:id` está definido antes de `/category/:categoryId` y `/brand/:brandId`. En Express, las rutas se evalúan en orden; si se hace una petición a `/products/category/2`, Express intentará matchear `/products/:id` primero y asignará `id = 'category'`, lo que provocará un parseInt inválido y una respuesta 404. Recomendación: mover las rutas más específicas (`/category/:categoryId`, `/brand/:brandId`) arriba, antes de `/:id`.
+
+Paso 4 — Router de Users: `routes/users.js` (fragmento real)
+
+Qué hace: genera 10 usuarios con Faker y expone `GET /users` y `GET /users/:id`.
+
+Fragmento real:
+
+const express = require('express');
+const router = express.Router();
+const { faker } = require('@faker-js/faker');
+
+function createUser(id) {
+  return {
+    id,
+    name: faker.person.fullName(),
+    username: faker.internet.username(),
+    password: faker.internet.password()
+  };
+}
+
+const users = Array.from({ length: 10 }, (_, i) => createUser(i + 1));
+
+router.get('/', (req, res) => { res.json(users); });
+
+router.get('/:id', (req, res) => {
+  const userId = parseInt(req.params.id);
+  const user = users.find(u => u.id === userId);
+  if (user) res.json(user); else res.status(404).json({ error: 'Usuario no encontrado' });
+});
+
+module.exports = router;
+
+Paso 5 — Routers de Categories y Brands (fragmentos reales)
+
+Categories (`routes/categories.js`): genera 10 categorías con campos id, categoryName, description, active.
+
+Brands (`routes/brands.js`): genera 10 marcas con fields id, brandName, description, active.
+
+Fragmentos reales (resumen):
+- categories: uses `faker.commerce.department()` and `faker.lorem.sentence()`
+- brands: uses `faker.company.name()` and `faker.lorem.sentence()`
+
+Paso 6 — Probar y verificar (comandos y por qué)
+
+Comandos para levantar y probar la API (desde la raíz del proyecto):
+
+```bash
+# instalar deps si falta
+npm install
+
+# iniciar servidor
+node index.js
+
+# desde otra terminal probar endpoints
+curl http://localhost:3000/products
+curl http://localhost:3000/products/1
+curl http://localhost:3000/products/category/2
+curl http://localhost:3000/products/brand/3
+curl http://localhost:3000/users
+curl http://localhost:3000/users/1
+```
+
+Por qué: estos comandos verifican que el servidor está activo y que las respuestas JSON contienen los campos esperados. Usar `curl` o Postman funciona igual; Postman facilita inspeccionar JSON y tomar capturas.
+
+Resultados (qué capturar para evidencias)
+
+Incluye estas capturas en el reporte de entrega (nombres sugeridos entre paréntesis):
+
+1) Terminal con el servidor iniciado mostrando: "My server is working on port 3000" (`terminal_servidor.png`).
+2) Respuesta de `GET /products` con la lista de 50 productos generados (`products_list.png`).
+3) Respuesta de `GET /products/1` mostrando el producto con id 1 (`product_1.png`).
+4) Respuesta de `GET /products/category/2` mostrando los productos filtrados por categoryId 2 (`products_category_2.png`).
+5) Respuesta de `GET /products/brand/3` mostrando los productos filtrados por brandId 3 (`products_brand_3.png`).
+6) Respuesta de `GET /users` y `GET /users/1` (`users_list.png`, `user_1.png`).
+
+Importante: al tomar las capturas de los endpoints de products filtrados, asegúrate de que las rutas específicas estén alcanzables. Si observas 404 o lista vacía para rutas como `/products/category/2`, revisa el orden de las rutas en `routes/products.js` — mueve las rutas `/category/:categoryId` y `/brand/:brandId` por encima de `/:id` si es necesario.
+
+Conclusión
+
+Se documentó y revisó el código actual del proyecto. Se implementaron routers modulados para Users, Categories, Brands y Products. Faker genera datos de prueba; Products proporciona filtros por categoría y marca. Se identificó una mejora recomendada: cambiar el orden de las rutas en `routes/products.js` para que las rutas específicas no sean interceptadas por la ruta genérica `/:id`.
+
+Archivos relevantes (ubicación):
+- `index.js`
+- `routes/rutas.js`
+- `routes/products.js`
+- `routes/users.js`
+- `routes/categories.js`
+- `routes/brands.js`
+
+Fin del reporte.
