@@ -1,63 +1,60 @@
 const express = require('express');
 const router = express.Router();
-const { faker } = require('@faker-js/faker');
+const productsService = require('../services/productsService');
+const service = new productsService();
 
-function createProduct(id, categoryId, brandId) {
-  return {
-    id,
-    image: faker.image.url(),
-    productName: faker.commerce.productName(),
-    description: faker.commerce.productDescription(),
-    price: faker.commerce.price(),
-    stock: faker.number.int({ min: 0, max: 100 }),
-    categoryId,
-  brandId
-  };
-}
+// Router para CRUD de productos usando productsService
 
-const products = Array.from({ length: 50 }, (_, i) =>
-  createProduct(i + 1,
-    faker.number.int({ min: 1, max: 10 }),
-    faker.number.int({ min: 1, max: 10 })));
-
+// GET /products — devuelve todos los productos
 router.get('/', (req, res) => {
-  res.json(products);
+	const products = service.getAll();
+	res.json(products);
 });
 
-router.get('/:id', (req, res) => {
-  const productId = parseInt(req.params.id);
-
-  const product = products.find(p => p.id === productId);
-
-  if (product) {
-    res.json(product);
-  } else {
-    res.status(404).json({ error: 'Producto no encontrado' });
-  }
-});
-
+// GET /products/category/:categoryId — filtra por categoría
 router.get('/category/:categoryId', (req, res) => {
-  const categoryId = parseInt(req.params.categoryId);
-
-  const productsByCategory = products.filter(p => p.categoryId === categoryId);
-
-  if (productsByCategory.length > 0) {
-    res.json(productsByCategory);
-  } else {
-    res.json([]);
-  }
+	const categoryId = parseInt(req.params.categoryId);
+	const productsByCategory = service.getAll().filter(p => p.categoryId === categoryId);
+	res.json(productsByCategory);
 });
 
+// GET /products/:id — devuelve producto por id
+router.get('/:id', (req, res) => {
+	const { id } = req.params;
+	const product = service.getById(id);
+	if (!product) return res.status(404).json({ error: 'Producto no encontrado' });
+	res.json(product);
+});
+
+// GET /products/brand/:brandId — filtra por marca
 router.get('/brand/:brandId', (req, res) => {
-  const brandId = parseInt(req.params.brandId);
+	const brandId = parseInt(req.params.brandId);
+	const productsByBrand = service.getAll().filter(p => p.brandId === brandId);
+	res.json(productsByBrand);
+});
 
-  const productsByBrand = products.filter(p => p.brandId === brandId);
+// POST /products — crea un nuevo producto
+router.post('/', (req, res) =>{
+	const body = req.body;
+	const newProduct = service.create(body);
+	res.status(201).json(newProduct);
+});
 
-  if (productsByBrand.length > 0) {
-    res.json(productsByBrand);
-  } else {
-    res.json([]);
-  }
+// PUT /products/:id — actualiza un producto existente
+router.put('/:id', (req, res) => {
+	const { id } = req.params;
+	const changes = req.body;
+	const updated = service.update(id, changes);
+	if (!updated) return res.status(404).json({ error: 'Producto no encontrado' });
+	res.json({ message: 'updated', data: updated });
+});
+
+// DELETE /products/:id — elimina un producto por id
+router.delete('/:id', (req, res) => {
+	const { id } = req.params;
+	const deleted = service.delete(id);
+	if (!deleted) return res.status(404).json({ error: 'Producto no encontrado' });
+	res.json({ message: 'deleted', data: deleted });
 });
 
 module.exports = router;
