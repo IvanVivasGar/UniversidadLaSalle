@@ -1,0 +1,57 @@
+# Terraform
+# Local .terraform directories
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Crash log files
+crash.log
+
+# Exclude CLI configuration and override files
+override.tf
+override.tf.json
+*_override.tf
+
+# Sensitive variable files that may contain secrets
+*.tfvars
+*.tfvars.json
+
+# Ignore Terraform provider plugins cache
+.terraform.lock.hcl
+
+# AWS credentials and config
+~/.aws/
+credentials
+config
+*.pem
+
+# Environment files
+.env
+.env.*
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE directories
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+
+# Backup files
+*.bak
+
+# Ignore state and backups at repo root if accidentally placed here
+/terraform.tfstate
+/terraform.tfstate.backup
+
+# Ensure we ignore any secret files the user might have
+secrets.yml
+secret-*.key
